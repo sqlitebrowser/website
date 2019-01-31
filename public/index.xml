@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DB Browser for SQLite</title>
+    <link>/</link>
+    <description>Recent content on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updated our website!</title>
+      <link>/blog/new-website/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-website/</guid>
+      <description>Experimenting with a new approach for the DB Browser for SQLite website, as the old 1-page website was difficult to expand with blog/info on what we&amp;rsquo;ve been working on.
+This new layout - using Hugo and blogdown - should be a decent foundation, and is fairly customisable.
+It also has many available themes, which we&amp;rsquo;ll likely experiment with too.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Wed, 30 Jan 2019 14:09:28 +1100</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This program was developed originally by Mauricio Piacentini (@piacentini) from Tabuleiro Producoes, as the Arca Database Browser. The original version was used as a free companion tool to the Arca Database Xtra, a commercial product that embeds SQLite databases with some additional extensions to handle compressed and binary data.
+The original code was trimmed and adjusted to be compatible with standard SQLite 2.x databases. The resulting program was renamed SQLite Database Browser, and released into the Public Domain by Mauricio.</description>
+    </item>
+    
+    <item>
+      <title>Downloads</title>
+      <link>/dl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/dl/</guid>
+      <description>Windows Our latest release (3.10.1) for Windows:
+ DB Browser for SQLite - 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - 64-bit Windows DB Browser for SQLite - PortableApp  Note - If for some reason the standard Windows release does not work (e.g. gives an error), try a nightly build (below).
+Nightly builds often fix bugs reported after the last release. 😄
+macOS Our latest release (3.</description>
+    </item>
+    
+  </channel>
+</rss>

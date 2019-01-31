@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on DB Browser for SQLite</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Updated our website!</title>
+      <link>/blog/new-website/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-website/</guid>
+      <description>Experimenting with a new approach for the DB Browser for SQLite website, as the old 1-page website was difficult to expand with blog/info on what we&amp;rsquo;ve been working on.
+This new layout - using Hugo and blogdown - should be a decent foundation, and is fairly customisable.
+It also has many available themes, which we&amp;rsquo;ll likely experiment with too.</description>
+    </item>
+    
+  </channel>
+</rss>
