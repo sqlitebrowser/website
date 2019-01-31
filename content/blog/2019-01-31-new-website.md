@@ -12,7 +12,7 @@ we've been working on.
 This new layout - using [Hugo][hugo] and [blogdown][bdown] - should be a
 decent foundation, and is fairly customisable.
 
-It also has [many available themes](themes), which we'll
+It also has [many available themes][themes], which we'll
 likely experiment with too.
 
 [bdown]: https://github.com/rstudio/blogdown
