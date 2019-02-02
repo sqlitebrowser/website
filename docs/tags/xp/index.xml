@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xp on DB Browser for SQLite</title>
+    <link>/tags/xp/</link>
+    <description>Recent content in Xp on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/xp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WinXP version for 3.9.1</title>
+      <link>/blog/winxp-version-for-3-9-1/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/winxp-version-for-3-9-1/</guid>
+      <description>Due to popular demand, there is now a Windows XP compatible download.</description>
+    </item>
+    
+    <item>
+      <title>Windows XP support added back</title>
+      <link>/blog/windows-xp-support-added-back/</link>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/windows-xp-support-added-back/</guid>
+      <description>The third version of the Windows installer for v3.6.0 has been added. This version works on XP too. 😉</description>
+    </item>
+    
+  </channel>
+</rss>

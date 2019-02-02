@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.4.x on DB Browser for SQLite</title>
+    <link>/tags/3.4.x/</link>
+    <description>Recent content in 3.4.x on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Jan 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/3.4.x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PortableApp version of 3.4.0</title>
+      <link>/blog/portableapp-version-of-3-4-0/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-4-0/</guid>
+      <description>Added PortableApp download for v3.4.0.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.4.0 released</title>
+      <link>/blog/version-3-4-0-released/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-4-0-released/</guid>
+      <description>Version 3.4.0 released. Huge improvements in .csv handling and other tweaks.</description>
+    </item>
+    
+  </channel>
+</rss>

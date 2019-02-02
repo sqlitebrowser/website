@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beta on DB Browser for SQLite</title>
+    <link>/tags/beta/</link>
+    <description>Recent content in Beta on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/beta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Third beta release of 3.11.0</title>
+      <link>/blog/third-beta-release-of-3-11-0y/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/third-beta-release-of-3-11-0y/</guid>
+      <description>The third beta builds for our next major release are ready for testing. Please try them out, and report any weirdness.</description>
+    </item>
+    
+    <item>
+      <title>Second beta release of 3.11.0</title>
+      <link>/blog/second-beta-release-of-3-11-0/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/second-beta-release-of-3-11-0/</guid>
+      <description>The second beta builds for our next major release are ready.</description>
+    </item>
+    
+    <item>
+      <title>First beta release of 3.11.0</title>
+      <link>/blog/first-beta-release-of-3-11-0/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-beta-release-of-3-11-0/</guid>
+      <description>The first beta builds for our next major release are ready for testing.</description>
+    </item>
+    
+    <item>
+      <title>Second beta release for 3.10.0</title>
+      <link>/blog/second-beta-release-for-3-10-0/</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/second-beta-release-for-3-10-0/</guid>
+      <description>The second beta release for our new 3.10.0 series is ready to download and try.</description>
+    </item>
+    
+    <item>
+      <title>First beta release of 3.10.0</title>
+      <link>/blog/first-beta-release-of-3-10-0/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-beta-release-of-3-10-0/</guid>
+      <description>The first beta release of our new 3.10.0 series is ready to download and try.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.9.0 beta1 released</title>
+      <link>/blog/version-3-9-0-beta1-released/</link>
+      <pubDate>Sun, 14 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-9-0-beta1-released/</guid>
+      <description>Version 3.9.0 beta1 released, with SQLCipher for strong encryption.
+Please try it out, and report any new bugs you encounter. 😄</description>
+    </item>
+    
+  </channel>
+</rss>

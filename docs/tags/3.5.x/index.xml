@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.5.x on DB Browser for SQLite</title>
+    <link>/tags/3.5.x/</link>
+    <description>Recent content in 3.5.x on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/3.5.x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PortableApp version of 3.5.1</title>
+      <link>/blog/portableapp-version-of-3-5-1/</link>
+      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-5-1/</guid>
+      <description>Added PortableApp download for v3.5.1. Thanks John. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.5.1 released</title>
+      <link>/blog/version-3-5-1-released/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-5-1-released/</guid>
+      <description>Version 3.5.1 released. Fixes bugs in 3.5.0. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.5.0 released</title>
+      <link>/blog/version-3-5-0-released/</link>
+      <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-5-0-released/</guid>
+      <description>Version 3.5.0 released. Adds optional SQLCipher support for MacOS X and Linux.</description>
+    </item>
+    
+  </channel>
+</rss>

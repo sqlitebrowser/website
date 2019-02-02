@@ -22,5 +22,471 @@ This new layout - using Hugo and blogdown - should be a decent foundation, and i
 It also has many available themes, which we&amp;rsquo;ll likely experiment with too.</description>
     </item>
     
+    <item>
+      <title>Third beta release of 3.11.0</title>
+      <link>/blog/third-beta-release-of-3-11-0y/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/third-beta-release-of-3-11-0y/</guid>
+      <description>The third beta builds for our next major release are ready for testing. Please try them out, and report any weirdness.</description>
+    </item>
+    
+    <item>
+      <title>Second beta release of 3.11.0</title>
+      <link>/blog/second-beta-release-of-3-11-0/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/second-beta-release-of-3-11-0/</guid>
+      <description>The second beta builds for our next major release are ready.</description>
+    </item>
+    
+    <item>
+      <title>First beta release of 3.11.0</title>
+      <link>/blog/first-beta-release-of-3-11-0/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-beta-release-of-3-11-0/</guid>
+      <description>The first beta builds for our next major release are ready for testing.</description>
+    </item>
+    
+    <item>
+      <title>First alpha release for 3.11.0</title>
+      <link>/blog/first-alpha-release-for-3-11-0/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-alpha-release-for-3-11-0/</guid>
+      <description>The first Windows and mac alpha builds for our next major release are ready. Please try them out, and report any weirdness.</description>
+    </item>
+    
+    <item>
+      <title>New download servers</title>
+      <link>/blog/new-download-servers/</link>
+      <pubDate>Thu, 09 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-download-servers/</guid>
+      <description>We&amp;rsquo;ve just started testing a new download server cluster. If anything seems weird with our downloads, please report it here.</description>
+    </item>
+    
+    <item>
+      <title>Patreon account created</title>
+      <link>/blog/patreon-account-created/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/patreon-account-created/</guid>
+      <description>We&amp;rsquo;ve just created a Patreon account. Please become a Patron of DB Browser for SQLite! 😄</description>
+    </item>
+    
+    <item>
+      <title>Windows MSI installers now available</title>
+      <link>/blog/windows-msi-installers-now-available/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/windows-msi-installers-now-available/</guid>
+      <description>Windows MSI installers are now available on our nightly build server!</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.10.1</title>
+      <link>/blog/portableapp-version-of-3-10-1/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-10-1/</guid>
+      <description>Added PortableApp version of 3.10.1. Thanks John. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.10.1 released</title>
+      <link>/blog/version-3-10-1-released/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-10-1-released/</guid>
+      <description>DB Browser for SQLite 3.10.1 has been released! :D</description>
+    </item>
+    
+    <item>
+      <title>Removed continuous AppImage builds for Linux</title>
+      <link>/blog/removed-continuous-appimage-builds-for-linux/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/removed-continuous-appimage-builds-for-linux/</guid>
+      <description>Removed the continuous AppImage builds for Linux due to problems with the upload script.</description>
+    </item>
+    
+    <item>
+      <title>AppImage builds for Linux</title>
+      <link>/blog/appimage-builds-for-linux/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/appimage-builds-for-linux/</guid>
+      <description>AppImage builds for Linux - always built from the latest DB4S commit - are now online.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.10.0 released</title>
+      <link>/blog/version-3-10-0-released/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-10-0-released/</guid>
+      <description>DB Browser for SQLite 3.10.0 has been released! Yay! 😀</description>
+    </item>
+    
+    <item>
+      <title>Second beta release for 3.10.0</title>
+      <link>/blog/second-beta-release-for-3-10-0/</link>
+      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/second-beta-release-for-3-10-0/</guid>
+      <description>The second beta release for our new 3.10.0 series is ready to download and try.</description>
+    </item>
+    
+    <item>
+      <title>First (beta) DBHub.io server with DB4S integration is online</title>
+      <link>/blog/first-beta-dbhub-io-server-with-db4s-integration-is-online/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-beta-dbhub-io-server-with-db4s-integration-is-online/</guid>
+      <description>The first &amp;ldquo;db4s-beta&amp;rdquo; server is now online, which DB4S 3.10.0-beta can store/retrieve databases in.
+Feel free to create an account and try things out (the link in the top right of that page). 😄
+Don&amp;rsquo;t store important data in it yet though, as we don&amp;rsquo;t have backups set up yet.</description>
+    </item>
+    
+    <item>
+      <title>First beta release of 3.10.0</title>
+      <link>/blog/first-beta-release-of-3-10-0/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-beta-release-of-3-10-0/</guid>
+      <description>The first beta release of our new 3.10.0 series is ready to download and try.</description>
+    </item>
+    
+    <item>
+      <title>Nightly builds now using static URLs</title>
+      <link>/blog/nightly-builds-now-using-static-urls/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/nightly-builds-now-using-static-urls/</guid>
+      <description>Our latest nightly builds now use static URLs. Useful for bookmarking and automation.</description>
+    </item>
+    
+    <item>
+      <title>WinXP version for 3.9.1</title>
+      <link>/blog/winxp-version-for-3-9-1/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/winxp-version-for-3-9-1/</guid>
+      <description>Due to popular demand, there is now a Windows XP compatible download.</description>
+    </item>
+    
+    <item>
+      <title>Rebuilt OSX binary for v3.9.1</title>
+      <link>/blog/rebuilt-osx-binary-for-v3-9-1/</link>
+      <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rebuilt-osx-binary-for-v3-9-1/</guid>
+      <description>The v3.9.1 binary for OSX has been rebuilt using Qt 5.7.1, to fix an important colour display problem on macOS Sierra.</description>
+    </item>
+    
+    <item>
+      <title>Initial DBHub.io server online</title>
+      <link>/blog/initial-dbhub-io-server-online/</link>
+      <pubDate>Thu, 15 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/initial-dbhub-io-server-online/</guid>
+      <description>An initial DBHub.io server is online, running our latest development code. Testing and feedback is encouraged.
+Note - The data on this server will probably be wiped/reset every few days.</description>
+    </item>
+    
+    <item>
+      <title>PortableApp for 3.9.1</title>
+      <link>/blog/portableapp-for-3-9-1/</link>
+      <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-for-3-9-1/</guid>
+      <description>PortableApp version of DB4S 3.9.1 now available. Thanks John! 😄</description>
+    </item>
+    
+    <item>
+      <title>New Qt5 based nightly builds online</title>
+      <link>/blog/new-qt5-based-nightly-builds-online/</link>
+      <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-qt5-based-nightly-builds-online/</guid>
+      <description>New Qt5 based nightly builds are online.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.9.1 released</title>
+      <link>/blog/version-3-9-1-released/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-9-1-released/</guid>
+      <description>Version 3.9.1 released. Mostly bug fixes.</description>
+    </item>
+    
+    <item>
+      <title>New sister project: DBHub.io</title>
+      <link>/blog/new-sister-project-dbhub-io/</link>
+      <pubDate>Mon, 26 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-sister-project-dbhub-io/</guid>
+      <description>Added first page for our new sister project: DBHub.io. Take a look! 😄</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.9.0</title>
+      <link>/blog/portableapp-version-of-3-9-0/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-9-0/</guid>
+      <description>Added PortableApp download for version 3.9.0. Thanks John! 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.9.0 released</title>
+      <link>/blog/version-3-9-0-released/</link>
+      <pubDate>Wed, 24 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-9-0-released/</guid>
+      <description>The next major release, version 3.9.0 is ready for download!</description>
+    </item>
+    
+    <item>
+      <title>Version 3.9.0 beta1 released</title>
+      <link>/blog/version-3-9-0-beta1-released/</link>
+      <pubDate>Sun, 14 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-9-0-beta1-released/</guid>
+      <description>Version 3.9.0 beta1 released, with SQLCipher for strong encryption.
+Please try it out, and report any new bugs you encounter. 😄</description>
+    </item>
+    
+    <item>
+      <title>Test build with SQLCipher for Win64</title>
+      <link>/blog/test-build-with-sqlcipher-for-win64/</link>
+      <pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/test-build-with-sqlcipher-for-win64/</guid>
+      <description>Added an initial test build with encryption support on 64-bit Windows. Give it a go! 😀</description>
+    </item>
+    
+    <item>
+      <title>Added 64-bit Windows development instructions to the wiki</title>
+      <link>/blog/added-64-bit-windows-development-instructions-to-the-wiki/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/added-64-bit-windows-development-instructions-to-the-wiki/</guid>
+      <description>Added full 64-bit Windows development instructions to the wiki, with many screenshots.</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.8.0</title>
+      <link>/blog/portableapp-version-of-3-8-0/</link>
+      <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-8-0/</guid>
+      <description>Added PortableApp version of 3.8.0. Thanks John. 😄</description>
+    </item>
+    
+    <item>
+      <title>New 3.8.0 downloads for MacOS X</title>
+      <link>/blog/new-3-8-0-downloads-for-macos-x/</link>
+      <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-3-8-0-downloads-for-macos-x/</guid>
+      <description>New 3.8.0 downloads for MacOS X today, to fix a crashing bug.</description>
+    </item>
+    
+    <item>
+      <title>Fixed the downloads for v3.8.0</title>
+      <link>/blog/fixed-the-downloads-for-v3-8-0/</link>
+      <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fixed-the-downloads-for-v3-8-0/</guid>
+      <description>New (fixed) downloads for version 3.8.0 are available!</description>
+    </item>
+    
+    <item>
+      <title>Version 3.8.0 released</title>
+      <link>/blog/version-3-8-0-released/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-8-0-released/</guid>
+      <description>Version 3.8.0 released!
+Buggy release, removed for now. Keep using 3.7.0.</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.7.0</title>
+      <link>/blog/portableapp-version-of-3-7-0/</link>
+      <pubDate>Tue, 07 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-7-0/</guid>
+      <description>Added PortableApp version of 3.7.0. Thanks John. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.7.0 released</title>
+      <link>/blog/version-3-7-0-released/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-7-0-released/</guid>
+      <description>Version 3.7.0 released. 😄</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.6.0v3</title>
+      <link>/blog/portableapp-version-of-3-6-0v3/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-6-0v3/</guid>
+      <description>Added PortableApp version of 3.6.0v3. Many thanks again John. 😄</description>
+    </item>
+    
+    <item>
+      <title>Windows XP support added back</title>
+      <link>/blog/windows-xp-support-added-back/</link>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/windows-xp-support-added-back/</guid>
+      <description>The third version of the Windows installer for v3.6.0 has been added. This version works on XP too. 😉</description>
+    </item>
+    
+    <item>
+      <title>Fixed windows installer for 3.6.0</title>
+      <link>/blog/fixed-windows-installer-for-3-6-0/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fixed-windows-installer-for-3-6-0/</guid>
+      <description>The Windows installer for v3.6.0 has been fixed (was missing .dlls).</description>
+    </item>
+    
+    <item>
+      <title>Problems with the windows installer for 3.6.0</title>
+      <link>/blog/problems-with-the-windows-installer-for-3-6-0/</link>
+      <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/problems-with-the-windows-installer-for-3-6-0/</guid>
+      <description>Problems with the windows installer for 3.6.0. Took those down for today.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.6.0 released</title>
+      <link>/blog/version-3-6-0-released/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-6-0-released/</guid>
+      <description>Version 3.6.0 released. Lots of enhancements over all previous releases. You want this!</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.5.1</title>
+      <link>/blog/portableapp-version-of-3-5-1/</link>
+      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-5-1/</guid>
+      <description>Added PortableApp download for v3.5.1. Thanks John. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.5.1 released</title>
+      <link>/blog/version-3-5-1-released/</link>
+      <pubDate>Sun, 08 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-5-1-released/</guid>
+      <description>Version 3.5.1 released. Fixes bugs in 3.5.0. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.5.0 released</title>
+      <link>/blog/version-3-5-0-released/</link>
+      <pubDate>Sat, 31 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-5-0-released/</guid>
+      <description>Version 3.5.0 released. Adds optional SQLCipher support for MacOS X and Linux.</description>
+    </item>
+    
+    <item>
+      <title>PortableApp version of 3.4.0</title>
+      <link>/blog/portableapp-version-of-3-4-0/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-4-0/</guid>
+      <description>Added PortableApp download for v3.4.0.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.4.0 released</title>
+      <link>/blog/version-3-4-0-released/</link>
+      <pubDate>Wed, 29 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-4-0-released/</guid>
+      <description>Version 3.4.0 released. Huge improvements in .csv handling and other tweaks.</description>
+    </item>
+    
+    <item>
+      <title>Project renamed... (again)</title>
+      <link>/blog/project-renamed-again/</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/project-renamed-again/</guid>
+      <description>It turned out our previous &amp;ldquo;new&amp;rdquo; project name was already taken. Oops.
+So, our project has now been renamed to &amp;ldquo;DB Browser for SQLite&amp;rdquo;.
+Hopefully this is the final rename. 😄</description>
+    </item>
+    
+    <item>
+      <title>Nightly OSX builds are online</title>
+      <link>/blog/nightly-osx-builds-are-online/</link>
+      <pubDate>Mon, 15 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/nightly-osx-builds-are-online/</guid>
+      <description>Nightly builds for OSX now available here.</description>
+    </item>
+    
+    <item>
+      <title>Released new v3.3.1 .dmg for OSX</title>
+      <link>/blog/released-new-v3-3-1-dmg-for-osx/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/released-new-v3-3-1-dmg-for-osx/</guid>
+      <description>Released a new version 3.3.1 .dmg for OSX. The previous one had an old SQLite version in it.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.3.1 released</title>
+      <link>/blog/version-3-3-1-released/</link>
+      <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-3-1-released/</guid>
+      <description>Version 3.3.1 released, using the new name. No functional changes from 3.3.0.</description>
+    </item>
+    
+    <item>
+      <title>Project renamed</title>
+      <link>/blog/project-renamed/</link>
+      <pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/project-renamed/</guid>
+      <description>Project renamed to &amp;ldquo;Database Browser for SQLite&amp;rdquo;, at Richard Hipp&amp;rsquo;s request. 😄</description>
+    </item>
+    
+    <item>
+      <title>Version 3.3.0 released</title>
+      <link>/blog/version-3-3-0-released/</link>
+      <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-3-0-released/</guid>
+      <description>Version 3.3.0 released. Several bug fixes and improvements, a recommended upgrade.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.2.0 released</title>
+      <link>/blog/version-3-2-0-released/</link>
+      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-2-0-released/</guid>
+      <description>Version 3.2.0 released. Lots of improvements, a recommended upgrade.</description>
+    </item>
+    
   </channel>
 </rss>

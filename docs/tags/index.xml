@@ -6,9 +6,190 @@
     <description>Recent content in Tags on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3.10.x</title>
+      <link>/tags/3.10.x/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.10.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.11.x</title>
+      <link>/tags/3.11.x/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.11.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.2.x</title>
+      <link>/tags/3.2.x/</link>
+      <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.2.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.3.x</title>
+      <link>/tags/3.3.x/</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.3.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.4.x</title>
+      <link>/tags/3.4.x/</link>
+      <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.4.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.5.x</title>
+      <link>/tags/3.5.x/</link>
+      <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.5.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.6.x</title>
+      <link>/tags/3.6.x/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.6.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.7.x</title>
+      <link>/tags/3.7.x/</link>
+      <pubDate>Tue, 07 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.7.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.8.x</title>
+      <link>/tags/3.8.x/</link>
+      <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.8.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3.9.x</title>
+      <link>/tags/3.9.x/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/3.9.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alpha</title>
+      <link>/tags/alpha/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alpha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Appimage</title>
+      <link>/tags/appimage/</link>
+      <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/appimage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beta</title>
+      <link>/tags/beta/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/beta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compiling</title>
+      <link>/tags/compiling/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/compiling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dbhub.io</title>
+      <link>/tags/dbhub.io/</link>
+      <pubDate>Sat, 29 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dbhub.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Msvc</title>
+      <link>/tags/msvc/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/msvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patreon</title>
+      <link>/tags/patreon/</link>
+      <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/patreon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portableapp</title>
+      <link>/tags/portableapp/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/portableapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xp</title>
+      <link>/tags/xp/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xp/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

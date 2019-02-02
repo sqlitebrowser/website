@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.11.x on DB Browser for SQLite</title>
+    <link>/tags/3.11.x/</link>
+    <description>Recent content in 3.11.x on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/3.11.x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Third beta release of 3.11.0</title>
+      <link>/blog/third-beta-release-of-3-11-0y/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/third-beta-release-of-3-11-0y/</guid>
+      <description>The third beta builds for our next major release are ready for testing. Please try them out, and report any weirdness.</description>
+    </item>
+    
+    <item>
+      <title>Second beta release of 3.11.0</title>
+      <link>/blog/second-beta-release-of-3-11-0/</link>
+      <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/second-beta-release-of-3-11-0/</guid>
+      <description>The second beta builds for our next major release are ready.</description>
+    </item>
+    
+    <item>
+      <title>First beta release of 3.11.0</title>
+      <link>/blog/first-beta-release-of-3-11-0/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-beta-release-of-3-11-0/</guid>
+      <description>The first beta builds for our next major release are ready for testing.</description>
+    </item>
+    
+    <item>
+      <title>First alpha release for 3.11.0</title>
+      <link>/blog/first-alpha-release-for-3-11-0/</link>
+      <pubDate>Wed, 10 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-alpha-release-for-3-11-0/</guid>
+      <description>The first Windows and mac alpha builds for our next major release are ready. Please try them out, and report any weirdness.</description>
+    </item>
+    
+  </channel>
+</rss>

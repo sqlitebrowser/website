@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.6.x on DB Browser for SQLite</title>
+    <link>/tags/3.6.x/</link>
+    <description>Recent content in 3.6.x on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 May 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/3.6.x/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PortableApp version of 3.6.0v3</title>
+      <link>/blog/portableapp-version-of-3-6-0v3/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-version-of-3-6-0v3/</guid>
+      <description>Added PortableApp version of 3.6.0v3. Many thanks again John. 😄</description>
+    </item>
+    
+    <item>
+      <title>Windows XP support added back</title>
+      <link>/blog/windows-xp-support-added-back/</link>
+      <pubDate>Tue, 05 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/windows-xp-support-added-back/</guid>
+      <description>The third version of the Windows installer for v3.6.0 has been added. This version works on XP too. 😉</description>
+    </item>
+    
+    <item>
+      <title>Fixed windows installer for 3.6.0</title>
+      <link>/blog/fixed-windows-installer-for-3-6-0/</link>
+      <pubDate>Wed, 29 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/fixed-windows-installer-for-3-6-0/</guid>
+      <description>The Windows installer for v3.6.0 has been fixed (was missing .dlls).</description>
+    </item>
+    
+    <item>
+      <title>Problems with the windows installer for 3.6.0</title>
+      <link>/blog/problems-with-the-windows-installer-for-3-6-0/</link>
+      <pubDate>Tue, 28 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/problems-with-the-windows-installer-for-3-6-0/</guid>
+      <description>Problems with the windows installer for 3.6.0. Took those down for today.</description>
+    </item>
+    
+    <item>
+      <title>Version 3.6.0 released</title>
+      <link>/blog/version-3-6-0-released/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-6-0-released/</guid>
+      <description>Version 3.6.0 released. Lots of enhancements over all previous releases. You want this!</description>
+    </item>
+    
+  </channel>
+</rss>
