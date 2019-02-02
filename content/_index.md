@@ -4,6 +4,8 @@ title: DB Browser for SQLite
 
 # DB Browser for SQLite
 
+*The Official home of the DB Browser for SQLite*
+
 ## Screenshot
 
 ![DB Browser for SQLite Screenshot](/images/screenshot.png "DB Browser for SQLite Screenshot")
