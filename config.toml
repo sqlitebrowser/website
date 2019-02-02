@@ -27,6 +27,9 @@ publishDir = "docs"
     name = "GitHub"
     url = "https://github.com/sqlitebrowser/sqlitebrowser"
 [[menu.main]]
+    name = "Gitter"
+    url = "https://gitter.im/sqlitebrowser/sqlitebrowser"
+[[menu.main]]
     name = "Slack"
     url = "https://db4s.slack.com"
 [[menu.main]]
