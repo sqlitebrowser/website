@@ -48,6 +48,8 @@ publishDir = "docs"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"
 
+    favicon = "images/favicon.ico"
+
     [params.logo]
     url = "sqlitebrowser.svg"
     width = 50
