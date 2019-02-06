@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.53" />
 
 
-<title>Test build with SQLCipher for Win64 - DB Browser for SQLite</title>
-<meta property="og:title" content="Test build with SQLCipher for Win64 - DB Browser for SQLite">
+<title>Added public web stats using Fathom - DB Browser for SQLite</title>
+<meta property="og:title" content="Added public web stats using Fathom - DB Browser for SQLite">
 
 
   <link href='/images/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -70,12 +70,20 @@
   <article class="article">
     
 
-    <h1 class="article-title">Test build with SQLCipher for Win64</h1>
+    <h1 class="article-title">Added public web stats using Fathom</h1>
 
     
 
     <div class="article-content">
-      <p>Added an initial <a href="http://nightlies.sqlitebrowser.org/win64/sqlitebrowser-win64-with_sqlcipher-201605041823.exe">test build with encryption support on 64-bit Windows</a>. Give it a go! 😀</p>
+      <p>Added (GDPR compliant) stats generation today for the website, using <a href="https://usefathom.com">Fathom</a>.  It&rsquo;s an Open Source project, written in Go, that aims to provide aggregated stats simply, without any user tracking.</p>
+
+<p>The setup was fairly easy, though the ARM64 download for the current release (1.2.1) <a href="https://github.com/usefathom/fathom/issues/218">doesn&rsquo;t seem to work with SQLite</a> due to an accidental setting during their build.  Hopefully fixed for the next release.</p>
+
+<p>PostgreSQL is being the database database, and Nginx providing HTTPS termination.</p>
+
+<p>The <a href="https://stats.sqlitebrowser.org">stats server is public</a>, so added a link to it from our menu bar just because.</p>
+
+<p>It&rsquo;ll be interesting to see how the stats evolve over time. 😄</p>
 
     </div>
   </article>

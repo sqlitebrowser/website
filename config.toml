@@ -35,6 +35,9 @@ publishDir = "docs"
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/sqlitebrowser"
+[[menu.main]]
+    name = "Stats"
+    url = "https://stats.sqlitebrowser.org"
 
 [params]
     description = "The Official home of the DB Browser for SQLite."

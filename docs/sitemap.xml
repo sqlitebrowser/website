@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/added-public-web-stats-using-fathom/</loc>
+    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/new-website/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url>
@@ -347,7 +352,7 @@
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -364,7 +369,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -375,6 +380,12 @@
   
   <url>
     <loc>/dl/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/fathom/</loc>
+    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -392,6 +403,12 @@
   <url>
     <loc>/tags/portableapp/</loc>
     <lastmod>2017-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/stats/</loc>
+    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
