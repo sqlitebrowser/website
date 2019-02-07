@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.53" />
+
+
+<title>Version 3.11.0 released - DB Browser for SQLite</title>
+<meta property="og:title" content="Version 3.11.0 released - DB Browser for SQLite">
+
+
+  <link href='/images/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/blog/">Blog</a></li>
+    
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    
+    <li><a href="/dl/">Download</a></li>
+    
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    
+    <li><a href="https://db4s.slack.com">Slack</a></li>
+    
+    <li><a href="https://stats.sqlitebrowser.org">Stats</a></li>
+    
+    <li><a href="https://twitter.com/sqlitebrowser">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+
+    <h1 class="article-title">Version 3.11.0 released</h1>
+
+    
+
+    <div class="article-content">
+      
+
+<h2 id="highlights">Highlights</h2>
+
+<ul>
+<li>DBHub.io improvements</li>
+<li>CSV import: speed, memory usage, usability, type detection and new default rules</li>
+<li>Attach databases</li>
+<li>Menu options for filtering</li>
+<li>JSON and XML editors</li>
+<li>Improvements to the plot UI</li>
+<li>Better copy &amp; paste support</li>
+<li>Dark theme support</li>
+<li>Multi-threaded loading of data</li>
+<li>Default quotes changed to double quotes</li>
+<li>Add Record dialog</li>
+<li>Printing support</li>
+<li>The math extensions for SQLite are included in the windows and macOS installers
+
+<ul>
+<li>@SilvioGrosso has kindly created <a href="https://www.youtube.com/watch?v=UDqowNoFJIo">a video showing how to load the math extensions</a> on windows
+<br /></li>
+</ul></li>
+</ul>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win32.msi">DB.Browser.for.SQLite-3.11.0-win32.msi</a> - Standard (MSI) installer for Win32 and WinXP</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win32.zip">DB.Browser.for.SQLite-3.11.0-win32.zip</a> - .zip (no installer) for Win32 and WinXP</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win64.msi">DB.Browser.for.SQLite-3.11.0-win64.msi</a> - Standard (MSI) installer for Win64</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win64.zip">DB.Browser.for.SQLite-3.11.0-win64.zip</a> - .zip (no installer) for Win64</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0.dmg">DB.Browser.for.SQLite-3.11.0.dmg</a> - For macOS</li>
+</ul>
+
+<h3 id="sha256sums">SHA256SUMS</h3>
+
+<ul>
+<li>DB.Browser.for.SQLite-3.11.0-win32.msi
+
+<ul>
+<li>d1e28bb123ab758b476f1d1f86be5f9b0c4f4e55a72f9d6e29cfc7924adf44bb</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.0-win32.zip
+
+<ul>
+<li>f86a16c871394df8ae4d4f80536f2f784a3b250455642f65d352fed56384ef3a</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.0-win64.msi
+
+<ul>
+<li>83c8847d0f86354c53b30407fa4af96c9674711bf92c8705e2e4f33897fc9cdd</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.0-win64.zip
+
+<ul>
+<li>24390192ec1c48a7399d79001b69aef2f24fc8bd943128028dd0d6116e507d48</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.0.dmg
+
+<ul>
+<li>80d66a492ca3ed1f544d3dfea940c222059e9763280491a1d4cac8fb701e5720</li>
+</ul></li>
+</ul>
+
+<h3 id="important-notes">Important Notes</h3>
+
+<ul>
+<li>This release includes SQLCipher 4.0.1, providing even stronger encryption than the previous release.
+
+<ul>
+<li>To open a database encrypted with a previous release, make sure to choose the &ldquo;SQLCipher 3 defaults&rdquo; in the dialog which asks for the encryption passphrase.</li>
+</ul></li>
+<li>Our project file format has changed, to make it easier to modify with external tools.
+
+<ul>
+<li>Older format files are loaded fine, but all saving of project files is done using the new project file format.</li>
+</ul></li>
+</ul>
+
+<h3 id="notes-on-the-windows-installers">Notes on the windows installers</h3>
+
+<p>We&rsquo;ve moved to providing MSI based installers, instead of the previous .exe ones. These new installers include both SQLite and SQLCipher (for optional encryption):</p>
+
+<pre><code>DB.Browser.for.SQLite-3.11.0-win32.msi
+DB.Browser.for.SQLite-3.11.0-win64.msi
+</code></pre>
+
+<p>These MSI based installers will automatically detect the previous release of DB4S (3.10.1) and remove it before upgrading.  If you&rsquo;re using an older version of DB4S than that, you&rsquo;ll need to manually remove it first before the upgrade.</p>
+
+<p>Additionally, there&rsquo;s now a .zip version of each. That&rsquo;s useful for people needing to run DB Browser for SQLite without installing it first.</p>
+
+<pre><code>DB.Browser.for.SQLite-3.11.0-win32.zip
+DB.Browser.for.SQLite-3.11.0-win64.zip
+</code></pre>
+
+<p>If you&rsquo;re not sure which one to get, try the .msi version first. 😄</p>
+
+<h3 id="note-on-the-macos-installer">Note on the macOS installer</h3>
+
+<p>The macOS installation now includes the SQLite math extensions (<code>math.dylib</code>), located in the <code>Contents/Extensions/</code> folder inside <code>DB Browser for SQLite.app</code>.
+* To use it, you&rsquo;ll need to either manually load it (<code>Tools</code> → <code>Load Extension</code>), or tell DB4S to automatically load it every time (<code>Preferences</code> → <code>Extensions</code>).
+* macOS doesn&rsquo;t easily allow going inside <code>.app</code> folders in file selection dialogs.  To navigate to the correct folder you&rsquo;ll probably need to press <kbd>Shift (⇧)</kbd>+<kbd>Command (⌘)</kbd>+<kbd>g</kbd> when the file selection dialog is open, then give it the path of <code>/Applications/DB Browser for SQLite.app/Contents/Extensions</code>.</p>
+
+<hr />
+
+<h1 id="change-log">Change Log</h1>
+
+<h2 id="enhancements">Enhancements</h2>
+
+<ul>
+<li>Add menu option for attaching database and allow usage of attached databases throughout the entire UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/532fcd3f6b713e89f7739f25de09c353c61bbe99">532fcd3</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/44eb2d4f9922fd1a854d959602c6a2455eab0dc5">44eb2d4</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/fbaf78ea65bc8354d053192c90dece17ce7c8b5b">fbaf78e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/315019dd9ce028331caa1d6f8863829a8ce25e9d">315019d</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/1a3e3d3c40112d4dd92a6427eb84ad7fdbd4aa92">1a3e3d3</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ea1659e1d09c6d1e3452d3dd76986ac901d637dd">ea1659e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/a5ca75655c42c45c35a3f41611942328237cd39f">a5ca756</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7db96cdf13ff9131b87a71ebb48517080869b061">7db96cd</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/72d64edbe0f3eff0e3557bdccedf75c3276bc5b8">72d64ed</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f01ad409ff294cf5dea1cf035f589c1b0509b76f">f01ad40</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3e0242025628ffecb554f0508f1c35de1aa42c2c">3e02420</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1131">#1131</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1132">#1132</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1133">#1133</a>)</li>
+<li>Make import of multiple CSV files easier to use (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1121">#1121</a>)</li>
+<li>Optimise the Import CSV dialog for better usability (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1072">#1072</a>)</li>
+<li>Improve speed of preview table for large fields in the Import CSV dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/720">#720</a>)</li>
+<li>Speed up CSV import a lot and reduce its memory usage (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/643251780557ffccf84a3a672a4d88e941313f97">6432517</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b7a00d301a2a469ba4a4b430e7b3f1b13fdc2842">b7a00d3</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/6ed8080fdb19e4b6cfadbb67d336bc6ce828d74c">6ed8080</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/0eb1f6579815ee1148323ce928d24eab9f0f8002">0eb1f65</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/659f38ebefc8f1d245b30fe279d318c26c2b84a2">659f38e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ed9fda28ea6b54bf86bf78ceaaae3256f3dec3e5">ed9fda2</a>)</li>
+<li>All sorts of improvements for tracking dbhub.io databases and pushing them back to the cloud (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8a540a27457e4ce44be5cd6b695537e5ba1da433">8a540a2</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/fef884a4e1e88e4899d3a49169ba2bbb77d3bd5c">fef884a</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f18064f0aecb306cde860bde79b10cdfaf6550d2">f18064f</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b2ddcdd470e16134d978d9afb5d00231b2caa079">b2ddcdd</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f926a67dba4d8277041fcb74f27674c83c804752">f926a67</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8c0e4bfdaaef17d93c888d3f97e5e9383fcd7bd5">8c0e4bf</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c692ae0de52e281cbc3115fece930578f10051a0">c692ae0</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/64b33413fbd289cceb2837b700bca621326ac615">64b3341</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d73859736dc741ab72f2bbc4a0f6fae2b2e57b38">d738597</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/24ee209befa24d0ac6c1499f3f327c252a545cea">24ee209</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/a1855d8f7525a1afa91a70256e6c892557dbb198">a1855d8</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/eff92c2818138bcac3e507ba81081c544b735962">eff92c2</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1136">#1136</a>)</li>
+<li>Move button for saving Execute SQL results to the toolbar (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1122">#1122</a>)</li>
+<li>Rearrange display format list for better usability (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/31e499d9fa282fc67138647668a24e3b18df09a8">31e499d</a>)</li>
+<li>Add menu option to hide selected columns (and unhide them) in the Browse Data view (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1135">#1135</a>), <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d4e228d4b588721029e875fe288828b7880144fe">d4e228d</a>)</li>
+<li>Add automatic type detection to the CSV import (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1003">#1003</a>), <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1382">#1382</a>)</li>
+<li>Improve splitters in Execute SQL tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/380">#380</a>)</li>
+<li>New menu options for using a value as a filter in the Browse Data tab, and support all filter operators for strings (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1182">#1182</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1463">#1463</a>)</li>
+<li>Allow renaming SQL tabs by double clicking their title (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1186">#1186</a>)</li>
+<li>Add support for filtering for empty strings in the Browse Data tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1189">#1189</a>)</li>
+<li>Add a new menu option for also copying the headers to the clipboard (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1058">#1058</a>)</li>
+<li>Add a search bar (Ctrl+F) to Execute SQL editors (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/191">#191</a>)</li>
+<li>Add a find and replace dialog (Ctrl+H) to all SQL editors (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/191">#191</a>)</li>
+<li>It&rsquo;s now possible to select points in a plot and the corresponding rows in the table will be selected (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e8e5671588ce378fdde9607346060474b84144f7">e8e5671</a>)</li>
+<li>Show number of records to delete in the Delete Record button caption (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/5fbf5ca1b28373323591f05a339f18b58e9c283c">5fbf5ca</a>)</li>
+<li>Add new display formats (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/46ec0197193ad127103f7d8408895e7c4f76fc67">46ec019</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1213">#1213</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1467">#1467</a>)</li>
+<li>Add special editor for JSON data in the Edit Cell dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1173">#1173</a>)</li>
+<li>Add special editor for XML data in the Edit Cell dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1253">#1253</a>)</li>
+<li>Use HTML when copying table data to the clipboard. This way less data is lost when pasting to spreadsheet applications (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e60e9ffc758f26aa7d9833552bb5d3e1d3d566b3">e60e9ff</a>)</li>
+<li>Some improvements to the plot UI including zooming, dragging and copying the plot to the clipboard (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ade562769a06e4f010f15e88ddba2946747f6528">ade5627</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1245">#1245</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/cef1e9020be975ad675d02f542b77747d778f8d0">cef1e90</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/950">#950</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1258">#1258</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e34d36085df827999935ab0c94cf44ef2bd08736">e34d360</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/838">#838</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1271">#1271</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b2fbf450121a395fc83c8a331c5742f446adfa6e">b2fbf45</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1310">#1310</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c4109e6a10058c228940688d1fee38da0bab4c7b">c4109e6</a>)</li>
+<li>Some minor improvements to the Execute SQL UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/87e1b9bc7c51b86fca2c3192929500fd457022eb">87e1b9b</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/6d44c6d412d39e9c84e0d4d3cc543bdb17fb26fb">6d44c6d</a>)</li>
+<li>Allow pasting a value into multiple cells at once (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/0d7ca9b5bec0c83b88787fc333f3b61652dcacaf">0d7ca9b</a>)</li>
+<li>Allow changing the font of the result view in the Execute SQL tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1240">#1240</a>)</li>
+<li>Add a new button to the Browse Data tab to create a view from the current settings (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1246">#1246</a>)</li>
+<li>Add two new toolbar for Extra actions and for Project actions and add some more icons to the existing toolbars and menus (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/331">#331</a>)</li>
+<li>Allow configuration of BLOB text and style for the Browse Data tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1263">#1263</a>)</li>
+<li>Add a new dialog for managing database file extensions (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/659">#659</a>)</li>
+<li>Add possibility to drag and drop fields from the DB Schema dock to the SQL text editors (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/119">#119</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1250">#1250</a>)</li>
+<li>Add a Delete Record(s) option to the context menu of the table rows in the Browse Data tab(<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1283">#1283</a>)</li>
+<li>Add a new &ndash;read-only command line option (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1265">#1265</a>)</li>
+<li>Allow duplicating multiple records at once (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1090">#1090</a>)</li>
+<li>Auto complete SQL keywords in upper case and add an option for it in the Preferences dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1238">#1238</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1287">#1287</a>)</li>
+<li>Respect the ORDER BY clause when plotting a table view (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/821">#821</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/838">#838</a>)</li>
+<li>Also auto complete column names when they are not preceded by their table name (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1242">#1242</a>)</li>
+<li>Add bar charts to the plot dock (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1302">#1302</a>)</li>
+<li>Allow adding a legend to the plot (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1302">#1302</a>)</li>
+<li>Add &ldquo;What&rsquo;s This&rdquo; popups in some more places (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/52ae85dd28ac8a21e5db67db02e551e059917821">52ae85d</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/2c9cf75419feea889d2a86f0b7549d8acacab0c2">2c9cf75</a>)</li>
+<li>Avoid any hard coded colours and query system colours wherever possible. In practice this adds support for dark themes (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1324">#1324</a>)</li>
+<li>Add new option for setting the line wrap in editors (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1173">#1173</a>)</li>
+<li>When clicking the Report Bug menu item some system information are included automatically (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1386">#1386</a>)</li>
+<li>When an entire row is selected and you press the Delete key, the row is now deleted (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1391">#1391</a>)</li>
+<li>Change the rules for the CSV import and add a couple of options to override them (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1395">#1395</a>)</li>
+<li>Add a new menu item to export the current table view with all its settings to a CSV file (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1402">#1402</a>)</li>
+<li>Add support for deleting rows from views with editing unlocked (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/141">#141</a>)</li>
+<li>Add menu option to copy selection in table view as SQL statements (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1422">#1422</a>)</li>
+<li>Move loading of table records into a separate thread for better UI responsiveness (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1394">#1394</a>)</li>
+<li>Change the quotes for SQL identifiers from grave to double quotes and add an option to the Preferences dialog for it (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1436">#1436</a>)</li>
+<li>Change Open Database toolbar action to open a popup menu with an extra option to open a database in read-only mode (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1432">#1432</a>)</li>
+<li>Comments containing filename, line number and results of the executed statements are added to the &ldquo;User&rdquo; part of the SQL log dock (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1448">#1448</a>)</li>
+<li>Look for a dotenv file with a stored password when trying to open an encrypted database (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1404">#1404</a>)</li>
+<li>Make the Unlock View Editing dialog easier to use (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/241372e6eb33e6522e9a4a7dd4869df2fff066e3">241372e</a>)</li>
+<li>Add support for creating and editing in-memory databases (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/335">#335</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1492">#1492</a>)</li>
+<li>Menu restructured, Tools menu added (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1434">#1434</a>)</li>
+<li>Add case_sensitive_like pragma to the Edit Pragmas tab and save it to the project file (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1494">#1494</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c9d651c7b2cc0cba548ef71b3feef8bfd34322e6">c9d651c</a>)</li>
+<li>When adding an empty row fails open a new Add Record dialog instead in the Browse Data tab. Also make the new dialog available by a new button (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/530">#530</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1477">#1477</a>)</li>
+<li>Store the values of all pragmas which aren&rsquo;t stored in the database in the project files (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1518">#1518</a>)</li>
+<li>Add schema names to the auto completion list of names and allow completion of schema.table.field (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1433">#1433</a>)</li>
+<li>Some new configuration options for the drag and drop of item names from the DB Schema dock (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1433">#1433</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1534">#1534</a>)</li>
+<li>Preselect file format filter depending on the current data type when exporting cell contents to a file (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1535">#1535</a>)</li>
+<li>Allow saving the hex editor contents when exporting binary cell contents to a file and allow copying the same data to the clipboard (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1438">#1438</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1485">#1485</a>)</li>
+<li>Add printing support to text and hex editors, plots, Database Structure tab, Browse Data tab and Execute SQL tabs (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1525">#1525</a>)</li>
+<li>Add some new menu items for optimising and checking the integrity of the database (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1435">#1435</a>)</li>
+<li>Save attached databases in the project file (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1532">#1532</a>)</li>
+<li>Add basic support for window functions (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7e23214e61829485993ce1910ec95233de21dcaa">7e23214</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/517743ff3fa65ae3447c6520f16f1cf613b0053d">517743f</a>)</li>
+<li>Add an optional auto completion popup to the Browse Data tab which shows up when editing a cell (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e1101ae6905130dd4d7becf323303a4ae804d99f">e1101ae</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/04f27ccf4ba301b9d092fcd33341968d54283c5d">04f27cc</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/88d1cbc29df359f1f7987d97b649923b7a762d57">88d1cbc</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b4b933c158ca59cd0d6d9e529f4e58b9304712da">b4b933c</a>)</li>
+<li>Some polishing of the main window UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/420">#420</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f42b614084d75c3669983af561a4fe9c5f2cf13a">f42b614</a>)</li>
+<li>Automatically preselect correct editor depending on the detected data type in the Edit Cell dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1537">#1537</a>)</li>
+</ul>
+
+<h2 id="bug-fixes">Bug fixes</h2>
+
+<ul>
+<li>Avoid extra spaces when formatting SQL statements (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/18bcbf138f3f351e21eaf2db108f89e558943c45">18bcbf1</a>)</li>
+<li>Fix dbhub.io bugs (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/4dc52865962414b2754c5a6db6ad68c0958f0eb0">4dc5286</a>)</li>
+<li>Fix detection of image data in Edit Cell dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1138">#1138</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1159">#1159</a>)</li>
+<li>Fix Vacuum dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c616b3947806411cd1e7d20ca936b5f1dfae35bd">c616b39</a>)</li>
+<li>Allow selecting text in Edit Cell dialog even if database is read only (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1123">#1123</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1461">#1461</a>)</li>
+<li>Clear filters in Browse Data tab when table structure changes (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1020">#1020</a>)</li>
+<li>Add support for parsing multiple foreign keys in column constraints (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/677d36074afe7add7b54984a93fba97b8349f061">677d360</a>)</li>
+<li>Fix memory leaks (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/28446a4f0cba71122e37788e46171c2fd3fab448">28446a4</a>)</li>
+<li>Fix input of custom data types in Edit Table dialog so it doesn&rsquo;t require you to hit Enter (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1147">#1147</a>)</li>
+<li>Don&rsquo;t query foreign key pragma all the time in Edit Table dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1130">#1130</a>)</li>
+<li>Avoid unnecessary queries in Browse Data tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1108">#1108</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1187">#1187</a>)</li>
+<li>Support UTF16 strings in the default collation in DB4S (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1172">#1172</a>)</li>
+<li>Never override the built-in collations (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1172">#1172</a>)</li>
+<li>Fix problems when opening a database by drag and drop (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9cff69f534d614b9643c7e871ca07d1bca8de5fb">9cff69f</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1236">#1236</a>)</li>
+<li>Fix crash when trying to edit the display format of a view column (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9fd4ebe0e0ba6bc48509d4d8b9a27205c60d81a1">9fd4ebe</a>)</li>
+<li>Better error and changes detection in Execute SQL tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1181">#1181</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1185">#1185</a>)</li>
+<li>Fix parsing of SQL statements on systems with some locales like Turkish (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1194">#1194</a>)</li>
+<li>Fix some high DPI issues (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1184">#1184</a>)</li>
+<li>Improve BLOB detection in Browse Data tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9b309402db3e9ecfb27207b2c4c0689310372a2b">9b30940</a>)</li>
+<li>Fix changing table name to a name that only differs in case (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1200">#1200</a>)</li>
+<li>Fix progress dialog of CSV import for very large files (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1212">#1212</a>)</li>
+<li>Select current display format when opening the Custom Display Format dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1202">#1202</a>)</li>
+<li>Only display the horizontal scrollbar in the SQL editor when it&rsquo;s necessary (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d8aeae1a6ff0f4d721b4a806b01a9e77ae3f27f1">d8aeae1</a>)</li>
+<li>Show keyboard shortcuts in some places where they were missing (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9ce4b232ba17493d9064c0a3dd963f26d5405215">9ce4b23</a>)</li>
+<li>Fix restoring previous settings in the Export SQL dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ccb1fd4ca86cbcd367379356948e23c1047921f0">ccb1fd4</a>)</li>
+<li>Never use quotes when copying data from the table view to the text clipboard (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1244">#1244</a>)</li>
+<li>Fix crash when clicking Save SQL file button when no SQL tab is opened (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1248">#1248</a>)</li>
+<li>Fix pasting table data from spreadsheet applications which put an extra line break at the end of the text (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1244">#1244</a>)</li>
+<li>Fix pasting when actually no data is in the clipboard (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9db70e07503ffe3ff021087a70b6c32c9bc68c24">9db70e0</a>)</li>
+<li>Copying and pasting between different tables and copying binary data in the Browse Data tab is now always lossless (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/47b07490de85b1d354a92a468ccadcb2cea0dffe">47b0749</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1257">#1257</a>)</li>
+<li>Fix copying binary data (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/316860a7091bfe0f7de43e78cf6c03b0f9d7387d">316860a</a>)</li>
+<li>Don&rsquo;t ignore possible error messages when duplicating a record (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1255">#1255</a>)</li>
+<li>Don&rsquo;t truncate data at 32768 characters when editing it in directly in the table widget (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1281">#1281</a>)</li>
+<li>Fix binary data detection in table views (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1279">#1279</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/27c657902e354b11fb5778cc09518a95d37d3698">27c6579</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c9c848e99555f816aa183e7dad426e3151e0f51d">c9c848e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/feda408161ae98fee69bfd46a91c607bbc40921d">feda408</a>)</li>
+<li>Allow unsetting the encoding of a table (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1279">#1279</a>)</li>
+<li>Fix drag and drop of tables from the Schema tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/117af5aeeb146860f080584c82876f71ac227ff1">117af5a</a>)</li>
+<li>Fix style of web links in UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1286">#1286</a>)</li>
+<li>Fix execution of some SQL statements with comments and/or line breaks in them (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1270">#1270</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1334">#1334</a>)</li>
+<li>Add support for tables with ON CONFLICT clauses for their primary key (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/743e7985c2dc5b6c65ac0ff46abba33a443f26ba">743e798</a>)</li>
+<li>Fix crash when pressing Tab at the last cell of a view (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1289">#1289</a>)</li>
+<li>Fix crash when trying to add an index to a database without any tables (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1293">#1293</a>)</li>
+<li>Fix problems after drag &amp; drop of tables onto the structure view (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1288">#1288</a>)</li>
+<li>Copy original statement when clicking the Copy Create Statement menu option (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1300">#1300</a>)</li>
+<li>Fix updating and deleting from tables without rowid if the primary key value contains a &ldquo;&lsquo;&rdquo; character (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1332">#1332</a>)</li>
+<li>Don&rsquo;t show &ldquo;Show Rowid&rdquo; menu option for tables without rowid (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1332">#1332</a>)</li>
+<li>Our project file format is now text only. This helps if you want to edit it in a text editor (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1306">#1306</a>)</li>
+<li>Don&rsquo;t commit the current transaction when trying to change the defer_foreign_keys PRAGMA (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/aebfc5151ec1c2e0cb2c5a01a81a4e53f682f7c7">aebfc51</a>)</li>
+<li>Fix error messages when importing SQL files (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/431c67138ba22445f42a6d95a638fd90284a442b">431c671</a>)</li>
+<li>Show icons in Export SQL dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/28baba8ec88beb54bb7ff642dc1ad0c95e7c9486">28baba8</a>)</li>
+<li>Only allow exporting tables in Export SQL dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b384027378aa7d72ad420568543080cd6e15ea1e">b384027</a>)</li>
+<li>Tweak order of statements in exported SQL file for less import problems (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b6c05609dc496e1aedd8f9a9c98cf667bdab1a08">b6c0560</a>)</li>
+<li>Fix text of toolbar actions for deleting and modifying objects other than tables (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/13d9f98aabeb66d6d466f301a139ec2b975482bf">13d9f98</a>)</li>
+<li>Remember &ldquo;primary key&rdquo; of a view unlocked for editing when changing to another object and back (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ea25618f22db324e10b6dac90d01b8ca947fe103">ea25618</a>)</li>
+<li>Only allow powers of two for page size in Cipher Settings dialog and Edit Pragma tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1405">#1405</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8a07f0e6556dd9e0b1e369a897db7a05f33085a8">8a07f0e</a>)</li>
+<li>Make sure the insert and delete record buttons are only enabled if they can be used (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/115d1f185a28bf0858ec1799a1c53cd4ee1aa4fb">115d1f1</a>)</li>
+<li>Suggest correct file extensions when export content of a cell to a file (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/885f4f7847a46d85f45501ff67bde089830e81f6">885f4f7</a>)</li>
+<li>Make sure to reset results view even when a query didn&rsquo;t return any rows (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1437">#1437</a>)</li>
+<li>Auto suggest encodings in Select Encoding dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/588363b7f6fe70a32986e5d48781980eb6876d5b">588363b</a>)</li>
+<li>Fix parsing of some complex SQL expressions in CREATE statements and fix parsing of CHECK constraints (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1454">#1454</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c150d1a7664eb02c669e609ee0b01d9c93ad3336">c150d1a</a>)</li>
+<li>Fix multiple SQL statements in Execute SQL tab being split up at the wrong position (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1470">#1470</a>)</li>
+<li>Don&rsquo;t allow editing the SQL preview in the Create Index dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7a9f310778b9be6cc0b7d503df73ca461fa95083">7a9f310</a>)</li>
+<li>When jumping to a row referenced to by a foreign key by using Ctrl+Shift+Click, perform an exact search instead of a LIKE search (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d50a27ab6e47002cbf09d45529e7c21ea390a7c5">d50a27a</a>)</li>
+<li>Fix crash when browsing a table, then deleting it in another tab and then switching back to the Browse Data tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/2701223aac892d167ff4726b6c71e35d5cf77c43">2701223</a>)</li>
+<li>Fix string quotes in Custom Display Format dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b6f47f91de284f715493bd41e1ec130e6878d800">b6f47f9</a>)</li>
+<li>Prevent possible data loss when editing table with foreign keys enabled and ON DELETE CASCADE references (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1481">#1481</a>)</li>
+<li>Fix view when loading a project file while being in the Edit Pragma tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/a23c0a0852ba0b59d3c9fea5f40add845a1307d8">a23c0a0</a>)</li>
+<li>Avoid confusion about the SQLCipher version in the About dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1474">#1474</a>)</li>
+<li>Don&rsquo;t remove a record from the table view temporarily when deleting it has failed (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1511">#1511</a>)</li>
+<li>Show better error messages when importing SQL files (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1519">#1519</a>)</li>
+<li>Defer foreign keys when importing SQL files to avoid import issues for some files (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1519">#1519</a>)</li>
+<li>Fix editing of auto_vacuum pragma via the UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1518">#1518</a>)</li>
+<li>Fix initial loading of databases which depend on extension functions to be present (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f3e6aec57d4b7c1c7fbad54be75902db13e5bfcd">f3e6aec</a>)</li>
+<li>Fix cursor after SQL import finished (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1526">#1526</a>)</li>
+<li>Fix completion of quoted identifiers in SQL editor (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1433">#1433</a>)</li>
+<li>Fix positioning of cursor in Execute SQL tab when there is an error near a multi-byte character (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/99c53a436e82ead40504189c9cac3e141d4b718a">99c53a4</a>)</li>
+<li>Fix some possible crashes when loading an invalid project file (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/717ff075b52b64603338e0629710bac3e55c41d6">717ff07</a>)</li>
+<li>Fix auto completion of keyword ROWID (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/78ae2c3e0938fc9b2841a45754c4f4ded0dc642b">78ae2c3</a>)</li>
+<li>Better error messages when editing the definition of a table fails (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1547">#1547</a>)</li>
+<li>Fix auto completion not working in some cases until you refresh the database (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1549">#1549</a>)</li>
+<li>Avoid unnecessary queries in the Browse Data tab in some cases (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c78c03bf0b040b58977ba1ebbd284ea69531b939">c78c03b</a>)</li>
+<li>Fix inserting, deleting and editing of rows in WITHOUT ROWID tables with a primary key of TEXT type (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1559">#1559</a>)</li>
+</ul>
+
+<h2 id="platform-specific">Platform specific</h2>
+
+<h3 id="windows">Windows</h3>
+
+<ul>
+<li>Use MSI installers (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1400">#1400</a>)</li>
+<li>Make sure the image plugins are loaded properly (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1188">#1188</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9016bf6dc741143834c29ac8febd3ef4c4f43b7f">9016bf6</a>)</li>
+<li>Also install license files (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/12ee94cee9880ea5f1ce938baec147b999027296">12ee94c</a>)</li>
+<li>Add version info to Windows executables (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1387">#1387</a>)</li>
+<li>Fix line breaks in SQL export (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1502">#1502</a>)</li>
+</ul>
+
+<h3 id="macos">macOS</h3>
+
+<ul>
+<li>Work around a Qt bug which causes high pings for Wifi connections (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1209">#1209</a>)</li>
+<li>Add a workaround to improve rendering performance on 4k/5k resolutions (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1233">#1233</a>)</li>
+<li>Add .sqlite, .db3 and .sqlite3 to the list of file associations (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/28f6c6e6c1777949acf5bc455707ecdfa43ad298">28f6c6e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3008747ada0293d682fa1a9e04852013b8d19ff2">3008747</a>)</li>
+<li>Fix shortcut name for following a foreign key (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1539">#1539</a>)</li>
+</ul>
+
+<h3 id="linux">Linux</h3>
+
+<ul>
+<li>Make install paths configurable for qmake build (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1443">#1443</a>)</li>
+</ul>
+
+<h3 id="gnome">Gnome</h3>
+
+<ul>
+<li>Fix problem with switching the workspace on Gnome (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/934">#934</a>)</li>
+</ul>
+
+<h2 id="translations">Translations</h2>
+
+<ul>
+<li>Fix call tips in SQL editor for languages with non-Latin scripts (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1107">#1107</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1206">#1206</a>)</li>
+<li>Never translate the name of the pragmas in the Edit Pragma tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9a30e6cbb0b60ad7b98e5bbcc49f9f4a404ab30b">9a30e6c</a>)</li>
+<li>Spanish translation updated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1190">#1190</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/2b6f0d73781bf34f1e44eed3b7a0f7c985eea1a3">2b6f0d7</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/aa82b52d5cdcb8511c7eb80112732e5d5f2a32d8">aa82b52</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/636136a775f9480ec49e1cec3cae583aecde2e2e">636136a</a>)</li>
+<li>German translation updated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/09e170f75dff94761918767c644d2a16c7b4f0e5">09e170f</a>)</li>
+<li>Korean translation updated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8c85ff9157bfb154772eae46ec30787f2fff2c65">8c85ff9</a>)</li>
+<li>Polish translation added (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1456">#1456</a>)</li>
+<li>French translation updated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b7dbfc84c949f685d6e0478d33f8aeb040028697">b7dbfc8</a>)</li>
+</ul>
+
+<h2 id="packaging-and-building">Packaging and Building</h2>
+
+<ul>
+<li>Fix code to work with Qt 5.10 and later (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e6a4326e9bc1d48d027278171e8ab335c1f91e82">e6a4326</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/189b750a009b71bc7de021647309d0b0d8c40232">189b750</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/39302f5b6061cf687a81984406e20070d60b4563">39302f5</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/72506fb90211f4a9034b29975190a254ceb396eb">72506fb</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1475">#1475</a>)</li>
+<li>Update the bundled qcustomplot librar to version 2.0.0</li>
+<li>Silence some cmake warnings (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/635">#635</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1143">#1143</a>)</li>
+<li>Show the build date of the nightly builds in the About dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/0bc430bfad1c9517d0dde0095cc91bbc821f15c6">0bc430b</a>)</li>
+<li>Restored Qt 5.2 compatibility (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1298">#1298</a>)</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+

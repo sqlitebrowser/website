@@ -6,10 +6,19 @@
     <description>Recent content in 3.11.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/3.11.x/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Version 3.11.0 released</title>
+      <link>/blog/version-3-11-0-released/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-11-0-released/</guid>
+      <description>Highlights  DBHub.io improvements CSV import: speed, memory usage, usability, type detection and new default rules Attach databases Menu options for filtering JSON and XML editors Improvements to the plot UI Better copy &amp;amp; paste support Dark theme support Multi-threaded loading of data Default quotes changed to double quotes Add Record dialog Printing support The math extensions for SQLite are included in the windows and macOS installers  @SilvioGrosso has kindly created a video showing how to load the math extensions on windows    Downloads  DB.</description>
+    </item>
     
     <item>
       <title>Third beta release of 3.11.0</title>
