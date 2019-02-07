@@ -70,7 +70,9 @@ If you're not sure which one to get, try the .msi version first. :smile:
 ### Note on the macOS installer
 
 The macOS installation now includes the SQLite math extensions (`math.dylib`), located in the `Contents/Extensions/` folder inside `DB Browser for SQLite.app`.
+
 * To use it, you'll need to either manually load it (`Tools` → `Load Extension`), or tell DB4S to automatically load it every time (`Preferences` → `Extensions`).
+
 * macOS doesn't easily allow going inside `.app` folders in file selection dialogs.  To navigate to the correct folder you'll probably need to press <kbd>Shift (⇧)</kbd>+<kbd>Command (⌘)</kbd>+<kbd>g</kbd> when the file selection dialog is open, then give it the path of `/Applications/DB Browser for SQLite.app/Contents/Extensions`.
 
 ---
