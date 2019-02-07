@@ -515,10 +515,8 @@ Hopefully this is the final rename. 😄</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/dl/</guid>
-      <description>Windows Our latest release (3.10.1) for Windows:
- DB Browser for SQLite - 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - 64-bit Windows DB Browser for SQLite - PortableApp  Note - If for some reason the standard Windows release does not work (e.g. gives an error), try a nightly build (below).
-Nightly builds often fix bugs reported after the last release. 😄
-macOS Our latest release (3.</description>
+      <description>Windows Our latest release (3.11.0) for Windows:
+ DB Browser for SQLite - Standard installer for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - .zip (no installer) for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows Note - There&amp;rsquo;s no PortableApp version for 3.11.0 (yet). It&amp;rsquo;ll hopefully be ready in a few days.</description>
     </item>
     
   </channel>
