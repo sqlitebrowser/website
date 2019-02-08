@@ -236,6 +236,10 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Fix auto completion not working in some cases until you refresh the database ([#1549](https://github.com/sqlitebrowser/sqlitebrowser/issues/1549))
 * Avoid unnecessary queries in the Browse Data tab in some cases ([c78c03b](https://github.com/sqlitebrowser/sqlitebrowser/commit/c78c03bf0b040b58977ba1ebbd284ea69531b939))
 * Fix inserting, deleting and editing of rows in WITHOUT ROWID tables with a primary key of TEXT type ([#1559](https://github.com/sqlitebrowser/sqlitebrowser/issues/1559))
+* The SQL function `load_extension()` is only enabled when explicitly requested by the user in a new setting ([#1558](https://github.com/sqlitebrowser/sqlitebrowser/issues/1558)
+* Better error handling in import CSV dialog ([#1590](https://github.com/sqlitebrowser/sqlitebrowser/issues/1590))
+* Command line option for running with some setting set to a given value  ([#1588](https://github.com/sqlitebrowser/sqlitebrowser/issues/1588))
+* Fix possible resource leaks ([#1691](https://github.com/sqlitebrowser/sqlitebrowser/issues/1691))
 
 ## Platform specific
 
@@ -253,6 +257,7 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Add a workaround to improve rendering performance on 4k/5k resolutions ([#1233](https://github.com/sqlitebrowser/sqlitebrowser/issues/1233))
 * Add .sqlite, .db3 and .sqlite3 to the list of file associations ([28f6c6e](https://github.com/sqlitebrowser/sqlitebrowser/commit/28f6c6e6c1777949acf5bc455707ecdfa43ad298), [3008747](https://github.com/sqlitebrowser/sqlitebrowser/commit/3008747ada0293d682fa1a9e04852013b8d19ff2))
 * Fix shortcut name for following a foreign key ([#1539](https://github.com/sqlitebrowser/sqlitebrowser/issues/1539))
+* Change project file format to support multiple sort columns ([#1593](https://github.com/sqlitebrowser/sqlitebrowser/issues/1593))
 
 ### Linux
 
@@ -271,6 +276,12 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Korean translation updated ([8c85ff9](https://github.com/sqlitebrowser/sqlitebrowser/commit/8c85ff9157bfb154772eae46ec30787f2fff2c65))
 * Polish translation added ([#1456](https://github.com/sqlitebrowser/sqlitebrowser/issues/1456))
 * French translation updated ([b7dbfc8](https://github.com/sqlitebrowser/sqlitebrowser/commit/b7dbfc84c949f685d6e0478d33f8aeb040028697))
+* Italian translation added ([#1705](https://github.com/sqlitebrowser/sqlitebrowser/issues/1705))
+* Czech translation updated ([#1710](https://github.com/sqlitebrowser/sqlitebrowser/issues/1710))
+* Portuguese translation updated ([#1707](https://github.com/sqlitebrowser/sqlitebrowser/issues/1707))
+* Simplified Chinese translation updated ([#1594](https://github.com/sqlitebrowser/sqlitebrowser/issues/1594))
+* Russian translation updated ([#1581](https://github.com/sqlitebrowser/sqlitebrowser/issues/1581))
+* Arabic translation updated ([170fb69](https://github.com/sqlitebrowser/sqlitebrowser/commit/170fb69b438f4fa00fc637bbb78e752f9888d034))
 
 ## Packaging and Building
 
