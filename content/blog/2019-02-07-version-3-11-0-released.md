@@ -152,6 +152,9 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Add an optional auto completion popup to the Browse Data tab which shows up when editing a cell ([e1101ae](https://github.com/sqlitebrowser/sqlitebrowser/commit/e1101ae6905130dd4d7becf323303a4ae804d99f), [04f27cc](https://github.com/sqlitebrowser/sqlitebrowser/commit/04f27ccf4ba301b9d092fcd33341968d54283c5d), [88d1cbc](https://github.com/sqlitebrowser/sqlitebrowser/commit/88d1cbc29df359f1f7987d97b649923b7a762d57), [b4b933c](https://github.com/sqlitebrowser/sqlitebrowser/commit/b4b933c158ca59cd0d6d9e529f4e58b9304712da))
 * Some polishing of the main window UI ([#420](https://github.com/sqlitebrowser/sqlitebrowser/issues/420), [f42b614](https://github.com/sqlitebrowser/sqlitebrowser/commit/f42b614084d75c3669983af561a4fe9c5f2cf13a))
 * Automatically preselect correct editor depending on the detected data type in the Edit Cell dialog ([#1537](https://github.com/sqlitebrowser/sqlitebrowser/issues/1537))
+* Change project file format to support multiple sort columns ([#1593](https://github.com/sqlitebrowser/sqlitebrowser/issues/1593))
+* The SQL function `load_extension()` is only enabled when explicitly requested by the user in a new setting ([#1558](https://github.com/sqlitebrowser/sqlitebrowser/issues/1558)
+* Command line option for running with some setting set to a given value  ([#1588](https://github.com/sqlitebrowser/sqlitebrowser/issues/1588))
 
 ## Bug fixes
 
@@ -236,9 +239,7 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Fix auto completion not working in some cases until you refresh the database ([#1549](https://github.com/sqlitebrowser/sqlitebrowser/issues/1549))
 * Avoid unnecessary queries in the Browse Data tab in some cases ([c78c03b](https://github.com/sqlitebrowser/sqlitebrowser/commit/c78c03bf0b040b58977ba1ebbd284ea69531b939))
 * Fix inserting, deleting and editing of rows in WITHOUT ROWID tables with a primary key of TEXT type ([#1559](https://github.com/sqlitebrowser/sqlitebrowser/issues/1559))
-* The SQL function `load_extension()` is only enabled when explicitly requested by the user in a new setting ([#1558](https://github.com/sqlitebrowser/sqlitebrowser/issues/1558)
 * Better error handling in import CSV dialog ([#1590](https://github.com/sqlitebrowser/sqlitebrowser/issues/1590))
-* Command line option for running with some setting set to a given value  ([#1588](https://github.com/sqlitebrowser/sqlitebrowser/issues/1588))
 * Fix possible resource leaks ([#1691](https://github.com/sqlitebrowser/sqlitebrowser/issues/1691))
 
 ## Platform specific
@@ -257,7 +258,6 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Add a workaround to improve rendering performance on 4k/5k resolutions ([#1233](https://github.com/sqlitebrowser/sqlitebrowser/issues/1233))
 * Add .sqlite, .db3 and .sqlite3 to the list of file associations ([28f6c6e](https://github.com/sqlitebrowser/sqlitebrowser/commit/28f6c6e6c1777949acf5bc455707ecdfa43ad298), [3008747](https://github.com/sqlitebrowser/sqlitebrowser/commit/3008747ada0293d682fa1a9e04852013b8d19ff2))
 * Fix shortcut name for following a foreign key ([#1539](https://github.com/sqlitebrowser/sqlitebrowser/issues/1539))
-* Change project file format to support multiple sort columns ([#1593](https://github.com/sqlitebrowser/sqlitebrowser/issues/1593))
 
 ### Linux
 
