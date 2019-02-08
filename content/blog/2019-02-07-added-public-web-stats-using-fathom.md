@@ -13,7 +13,7 @@ Added (GDPR compliant) stats generation today for the website, using [Fathom](ht
 
 The setup was fairly easy, though the ARM64 download for the current release (1.2.1) [doesn't seem to work with SQLite](https://github.com/usefathom/fathom/issues/218) due to an accidental setting during their build.  Hopefully fixed for the next release.
 
-PostgreSQL is being the database database, and Nginx providing HTTPS termination.
+PostgreSQL is being the database, and Nginx providing HTTPS termination.
 
 The [stats server is public](https://stats.sqlitebrowser.org), so added a link to it from our menu bar just because.
 
