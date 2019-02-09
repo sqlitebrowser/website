@@ -80,7 +80,7 @@
     <h1 class="article-title">Version 3.11.0 released</h1>
 
     
-    <span class="article-date">2019/02/07</span>
+    <span class="article-date">2019-02-07</span>
     
 
     <div class="article-content">
@@ -270,6 +270,9 @@ DB.Browser.for.SQLite-3.11.0-win64.zip
 <li>Add an optional auto completion popup to the Browse Data tab which shows up when editing a cell (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e1101ae6905130dd4d7becf323303a4ae804d99f">e1101ae</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/04f27ccf4ba301b9d092fcd33341968d54283c5d">04f27cc</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/88d1cbc29df359f1f7987d97b649923b7a762d57">88d1cbc</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b4b933c158ca59cd0d6d9e529f4e58b9304712da">b4b933c</a>)</li>
 <li>Some polishing of the main window UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/420">#420</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f42b614084d75c3669983af561a4fe9c5f2cf13a">f42b614</a>)</li>
 <li>Automatically preselect correct editor depending on the detected data type in the Edit Cell dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1537">#1537</a>)</li>
+<li>Change project file format to support multiple sort columns (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1593">#1593</a>)</li>
+<li>The SQL function <code>load_extension()</code> is only enabled when explicitly requested by the user in a new setting (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1558">#1558</a></li>
+<li>Command line option for running with some setting set to a given value  (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1588">#1588</a>)</li>
 </ul>
 
 <h2 id="bug-fixes">Bug fixes</h2>
@@ -356,9 +359,7 @@ DB.Browser.for.SQLite-3.11.0-win64.zip
 <li>Fix auto completion not working in some cases until you refresh the database (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1549">#1549</a>)</li>
 <li>Avoid unnecessary queries in the Browse Data tab in some cases (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c78c03bf0b040b58977ba1ebbd284ea69531b939">c78c03b</a>)</li>
 <li>Fix inserting, deleting and editing of rows in WITHOUT ROWID tables with a primary key of TEXT type (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1559">#1559</a>)</li>
-<li>The SQL function <code>load_extension()</code> is only enabled when explicitly requested by the user in a new setting (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1558">#1558</a></li>
 <li>Better error handling in import CSV dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1590">#1590</a>)</li>
-<li>Command line option for running with some setting set to a given value  (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1588">#1588</a>)</li>
 <li>Fix possible resource leaks (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1691">#1691</a>)</li>
 </ul>
 
@@ -381,7 +382,6 @@ DB.Browser.for.SQLite-3.11.0-win64.zip
 <li>Add a workaround to improve rendering performance on 4k/5k resolutions (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1233">#1233</a>)</li>
 <li>Add .sqlite, .db3 and .sqlite3 to the list of file associations (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/28f6c6e6c1777949acf5bc455707ecdfa43ad298">28f6c6e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3008747ada0293d682fa1a9e04852013b8d19ff2">3008747</a>)</li>
 <li>Fix shortcut name for following a foreign key (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1539">#1539</a>)</li>
-<li>Change project file format to support multiple sort columns (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1593">#1593</a>)</li>
 </ul>
 
 <h3 id="linux">Linux</h3>

@@ -19,7 +19,7 @@
       <guid>/blog/added-public-web-stats-using-fathom/</guid>
       <description>Added (GDPR compliant) stats generation today for the website, using Fathom. It&amp;rsquo;s an Open Source project, written in Go, that aims to provide aggregated stats simply, without any user tracking.
 The setup was fairly easy, though the ARM64 download for the current release (1.2.1) doesn&amp;rsquo;t seem to work with SQLite due to an accidental setting during their build. Hopefully fixed for the next release.
-PostgreSQL is being the database database, and Nginx providing HTTPS termination.</description>
+PostgreSQL is being the database, and Nginx providing HTTPS termination.</description>
     </item>
     
   </channel>
