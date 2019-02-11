@@ -13,4 +13,4 @@ Existing databases - encrypted or not - can be opened without problem.  The prob
 
 The links on our download page have been reverted back to the prior stable release (3.10.1) for now, while we look into this.
 
-There will probably be a 3.11.1 release in the next future, with the problem solved. :smile:
+There will probably be a 3.11.1 release in the near future, with the problem solved. :smile:
