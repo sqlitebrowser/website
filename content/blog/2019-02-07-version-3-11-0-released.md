@@ -58,7 +58,7 @@ We've moved to providing MSI based installers, instead of the previous .exe ones
     DB.Browser.for.SQLite-3.11.0-win32.msi
     DB.Browser.for.SQLite-3.11.0-win64.msi
 
-These MSI based installers will automatically detect the previous release of DB4S (3.10.1) and remove it before upgrading.  If you're using an older version of DB4S than that, you'll need to manually remove it first before the upgrade.
+These MSI based installers will automatically detect the previous release of DB4S (3.10.1) and remove it before upgrading.  If you're using one of the 3.11.0 alphas/beta, or an older version of DB4S than 3.10.1, you'll need to manually remove it first before the upgrade.
 
 Additionally, there's now a .zip version of each. That's useful for people needing to run DB Browser for SQLite without installing it first.
 
