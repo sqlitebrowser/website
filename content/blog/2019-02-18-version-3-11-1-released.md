@@ -1,11 +1,12 @@
 ---
-title: Version 3.11.0 released
-date: '2019-02-07'
-slug: version-3-11-0-released
+title: Version 3.11.1 released
+date: '2019-02-18'
+slug: version-3-11-1-released
 categories: []
 tags:
   - 3.11.x
 ---
+**Note that this is effectively 3.11.0 from last week, with a critical bug fix on top + some other additional fixes.**
 
 ## Highlights
 
@@ -16,7 +17,8 @@ tags:
 * JSON and XML editors
 * Improvements to the plot UI
 * Better copy & paste support
-* Dark theme support
+* Dark theme support on Linux
+  * Dark mode support for windows and macOS isn't working yet. :frowning:
 * Multi-threaded loading of data
 * Default quotes changed to double quotes
 * Add Record dialog
@@ -26,23 +28,23 @@ tags:
   
 ## Downloads
 
-* [DB.Browser.for.SQLite-3.11.0-win32.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win32.msi) - Standard (MSI) installer for Win32 and WinXP
-* [DB.Browser.for.SQLite-3.11.0-win32.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win32.zip) - .zip (no installer) for Win32 and WinXP
-* [DB.Browser.for.SQLite-3.11.0-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win64.msi) - Standard (MSI) installer for Win64
-* [DB.Browser.for.SQLite-3.11.0-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0-win64.zip) - .zip (no installer) for Win64
-* [DB.Browser.for.SQLite-3.11.0.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.0.dmg) - For macOS
+* [DB.Browser.for.SQLite-3.11.1-win32.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.msi) - Standard (MSI) installer for Win32 and WinXP
+* [DB.Browser.for.SQLite-3.11.1-win32.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.zip) - .zip (no installer) for Win32 and WinXP
+* [DB.Browser.for.SQLite-3.11.1-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.msi) - Standard (MSI) installer for Win64
+* [DB.Browser.for.SQLite-3.11.1-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.zip) - .zip (no installer) for Win64
+* [DB.Browser.for.SQLite-3.11.1.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1.dmg) - For macOS
 
 ### SHA256SUMS
-* DB.Browser.for.SQLite-3.11.0-win32.msi
-    * d1e28bb123ab758b476f1d1f86be5f9b0c4f4e55a72f9d6e29cfc7924adf44bb
-* DB.Browser.for.SQLite-3.11.0-win32.zip
-    * f86a16c871394df8ae4d4f80536f2f784a3b250455642f65d352fed56384ef3a
-* DB.Browser.for.SQLite-3.11.0-win64.msi
-    * 83c8847d0f86354c53b30407fa4af96c9674711bf92c8705e2e4f33897fc9cdd
-* DB.Browser.for.SQLite-3.11.0-win64.zip
-    * 24390192ec1c48a7399d79001b69aef2f24fc8bd943128028dd0d6116e507d48
-* DB.Browser.for.SQLite-3.11.0.dmg
-    * 80d66a492ca3ed1f544d3dfea940c222059e9763280491a1d4cac8fb701e5720
+* DB.Browser.for.SQLite-3.11.1-win32.msi
+    * 76076d5c20240479238705f2211cad709f23c31cabe1682e2953bf6a7168b8d0
+* DB.Browser.for.SQLite-3.11.1-win32.zip
+    * 558cb41445f0bdd31605aaeb52264ae9839b9e21aa75369a51352956966700fc
+* DB.Browser.for.SQLite-3.11.1-win64.msi
+    * ffe1f44f10d49c9d382e66b951125ae1ee10d4bce93e5a32dbb8547d6bf7122f
+* DB.Browser.for.SQLite-3.11.1-win64.zip
+    * a648b8faffc6da3fcf761f921270de2a2871d4116e2f7baf5e3b0280a538164c
+* DB.Browser.for.SQLite-3.11.1.dmg
+    * bd4a74540a63a262fc49b816e8fc71fd816e81b215c31572d96b169d980a573e
 
 ### Important Notes
 
@@ -55,15 +57,15 @@ tags:
 
 We've moved to providing MSI based installers, instead of the previous .exe ones. These new installers include both SQLite and SQLCipher (for optional encryption):
 
-    DB.Browser.for.SQLite-3.11.0-win32.msi
-    DB.Browser.for.SQLite-3.11.0-win64.msi
+    DB.Browser.for.SQLite-3.11.1-win32.msi
+    DB.Browser.for.SQLite-3.11.1-win64.msi
 
 These MSI based installers will automatically detect the previous release of DB4S (3.10.1) and remove it before upgrading.  If you're using one of the 3.11.0 alpha/betas, or an older version of DB4S than 3.10.1, you'll need to manually remove it first before the upgrade.
 
 Additionally, there's now a .zip version of each. That's useful for people needing to run DB Browser for SQLite without installing it first.
 
-    DB.Browser.for.SQLite-3.11.0-win32.zip
-    DB.Browser.for.SQLite-3.11.0-win64.zip
+    DB.Browser.for.SQLite-3.11.1-win32.zip
+    DB.Browser.for.SQLite-3.11.1-win64.zip
 
 If you're not sure which one to get, try the .msi version first. :smile:
 
@@ -78,6 +80,20 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 ---
 
 # Change Log
+
+## Bug fixes and enhancements since 3.11.0
+
+* DB Browser Crashes When Importing Its Own .sql dump ([#1045](https://github.com/sqlitebrowser/sqlitebrowser/issues/1045))
+* Updated query optimisations ([#1161](https://github.com/sqlitebrowser/sqlitebrowser/issues/1161))
+* Network inaccessible error when using a WiFi network ([#1595](https://github.com/sqlitebrowser/sqlitebrowser/issues/1595))
+* "determining row count" displays forever in Browse Data tab ([#1654](https://github.com/sqlitebrowser/sqlitebrowser/issues/1654))
+* About Info - display 32bit vs 64bit ([#1660](https://github.com/sqlitebrowser/sqlitebrowser/issues/1660))
+* Allow bottom editor of Execute SQL tab to grow taller ([#1670](https://github.com/sqlitebrowser/sqlitebrowser/issues/1670))
+* TEXT values show as BLOB ([#1731](https://github.com/sqlitebrowser/sqlitebrowser/issues/1731))
+* Error encrypting in 3.11.0 ([#1732](https://github.com/sqlitebrowser/sqlitebrowser/issues/1732))
+* It's not possible to modify some tables ([#1733](https://github.com/sqlitebrowser/sqlitebrowser/issues/1733))
+* Class 'NullLineEdit' lacks Q_OBJECT macro ([#1740](https://github.com/sqlitebrowser/sqlitebrowser/issues/1740))
+* Include SQLite 3.27.1 instead of SQLite 3.26.0
 
 ## Enhancements
 
