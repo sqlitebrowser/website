@@ -8,6 +8,8 @@ tags:
 ---
 **Note that this is effectively 3.11.0 from last week, with a critical bug fix on top + some other additional fixes.**
 
+**Note 2** - If you're using Dark Mode on macOS Mojave, **Do Not** download this release.  Dark Mode support is broken (badly) on MacOS.  It should (hopefully) be fixed in the next point release.
+
 ## Highlights
 
 * DBHub.io improvements

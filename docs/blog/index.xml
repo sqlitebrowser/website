@@ -18,6 +18,7 @@
       
       <guid>/blog/version-3-11-1-released/</guid>
       <description>Note that this is effectively 3.11.0 from last week, with a critical bug fix on top + some other additional fixes.
+Note 2 - If you&amp;rsquo;re using Dark Mode on macOS Mojave, Do Not download this release. Dark Mode support is broken (badly) on MacOS. It should (hopefully) be fixed in the next point release.
 Highlights  DBHub.io improvements CSV import: speed, memory usage, usability, type detection and new default rules Attach databases Menu options for filtering JSON and XML editors Improvements to the plot UI Better copy &amp;amp; paste support Dark theme support on Linux  Dark mode support for windows and macOS isn&amp;rsquo;t working yet.</description>
     </item>
     
