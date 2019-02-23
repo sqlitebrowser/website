@@ -6,10 +6,22 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>macOS installer rebuilt for 3.11.1</title>
+      <link>/blog/macos-installer-rebuilt-for-3-11-1/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/macos-installer-rebuilt-for-3-11-1/</guid>
+      <description>The macOS installer for 3.11.1 has been updated, so now when the application runs it does so in &amp;ldquo;light theme mode&amp;rdquo; (the Aqua look) on macOS Mojave. 😄
+&amp;nbsp; &amp;nbsp; https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1v2.dmg
+It&amp;rsquo;s a workaround for anyone using Mojave in Dark mode, which Qt doesn&amp;rsquo;t yet properly support. Without this workaround, the colour pallete was unusable in important places. eg white on white when browsing data 😦
+Jesse Jackson, thank you so much for showing us how to fix this problem.</description>
+    </item>
     
     <item>
       <title>Version 3.11.1 released</title>
