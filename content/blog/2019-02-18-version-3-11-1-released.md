@@ -34,7 +34,7 @@ tags:
 * [DB.Browser.for.SQLite-3.11.1-win32.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.zip) - .zip (no installer) for Win32 and WinXP
 * [DB.Browser.for.SQLite-3.11.1-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.msi) - Standard (MSI) installer for Win64
 * [DB.Browser.for.SQLite-3.11.1-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.zip) - .zip (no installer) for Win64
-* [DB.Browser.for.SQLite-3.11.1.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1.dmg) - For macOS
+* [DB.Browser.for.SQLite-3.11.1v2.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1v2.dmg) - For macOS
 
 ### SHA256SUMS
 * DB.Browser.for.SQLite-3.11.1-win32.msi
@@ -45,8 +45,8 @@ tags:
     * ffe1f44f10d49c9d382e66b951125ae1ee10d4bce93e5a32dbb8547d6bf7122f
 * DB.Browser.for.SQLite-3.11.1-win64.zip
     * a648b8faffc6da3fcf761f921270de2a2871d4116e2f7baf5e3b0280a538164c
-* DB.Browser.for.SQLite-3.11.1.dmg
-    * bd4a74540a63a262fc49b816e8fc71fd816e81b215c31572d96b169d980a573e
+* DB.Browser.for.SQLite-3.11.1v2.dmg
+    * b0ee5b73b9c6305de79640f651ba59edd32c6a94c2245a2bda01ae8091a69b48
 
 ### Important Notes
 
@@ -95,6 +95,7 @@ The macOS installation now includes the SQLite math extensions (`math.dylib`), l
 * Error encrypting in 3.11.0 ([#1732](https://github.com/sqlitebrowser/sqlitebrowser/issues/1732))
 * It's not possible to modify some tables ([#1733](https://github.com/sqlitebrowser/sqlitebrowser/issues/1733))
 * Class 'NullLineEdit' lacks Q_OBJECT macro ([#1740](https://github.com/sqlitebrowser/sqlitebrowser/issues/1740))
+* Initial fix for Dark mode problem on macOS Mojave ([#1751](https://github.com/sqlitebrowser/sqlitebrowser/issues/1751), [c7dd272](https://github.com/sqlitebrowser/sqlitebrowser/commit/c7dd272ec6945633e9c55ce8a4ce642aeb0f2375))
 * Include SQLite 3.27.1 instead of SQLite 3.26.0
 
 ## Enhancements
