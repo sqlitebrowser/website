@@ -6,10 +6,25 @@
     <description>Recent content in Blogs on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dark theme support in our nightly builds</title>
+      <link>/blog/dark-theme-support-in-our-nightly-builds/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/dark-theme-support-in-our-nightly-builds/</guid>
+      <description>Thanks to the dedicated efforts of @mgrojo, our nightly builds now include a &amp;ldquo;Dark style&amp;rdquo; theme courtesy of the QDarkStyleSheet project:
+To activate it, choose &amp;ldquo;Dark style&amp;rdquo; from the &amp;ldquo;Application Style&amp;rdquo; dropdown in Preferences→General:
+To turn it off, choose &amp;ldquo;Follow the desktop style&amp;rdquo; instead.
+The nightly builds for windows and macOS are here:
+&amp;nbsp; &amp;nbsp; https://nightlies.sqlitebrowser.org/latest/
+The nightly builds for Ubuntu Linux are here:
+&amp;nbsp; &amp;nbsp; https://sqlitebrowser.org/dl/#nightly-builds-1</description>
+    </item>
     
     <item>
       <title>macOS installer rebuilt for 3.11.1</title>
