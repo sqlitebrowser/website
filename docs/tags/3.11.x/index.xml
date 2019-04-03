@@ -6,10 +6,20 @@
     <description>Recent content in 3.11.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/3.11.x/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Version 3.11.2 released</title>
+      <link>/blog/version-3-11-2-released/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-11-2-released/</guid>
+      <description>This is a minor bug fix release in the 3.11.x series
+Bug fixes and enhancements since 3.11.1  Enable &amp;lsquo;Edit Database Cell&amp;rsquo; when view is editable (#1756) DB browser crashes when I try to attach additional database to current one (#1758) CASE-SENSITIVITY: Error importing data from SQL file: cannot start a transaction within a transaction (#1764) Cell edit window considers binary data to be text/numeric if first byte is in ascii range (#1772) Crashes when browsing a empty view with view editing enabled (#1774) Trying to save after successfull import fails (#1777) Attach encrypted database results in Out of Memory Error (#1799) File is not a database (#1814) Can&amp;rsquo;t remove password from an encrypted database any more (#1829) grammar: Fix keywords as table name and keywords as column name (1a59c8cbda47684dfc0b55283fc6fdb396adc832) Updated translation strings  Korean (#1600) Brazilian Portuguese (#1830) Italian (#1833) German (e2ad5459d569801f9a635391f774e81ca1009e85)  Include SQLite 3.</description>
+    </item>
     
     <item>
       <title>macOS installer rebuilt for 3.11.1</title>

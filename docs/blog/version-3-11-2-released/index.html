@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.53" />
+
+
+<title>Version 3.11.2 released - DB Browser for SQLite</title>
+<meta property="og:title" content="Version 3.11.2 released - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/blog/">Blog</a></li>
+    
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    
+    <li><a href="/dl/">Download</a></li>
+    
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    
+    <li><a href="https://db4s.slack.com">Slack</a></li>
+    
+    <li><a href="https://twitter.com/sqlitebrowser">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Version 3.11.2 released</h1>
+
+    
+    <span class="article-date">2019-04-04</span>
+    
+
+    <div class="article-content">
+      
+
+<p><strong>This is a minor bug fix release in the 3.11.x series</strong></p>
+
+<h2 id="bug-fixes-and-enhancements-since-3-11-1">Bug fixes and enhancements since 3.11.1</h2>
+
+<ul>
+<li>Enable &lsquo;Edit Database Cell&rsquo; when view is editable (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1756">#1756</a>)</li>
+<li>DB browser crashes when I try to attach additional database to current one (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1758">#1758</a>)</li>
+<li>CASE-SENSITIVITY: Error importing data from SQL file: cannot start a transaction within a transaction (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1764">#1764</a>)</li>
+<li>Cell edit window considers binary data to be text/numeric if first byte is in ascii range (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1772">#1772</a>)</li>
+<li>Crashes when browsing a empty view with view editing enabled (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1774">#1774</a>)</li>
+<li>Trying to save after successfull import fails (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1777">#1777</a>)</li>
+<li>Attach encrypted database results in Out of Memory Error (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1799">#1799</a>)</li>
+<li>File is not a database (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1814">#1814</a>)</li>
+<li>Can&rsquo;t remove password from an encrypted database any more (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1829">#1829</a>)</li>
+<li>grammar: Fix keywords as table name and keywords as column name (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/xxx">1a59c8cbda47684dfc0b55283fc6fdb396adc832</a>)</li>
+<li>Updated translation strings
+
+<ul>
+<li>Korean (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1600">#1600</a>)</li>
+<li>Brazilian Portuguese (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1830">#1830</a>)</li>
+<li>Italian (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1833">#1833</a>)</li>
+<li>German (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/xxx">e2ad5459d569801f9a635391f774e81ca1009e85</a>)</li>
+</ul></li>
+<li>Include SQLite 3.27.2 instead of SQLite 3.27.1</li>
+<li>Include <a href="https://discuss.zetetic.net/t/sqlcipher-4-1-0-release/3490">SQLCipher 4.1.0</a> instead of 4.0.1
+<br /></li>
+</ul>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win32.msi">DB.Browser.for.SQLite-3.11.2-win32.msi</a> - Standard (MSI) installer for Win32 and WinXP</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win32.zip">DB.Browser.for.SQLite-3.11.2-win32.zip</a> - .zip (no installer) for Win32 and WinXP</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win64.msi">DB.Browser.for.SQLite-3.11.2-win64.msi</a> - Standard (MSI) installer for Win64</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win64.zip">DB.Browser.for.SQLite-3.11.2-win64.zip</a> - .zip (no installer) for Win64</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2.dmg">DB.Browser.for.SQLite-3.11.2.dmg</a> - For macOS</li>
+</ul>
+
+<h3 id="sha256sums">SHA256SUMS</h3>
+
+<ul>
+<li>DB.Browser.for.SQLite-3.11.2-win32.msi
+
+<ul>
+<li>0a660c8eefdfbb8be6cf8be2abe223b0149ce8723cc1c19a36b88198be071abe</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.2-win32.zip
+
+<ul>
+<li>bdfcd05bf1890a3336a1091c6e9740d582167494d0010da061f9effab2243b9e</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.2-win64.msi
+
+<ul>
+<li>9db9d0c69c1372f09ef54599e3f87af3e28057a20c2bd6f59787d1cf16edb742</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.2-win64.zip
+
+<ul>
+<li>c6117e9d75bde6e0a6cbf51ee2356daa0ce41ca2dd3a6f3d1c221a36104531a0</li>
+</ul></li>
+<li>DB.Browser.for.SQLite-3.11.2.dmg
+
+<ul>
+<li>022536d420dca87285864a4a948b699d01430721b511722bcf9c8713ab946776</li>
+</ul></li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+

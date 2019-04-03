@@ -9,12 +9,12 @@ tags: []
 
 ## Windows
 
-Our latest release (3.11.1) for Windows:
+Our latest release (3.11.2) for Windows:
 
-* [DB Browser for SQLite - Standard installer for 32-bit Windows & Windows XP](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.msi)
-* [DB Browser for SQLite - .zip (no installer) for 32-bit Windows & Windows XP](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.zip)
-* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.msi)
-* [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.zip)
+* [DB Browser for SQLite - Standard installer for 32-bit Windows & Windows XP](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win32.msi)
+* [DB Browser for SQLite - .zip (no installer) for 32-bit Windows & Windows XP](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win32.zip)
+* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win64.msi)
+* [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2-win64.zip)
 * Note - There's no PortableApp version for 3.11.1 (yet).  It'll hopefully be ready in a few days.
 
 Previous release (3.10.1) PortableApp:
@@ -28,9 +28,9 @@ Nightly builds often fix bugs reported after the last release. :smile:
 
 ## macOS
 
-Our latest release (3.11.1) for macOS:
+Our latest release (3.11.2) for macOS:
 
-* [DB Browser for SQLite](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1v2.dmg)
+* [DB Browser for SQLite](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.2.dmg)
 
 ### Homebrew
 
