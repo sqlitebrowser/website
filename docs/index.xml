@@ -6,10 +6,22 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Standard username/password logins now working for DBHub.io</title>
+      <link>/blog/standard-username-password-logins-now-working-for-dbhub-io/</link>
+      <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/standard-username-password-logins-now-working-for-dbhub-io/</guid>
+      <description>A small, but important, update about DBHub.io logins. 😉
+People can now create accounts using their own username/password again, instead of needing to login via GitHub, Google, or LinkedIn.
+It used to work (ages ago), but Auth0 found a security problem with the version of NodeJS they were using, so disabled it for everyone last year. It was fixable by changing some stuff, which has now been done.
+On a related note&amp;hellip; login (using username/password) only works if &amp;ldquo;3rd party cookies&amp;rdquo; aren&amp;rsquo;t blocked in your web browser.</description>
+    </item>
     
     <item>
       <title>New download and daily users stats page</title>
