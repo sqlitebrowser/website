@@ -42,7 +42,7 @@ code {
 }
 
 .nav {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 0 15px;
   text-align: right;
@@ -90,7 +90,7 @@ code {
 }
 
 .content {
-  max-width: 700px;
+  max-width: 800px;
   margin: 40px auto 10px;
   padding: 0 15px;
   font-size: 16px;
