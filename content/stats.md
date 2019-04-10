@@ -3,15 +3,17 @@ title: Stats
 date: "2019-04-08T22:43:15+11:00"
 ---
 
-**Note** - *These graphs should automatically update every 10 minutes.  However they'll probably be slow to load, as there's no proper caching yet.*
+**Note 1** - *These data behind these graphs (created using [Redash](https://redash.io)) automatically updates every 10 minutes.*
+
+**Note 2** -  *The graphs are generally slow to display (~20 seconds) at present, as each contains several thousand data points, which your browser needs to process.  Optimisation will be done... at some future time.*
 
 <p align="center">
 <p>
-The Daily Download stats begin in August 2018, when we moved our primary download location from GitHub to our own servers.
+These Daily Download stats begin in August 2018, when we moved our primary download location from GitHub to our own servers.
 </p>
 <p>
 GitHub does make download stats available through their API, and it would be useful to add the
-historical (and ongoing) downloads from GitHub to this.  Some day. :smile:
+historical (and ongoing) downloads from GitHub to this too.  Some day. :smile:
 </p>
 <iframe src="https://redash.sqlitebrowser.org/embed/query/1/visualization/2?api_key=PWD8erMpWA1tSEsLsqQb4fra2B2L1sMbUbANoeh2" width="100%" height="580"></iframe>
 </p>

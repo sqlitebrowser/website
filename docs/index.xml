@@ -43,8 +43,9 @@ It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&a
       <pubDate>Mon, 08 Apr 2019 22:43:15 +1100</pubDate>
       
       <guid>/stats/</guid>
-      <description>Note - These graphs should automatically update every 10 minutes. However they&amp;rsquo;ll probably be slow to load, as there&amp;rsquo;s no proper caching yet.
- The Daily Download stats begin in August 2018, when we moved our primary download location from GitHub to our own servers.  GitHub does make download stats available through their API, and it would be useful to add the historical (and ongoing) downloads from GitHub to this.</description>
+      <description>Note 1 - These data behind these graphs (created using Redash) automatically updates every 10 minutes.
+Note 2 - The graphs are generally slow to display (~20 seconds) at present, as each contains several thousand data points, which your browser needs to process. Optimisation will be done&amp;hellip; at some future time.
+ These Daily Download stats begin in August 2018, when we moved our primary download location from GitHub to our own servers.</description>
     </item>
     
     <item>
