@@ -645,7 +645,7 @@ Hopefully this is the final rename. 😄</description>
       
       <guid>/dl/</guid>
       <description>Windows Our latest release (3.11.2) for Windows:
- DB Browser for SQLite - Standard installer for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - .zip (no installer) for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows Note - There&amp;rsquo;s no PortableApp version for 3.11.1 (yet). It&amp;rsquo;ll hopefully be ready in a few days.</description>
+ DB Browser for SQLite - Standard installer for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - .zip (no installer) for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows DB Browser for SQLite - PortableApp  Note - If for any reason the standard Windows release does not work (e.</description>
     </item>
     
   </channel>
