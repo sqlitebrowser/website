@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3.9.x on DB Browser for SQLite</title>
@@ -81,7 +81,7 @@
       
       <guid>/blog/version-3-9-0-beta1-released/</guid>
       <description>Version 3.9.0 beta1 released, with SQLCipher for strong encryption.
-Please try it out, and report any new bugs you encounter. 😄</description>
+[Please try it out](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.9.0-beta1), and [report any new bugs](https://github.com/sqlitebrowser/sqlitebrowser/issues) you encounter. 😄</description>
     </item>
     
   </channel>

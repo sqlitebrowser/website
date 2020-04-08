@@ -1,6 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/blog/adding-basic-visualisation-capability-to-dbhub-io/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dbhub.io/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/3.11.x/</loc>
+    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/portableapp/</loc>
+    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>/blog/portableapp-for-3-11-2-release-now-available/</loc>
@@ -23,6 +53,16 @@
   </url>
   
   <url>
+    <loc>/tags/stats/</loc>
+    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-04-08T22:43:15+11:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/stats/</loc>
     <lastmod>2019-04-08T22:43:15+11:00</lastmod>
   </url>
@@ -34,6 +74,11 @@
   
   <url>
     <loc>/blog/dark-theme-support-in-our-nightly-builds/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/nightlies/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,6 +103,11 @@
   </url>
   
   <url>
+    <loc>/tags/fathom/</loc>
+    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/version-3-11-0-released/</loc>
     <lastmod>2019-02-07T00:00:00+00:00</lastmod>
   </url>
@@ -70,6 +120,11 @@
   <url>
     <loc>/about/</loc>
     <lastmod>2019-01-30T14:09:28+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/beta/</loc>
+    <lastmod>2018-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,6 +143,11 @@
   </url>
   
   <url>
+    <loc>/tags/alpha/</loc>
+    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/first-alpha-release-for-3-11-0/</loc>
     <lastmod>2018-10-10T00:00:00+00:00</lastmod>
   </url>
@@ -98,13 +158,28 @@
   </url>
   
   <url>
+    <loc>/tags/patreon/</loc>
+    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/patreon-account-created/</loc>
     <lastmod>2018-06-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2018-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/windows-msi-installers-now-available/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/3.10.x/</loc>
+    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -115,6 +190,11 @@
   <url>
     <loc>/blog/version-3-10-1-released/</loc>
     <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/appimage/</loc>
+    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -153,7 +233,17 @@
   </url>
   
   <url>
+    <loc>/tags/3.9.x/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/winxp-version-for-3-9-1/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/xp/</loc>
     <lastmod>2017-05-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -213,6 +303,21 @@
   </url>
   
   <url>
+    <loc>/tags/compiling/</loc>
+    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/msvc/</loc>
+    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/3.8.x/</loc>
+    <lastmod>2016-01-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/portableapp-version-of-3-8-0/</loc>
     <lastmod>2016-01-17T00:00:00+00:00</lastmod>
   </url>
@@ -233,6 +338,11 @@
   </url>
   
   <url>
+    <loc>/tags/3.7.x/</loc>
+    <lastmod>2015-07-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/portableapp-version-of-3-7-0/</loc>
     <lastmod>2015-07-07T00:00:00+00:00</lastmod>
   </url>
@@ -240,6 +350,11 @@
   <url>
     <loc>/blog/version-3-7-0-released/</loc>
     <lastmod>2015-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/3.6.x/</loc>
+    <lastmod>2015-05-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -268,6 +383,11 @@
   </url>
   
   <url>
+    <loc>/tags/3.5.x/</loc>
+    <lastmod>2015-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/portableapp-version-of-3-5-1/</loc>
     <lastmod>2015-02-17T00:00:00+00:00</lastmod>
   </url>
@@ -280,6 +400,11 @@
   <url>
     <loc>/blog/version-3-5-0-released/</loc>
     <lastmod>2015-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/3.4.x/</loc>
+    <lastmod>2015-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -303,6 +428,11 @@
   </url>
   
   <url>
+    <loc>/tags/3.3.x/</loc>
+    <lastmod>2014-09-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/released-new-v3-3-1-dmg-for-osx/</loc>
     <lastmod>2014-09-02T00:00:00+00:00</lastmod>
   </url>
@@ -323,172 +453,21 @@
   </url>
   
   <url>
+    <loc>/tags/3.2.x/</loc>
+    <lastmod>2014-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/version-3-2-0-released/</loc>
     <lastmod>2014-07-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/3.10.x/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.11.x/</loc>
-    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.2.x/</loc>
-    <lastmod>2014-07-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.3.x/</loc>
-    <lastmod>2014-09-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.4.x/</loc>
-    <lastmod>2015-01-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.5.x/</loc>
-    <lastmod>2015-02-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.6.x/</loc>
-    <lastmod>2015-05-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.7.x/</loc>
-    <lastmod>2015-07-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.8.x/</loc>
-    <lastmod>2016-01-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/3.9.x/</loc>
-    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/alpha/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/appimage/</loc>
-    <lastmod>2017-09-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/beta/</loc>
-    <lastmod>2018-12-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
-    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/compiling/</loc>
-    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/dbhub.io/</loc>
-    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>/dl/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/fathom/</loc>
-    <lastmod>2019-02-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/msvc/</loc>
-    <lastmod>2016-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/nightlies/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/patreon/</loc>
-    <lastmod>2018-06-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/portableapp/</loc>
-    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/stats/</loc>
-    <lastmod>2019-04-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2017-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/windows/</loc>
-    <lastmod>2018-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/xp/</loc>
-    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portableapp on DB Browser for SQLite</title>
+    <title>portableapp on DB Browser for SQLite</title>
     <link>/tags/portableapp/</link>
-    <description>Recent content in Portableapp on DB Browser for SQLite</description>
+    <description>Recent content in portableapp on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
@@ -18,7 +18,7 @@
       
       <guid>/blog/portableapp-for-3-11-2-release-now-available/</guid>
       <description>Thanks to Chris Locke and John T. Haller, the PortableApps installer for DB Browser for SQLite 3.11.2 is now available! :)
-&amp;nbsp; &amp;nbsp; https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe</description>
+ https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe</description>
     </item>
     
     <item>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.53" />
+<meta name="generator" content="Hugo 0.68.3" />
 
 
 <title>Version 3.11.1 released - DB Browser for SQLite</title>
@@ -55,9 +55,8 @@
     <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
     <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
     <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
-    <li><a href="https://db4s.slack.com">Slack</a></li>
     <li><a href="/stats/">Stats</a></li>
-    <li><a href="https://twitter.com/sqlitebrowser">Twitter</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
     <li><a href="https://dbhub.io">DBHub.io</a></li>
   </ul>
 </nav>
@@ -79,14 +78,9 @@
     
 
     <div class="article-content">
-      
-
-<p><strong>Note that this is effectively 3.11.0 from last week, with a critical bug fix on top + some other additional fixes.</strong></p>
-
+      <p><strong>Note that this is effectively 3.11.0 from last week, with a critical bug fix on top + some other additional fixes.</strong></p>
 <p><strong>Note 2</strong> - If you&rsquo;re using Dark Mode on macOS Mojave, <strong>Do Not</strong> download this release.  Dark Mode support is broken (badly) on MacOS.  It should (hopefully) be fixed in the next point release.</p>
-
 <h2 id="highlights">Highlights</h2>
-
 <ul>
 <li>DBHub.io improvements</li>
 <li>CSV import: speed, memory usage, usability, type detection and new default rules</li>
@@ -96,24 +90,21 @@
 <li>Improvements to the plot UI</li>
 <li>Better copy &amp; paste support</li>
 <li>Dark theme support on Linux
-
 <ul>
 <li>Dark mode support for windows and macOS isn&rsquo;t working yet. 😦</li>
-</ul></li>
+</ul>
+</li>
 <li>Multi-threaded loading of data</li>
 <li>Default quotes changed to double quotes</li>
 <li>Add Record dialog</li>
 <li>Printing support</li>
 <li>The math extensions for SQLite are included in the windows and macOS installers
-
 <ul>
-<li>@SilvioGrosso has kindly created <a href="https://www.youtube.com/watch?v=UDqowNoFJIo">a video showing how to load the math extensions</a> on windows
-<br /></li>
-</ul></li>
+<li>@SilvioGrosso has kindly created <a href="https://www.youtube.com/watch?v=UDqowNoFJIo">a video showing how to load the math extensions</a> on windows</li>
 </ul>
-
+</li>
+</ul>
 <h2 id="downloads">Downloads</h2>
-
 <ul>
 <li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.msi">DB.Browser.for.SQLite-3.11.1-win32.msi</a> - Standard (MSI) installer for Win32 and WinXP</li>
 <li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win32.zip">DB.Browser.for.SQLite-3.11.1-win32.zip</a> - .zip (no installer) for Win32 and WinXP</li>
@@ -121,86 +112,71 @@
 <li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1-win64.zip">DB.Browser.for.SQLite-3.11.1-win64.zip</a> - .zip (no installer) for Win64</li>
 <li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1v2.dmg">DB.Browser.for.SQLite-3.11.1v2.dmg</a> - For macOS</li>
 </ul>
-
 <h3 id="sha256sums">SHA256SUMS</h3>
-
 <ul>
 <li>DB.Browser.for.SQLite-3.11.1-win32.msi
-
 <ul>
 <li>76076d5c20240479238705f2211cad709f23c31cabe1682e2953bf6a7168b8d0</li>
-</ul></li>
+</ul>
+</li>
 <li>DB.Browser.for.SQLite-3.11.1-win32.zip
-
 <ul>
 <li>558cb41445f0bdd31605aaeb52264ae9839b9e21aa75369a51352956966700fc</li>
-</ul></li>
+</ul>
+</li>
 <li>DB.Browser.for.SQLite-3.11.1-win64.msi
-
 <ul>
 <li>ffe1f44f10d49c9d382e66b951125ae1ee10d4bce93e5a32dbb8547d6bf7122f</li>
-</ul></li>
+</ul>
+</li>
 <li>DB.Browser.for.SQLite-3.11.1-win64.zip
-
 <ul>
 <li>a648b8faffc6da3fcf761f921270de2a2871d4116e2f7baf5e3b0280a538164c</li>
-</ul></li>
+</ul>
+</li>
 <li>DB.Browser.for.SQLite-3.11.1v2.dmg
-
 <ul>
 <li>b0ee5b73b9c6305de79640f651ba59edd32c6a94c2245a2bda01ae8091a69b48</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h3 id="important-notes">Important Notes</h3>
-
 <ul>
 <li>This release includes SQLCipher 4.0.1, providing even stronger encryption than the previous release.
-
 <ul>
 <li>To open a database encrypted with a previous release, make sure to choose the &ldquo;SQLCipher 3 defaults&rdquo; in the dialog which asks for the encryption passphrase.</li>
-</ul></li>
+</ul>
+</li>
 <li>Our project file format has changed, to make it easier to modify with external tools.
-
 <ul>
 <li>Older format files are loaded fine, but all saving of project files is done using the new project file format.</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h3 id="notes-on-the-windows-installers">Notes on the windows installers</h3>
-
 <p>We&rsquo;ve moved to providing MSI based installers, instead of the previous .exe ones. These new installers include both SQLite and SQLCipher (for optional encryption):</p>
-
 <pre><code>DB.Browser.for.SQLite-3.11.1-win32.msi
 DB.Browser.for.SQLite-3.11.1-win64.msi
 </code></pre>
-
 <p>These MSI based installers will automatically detect the previous release of DB4S (3.10.1) and remove it before upgrading.  If you&rsquo;re using one of the 3.11.0 alpha/betas, or an older version of DB4S than 3.10.1, you&rsquo;ll need to manually remove it first before the upgrade.</p>
-
 <p>Additionally, there&rsquo;s now a .zip version of each. That&rsquo;s useful for people needing to run DB Browser for SQLite without installing it first.</p>
-
 <pre><code>DB.Browser.for.SQLite-3.11.1-win32.zip
 DB.Browser.for.SQLite-3.11.1-win64.zip
 </code></pre>
-
 <p>If you&rsquo;re not sure which one to get, try the .msi version first. 😄</p>
-
 <h3 id="note-on-the-macos-installer">Note on the macOS installer</h3>
-
 <p>The macOS installation now includes the SQLite math extensions (<code>math.dylib</code>), located in the <code>Contents/Extensions/</code> folder inside <code>DB Browser for SQLite.app</code>.</p>
-
 <ul>
-<li><p>To use it, you&rsquo;ll need to either manually load it (<code>Tools</code> → <code>Load Extension</code>), or tell DB4S to automatically load it every time (<code>Preferences</code> → <code>Extensions</code>).</p></li>
-
-<li><p>macOS doesn&rsquo;t easily allow going inside <code>.app</code> folders in file selection dialogs.  To navigate to the correct folder you&rsquo;ll probably need to press <kbd>Shift (⇧)</kbd>+<kbd>Command (⌘)</kbd>+<kbd>g</kbd> when the file selection dialog is open, then give it the path of <code>/Applications/DB Browser for SQLite.app/Contents/Extensions</code>.</p></li>
+<li>
+<p>To use it, you&rsquo;ll need to either manually load it (<code>Tools</code> → <code>Load Extension</code>), or tell DB4S to automatically load it every time (<code>Preferences</code> → <code>Extensions</code>).</p>
+</li>
+<li>
+<p>macOS doesn&rsquo;t easily allow going inside <code>.app</code> folders in file selection dialogs.  To navigate to the correct folder you&rsquo;ll probably need to press <kbd>Shift (⇧)</kbd>+<kbd>Command (⌘)</kbd>+<kbd>g</kbd> when the file selection dialog is open, then give it the path of <code>/Applications/DB Browser for SQLite.app/Contents/Extensions</code>.</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <h1 id="change-log">Change Log</h1>
-
-<h2 id="bug-fixes-and-enhancements-since-3-11-0">Bug fixes and enhancements since 3.11.0</h2>
-
+<h2 id="bug-fixes-and-enhancements-since-3110">Bug fixes and enhancements since 3.11.0</h2>
 <ul>
 <li>DB Browser Crashes When Importing Its Own .sql dump (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1045">#1045</a>)</li>
 <li>Updated query optimisations (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1161">#1161</a>)</li>
@@ -215,9 +191,7 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
 <li>Initial fix for Dark mode problem on macOS Mojave (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1751">#1751</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c7dd272ec6945633e9c55ce8a4ce642aeb0f2375">c7dd272</a>)</li>
 <li>Include SQLite 3.27.1 instead of SQLite 3.26.0</li>
 </ul>
-
 <h2 id="enhancements">Enhancements</h2>
-
 <ul>
 <li>Add menu option for attaching database and allow usage of attached databases throughout the entire UI (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/532fcd3f6b713e89f7739f25de09c353c61bbe99">532fcd3</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/44eb2d4f9922fd1a854d959602c6a2455eab0dc5">44eb2d4</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/fbaf78ea65bc8354d053192c90dece17ce7c8b5b">fbaf78e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/315019dd9ce028331caa1d6f8863829a8ce25e9d">315019d</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/1a3e3d3c40112d4dd92a6427eb84ad7fdbd4aa92">1a3e3d3</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ea1659e1d09c6d1e3452d3dd76986ac901d637dd">ea1659e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/a5ca75655c42c45c35a3f41611942328237cd39f">a5ca756</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7db96cdf13ff9131b87a71ebb48517080869b061">7db96cd</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/72d64edbe0f3eff0e3557bdccedf75c3276bc5b8">72d64ed</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f01ad409ff294cf5dea1cf035f589c1b0509b76f">f01ad40</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3e0242025628ffecb554f0508f1c35de1aa42c2c">3e02420</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1131">#1131</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1132">#1132</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1133">#1133</a>)</li>
 <li>Make import of multiple CSV files easier to use (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1121">#1121</a>)</li>
@@ -294,9 +268,7 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
 <li>The SQL function <code>load_extension()</code> is only enabled when explicitly requested by the user in a new setting (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1558">#1558</a></li>
 <li>Command line option for running with some setting set to a given value  (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1588">#1588</a>)</li>
 </ul>
-
 <h2 id="bug-fixes">Bug fixes</h2>
-
 <ul>
 <li>Avoid extra spaces when formatting SQL statements (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/18bcbf138f3f351e21eaf2db108f89e558943c45">18bcbf1</a>)</li>
 <li>Fix dbhub.io bugs (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/4dc52865962414b2754c5a6db6ad68c0958f0eb0">4dc5286</a>)</li>
@@ -341,7 +313,7 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
 <li>Fix crash when trying to add an index to a database without any tables (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1293">#1293</a>)</li>
 <li>Fix problems after drag &amp; drop of tables onto the structure view (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1288">#1288</a>)</li>
 <li>Copy original statement when clicking the Copy Create Statement menu option (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1300">#1300</a>)</li>
-<li>Fix updating and deleting from tables without rowid if the primary key value contains a &ldquo;&lsquo;&rdquo; character (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1332">#1332</a>)</li>
+<li>Fix updating and deleting from tables without rowid if the primary key value contains a &ldquo;'&rdquo; character (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1332">#1332</a>)</li>
 <li>Don&rsquo;t show &ldquo;Show Rowid&rdquo; menu option for tables without rowid (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1332">#1332</a>)</li>
 <li>Our project file format is now text only. This helps if you want to edit it in a text editor (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1306">#1306</a>)</li>
 <li>Don&rsquo;t commit the current transaction when trying to change the defer_foreign_keys PRAGMA (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/aebfc5151ec1c2e0cb2c5a01a81a4e53f682f7c7">aebfc51</a>)</li>
@@ -382,11 +354,8 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
 <li>Better error handling in import CSV dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1590">#1590</a>)</li>
 <li>Fix possible resource leaks (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1691">#1691</a>)</li>
 </ul>
-
 <h2 id="platform-specific">Platform specific</h2>
-
 <h3 id="windows">Windows</h3>
-
 <ul>
 <li>Use MSI installers (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1400">#1400</a>)</li>
 <li>Make sure the image plugins are loaded properly (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1188">#1188</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9016bf6dc741143834c29ac8febd3ef4c4f43b7f">9016bf6</a>)</li>
@@ -394,30 +363,22 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
 <li>Add version info to Windows executables (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1387">#1387</a>)</li>
 <li>Fix line breaks in SQL export (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1502">#1502</a>)</li>
 </ul>
-
 <h3 id="macos">macOS</h3>
-
 <ul>
 <li>Work around a Qt bug which causes high pings for Wifi connections (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1209">#1209</a>)</li>
 <li>Add a workaround to improve rendering performance on 4k/5k resolutions (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1233">#1233</a>)</li>
 <li>Add .sqlite, .db3 and .sqlite3 to the list of file associations (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/28f6c6e6c1777949acf5bc455707ecdfa43ad298">28f6c6e</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3008747ada0293d682fa1a9e04852013b8d19ff2">3008747</a>)</li>
 <li>Fix shortcut name for following a foreign key (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1539">#1539</a>)</li>
 </ul>
-
 <h3 id="linux">Linux</h3>
-
 <ul>
 <li>Make install paths configurable for qmake build (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1443">#1443</a>)</li>
 </ul>
-
 <h3 id="gnome">Gnome</h3>
-
 <ul>
 <li>Fix problem with switching the workspace on Gnome (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/934">#934</a>)</li>
 </ul>
-
 <h2 id="translations">Translations</h2>
-
 <ul>
 <li>Fix call tips in SQL editor for languages with non-Latin scripts (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1107">#1107</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1206">#1206</a>)</li>
 <li>Never translate the name of the pragmas in the Edit Pragma tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9a30e6cbb0b60ad7b98e5bbcc49f9f4a404ab30b">9a30e6c</a>)</li>
@@ -433,9 +394,7 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
 <li>Russian translation updated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1581">#1581</a>)</li>
 <li>Arabic translation updated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/170fb69b438f4fa00fc637bbb78e752f9888d034">170fb69</a>)</li>
 </ul>
-
 <h2 id="packaging-and-building">Packaging and Building</h2>
-
 <ul>
 <li>Fix code to work with Qt 5.10 and later (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e6a4326e9bc1d48d027278171e8ab335c1f91e82">e6a4326</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/189b750a009b71bc7de021647309d0b0d8c40232">189b750</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/39302f5b6061cf687a81984406e20070d60b4563">39302f5</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/72506fb90211f4a9034b29975190a254ceb396eb">72506fb</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1475">#1475</a>)</li>
 <li>Update the bundled qcustomplot librar to version 2.0.0</li>
@@ -458,7 +417,10 @@ DB.Browser.for.SQLite-3.11.1-win64.zip
             <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
           </li>
           <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://db4s.slack.com" target="_blank">Slack</a>
           </li>
         </ul>
       </footer>

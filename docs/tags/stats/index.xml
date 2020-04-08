@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stats on DB Browser for SQLite</title>
+    <title>stats on DB Browser for SQLite</title>
     <link>/tags/stats/</link>
-    <description>Recent content in Stats on DB Browser for SQLite</description>
+    <description>Recent content in stats on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -18,9 +18,9 @@
       
       <guid>/blog/new-download-daily-users-stats-page/</guid>
       <description>Today we added a new &amp;ldquo;Stats&amp;rdquo; page, showing the number of daily downloads and daily users:
-&amp;nbsp; &amp;nbsp; https://sqlitebrowser.org/stats/
+ https://sqlitebrowser.org/stats/
 The graphs are generated using Redash, and should automatically update every 10 minutes:
-&amp;nbsp; &amp;nbsp; https://redash.io
+ https://redash.io
 Being able to mouse over a particular day to get info for that day is useful, as is being able to download the data set (in various formats, but not yet SQLite 😉).
 It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&amp;rsquo;s no proper caching layer yet, so it may be a bit slow to load.</description>
     </item>

@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nightlies on DB Browser for SQLite</title>
+    <title>nightlies on DB Browser for SQLite</title>
     <link>/tags/nightlies/</link>
-    <description>Recent content in Nightlies on DB Browser for SQLite</description>
+    <description>Recent content in nightlies on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 02 Mar 2019 00:00:00 +0000</lastBuildDate>
@@ -21,9 +21,9 @@
 To activate it, choose &amp;ldquo;Dark style&amp;rdquo; from the &amp;ldquo;Application Style&amp;rdquo; dropdown in Preferences→General:
 To turn it off, choose &amp;ldquo;Follow the desktop style&amp;rdquo; instead.
 The nightly builds for windows and macOS are here:
-&amp;nbsp; &amp;nbsp; https://nightlies.sqlitebrowser.org/latest/
+ https://nightlies.sqlitebrowser.org/latest/
 The nightly builds for Ubuntu Linux are here:
-&amp;nbsp; &amp;nbsp; https://sqlitebrowser.org/dl/#nightly-builds-1</description>
+ https://sqlitebrowser.org/dl/#nightly-builds-1</description>
     </item>
     
   </channel>

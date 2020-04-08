@@ -1,15 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dbhub.io on DB Browser for SQLite</title>
+    <title>dbhub.io on DB Browser for SQLite</title>
     <link>/tags/dbhub.io/</link>
-    <description>Recent content in Dbhub.io on DB Browser for SQLite</description>
+    <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adding basic visualisation capability to dbhub.io</title>
+      <link>/blog/adding-basic-visualisation-capability-to-dbhub-io/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/adding-basic-visualisation-capability-to-dbhub-io/</guid>
+      <description>We&amp;rsquo;ve begun adding the first visualisation pieces to DBHub.io, so people can display charts from their data.
+eg:
+This is only the starting point (eg a simple vertical bar chart) while we experiment, to find a good workflow that&amp;rsquo;s easy for people to use + customise.
+We&amp;rsquo;re aiming to add several more chart types to choose from, and there being a selection of easy-to-use predefined templates as well.
+Advanced users will ideally be able to input their own SQL queries for generating the data points to visualise.</description>
+    </item>
     
     <item>
       <title>New landing page for DBHub.io</title>
@@ -18,7 +31,7 @@
       
       <guid>/blog/new-landing-page-for-dbhub-io/</guid>
       <description>Our sister website, DBHub.io - where people can backup their databases, share them with others, and collaboratively develop data - has a proper landing page from today:
-&amp;nbsp; &amp;nbsp; https://dbhub.io
+ https://dbhub.io
 It required quite a lot of effort to assemble, even though it&amp;rsquo;s just a simple description, screenshots (click them!), and an overview video. 😉
 Please take a look, create an account (it&amp;rsquo;s free), and try things out.
 The website code is fully Open Source, and is gaining interesting + useful capabilities over time.</description>
@@ -43,8 +56,7 @@ On a related note&amp;hellip; login (using username/password) only works if &amp
       
       <guid>/blog/first-beta-dbhub-io-server-with-db4s-integration-is-online/</guid>
       <description>The first &amp;ldquo;db4s-beta&amp;rdquo; server is now online, which DB4S 3.10.0-beta can store/retrieve databases in.
-Feel free to create an account and try things out (the link in the top right of that page). 😄
-Don&amp;rsquo;t store important data in it yet though, as we don&amp;rsquo;t have backups set up yet.</description>
+Feel free to [create an account](https://db4s-beta.dbhub.io/justinclift/DB4S%20download%20stats.sqlite) and try things out (the link in the top right of that page). 😄 Don&amp;rsquo;t store important data in it yet though, as we don&amp;rsquo;t have backups set up yet.</description>
     </item>
     
     <item>

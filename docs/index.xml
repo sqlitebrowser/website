@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DB Browser for SQLite</title>
@@ -6,10 +6,23 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Apr 2019 22:43:15 +1100</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adding basic visualisation capability to dbhub.io</title>
+      <link>/blog/adding-basic-visualisation-capability-to-dbhub-io/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/adding-basic-visualisation-capability-to-dbhub-io/</guid>
+      <description>We&amp;rsquo;ve begun adding the first visualisation pieces to DBHub.io, so people can display charts from their data.
+eg:
+This is only the starting point (eg a simple vertical bar chart) while we experiment, to find a good workflow that&amp;rsquo;s easy for people to use + customise.
+We&amp;rsquo;re aiming to add several more chart types to choose from, and there being a selection of easy-to-use predefined templates as well.
+Advanced users will ideally be able to input their own SQL queries for generating the data points to visualise.</description>
+    </item>
     
     <item>
       <title>PortableApp for 3.11.2 release now available</title>
@@ -18,7 +31,7 @@
       
       <guid>/blog/portableapp-for-3-11-2-release-now-available/</guid>
       <description>Thanks to Chris Locke and John T. Haller, the PortableApps installer for DB Browser for SQLite 3.11.2 is now available! :)
-&amp;nbsp; &amp;nbsp; https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe</description>
+ https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.11.2_English.paf.exe</description>
     </item>
     
     <item>
@@ -28,7 +41,7 @@
       
       <guid>/blog/new-landing-page-for-dbhub-io/</guid>
       <description>Our sister website, DBHub.io - where people can backup their databases, share them with others, and collaboratively develop data - has a proper landing page from today:
-&amp;nbsp; &amp;nbsp; https://dbhub.io
+ https://dbhub.io
 It required quite a lot of effort to assemble, even though it&amp;rsquo;s just a simple description, screenshots (click them!), and an overview video. 😉
 Please take a look, create an account (it&amp;rsquo;s free), and try things out.
 The website code is fully Open Source, and is gaining interesting + useful capabilities over time.</description>
@@ -53,9 +66,9 @@ On a related note&amp;hellip; login (using username/password) only works if &amp
       
       <guid>/blog/new-download-daily-users-stats-page/</guid>
       <description>Today we added a new &amp;ldquo;Stats&amp;rdquo; page, showing the number of daily downloads and daily users:
-&amp;nbsp; &amp;nbsp; https://sqlitebrowser.org/stats/
+ https://sqlitebrowser.org/stats/
 The graphs are generated using Redash, and should automatically update every 10 minutes:
-&amp;nbsp; &amp;nbsp; https://redash.io
+ https://redash.io
 Being able to mouse over a particular day to get info for that day is useful, as is being able to download the data set (in various formats, but not yet SQLite 😉).
 It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&amp;rsquo;s no proper caching layer yet, so it may be a bit slow to load.</description>
     </item>
@@ -78,7 +91,7 @@ Note 2 - The graphs are generally slow to display (~20 seconds) at present, as e
       
       <guid>/blog/version-3-11-2-released/</guid>
       <description>This is a minor bug fix release in the 3.11.x series
-Bug fixes and enhancements since 3.11.1  Enable &amp;lsquo;Edit Database Cell&amp;rsquo; when view is editable (#1756) DB browser crashes when I try to attach additional database to current one (#1758) CASE-SENSITIVITY: Error importing data from SQL file: cannot start a transaction within a transaction (#1764) Cell edit window considers binary data to be text/numeric if first byte is in ascii range (#1772) Crashes when browsing a empty view with view editing enabled (#1774) Trying to save after successfull import fails (#1777) Attach encrypted database results in Out of Memory Error (#1799) File is not a database (#1814) Can&amp;rsquo;t remove password from an encrypted database any more (#1829) grammar: Fix keywords as table name and keywords as column name (1a59c8cbda47684dfc0b55283fc6fdb396adc832) Updated translation strings  Korean (#1600) Brazilian Portuguese (#1830) Italian (#1833) German (e2ad5459d569801f9a635391f774e81ca1009e85)  Include SQLite 3.</description>
+Bug fixes and enhancements since 3.11.1  Enable &amp;lsquo;Edit Database Cell&amp;rsquo; when view is editable (#1756) DB browser crashes when I try to attach additional database to current one (#1758) CASE-SENSITIVITY: Error importing data from SQL file: cannot start a transaction within a transaction (#1764) Cell edit window considers binary data to be text/numeric if first byte is in ascii range (#1772) Crashes when browsing a empty view with view editing enabled (#1774) Trying to save after successfull import fails (#1777) Attach encrypted database results in Out of Memory Error (#1799) File is not a database (#1814) Can&amp;rsquo;t remove password from an encrypted database any more (#1829) grammar: Fix keywords as table name and keywords as column name (1a59c8cbda47684dfc0b55283fc6fdb396adc832) Updated translation strings  Korean (#1600) Brazilian Portuguese (#1830) Italian (#1833) German (e2ad5459d569801f9a635391f774e81ca1009e85)   Include SQLite 3.</description>
     </item>
     
     <item>
@@ -91,9 +104,9 @@ Bug fixes and enhancements since 3.11.1  Enable &amp;lsquo;Edit Database Cell&am
 To activate it, choose &amp;ldquo;Dark style&amp;rdquo; from the &amp;ldquo;Application Style&amp;rdquo; dropdown in Preferences→General:
 To turn it off, choose &amp;ldquo;Follow the desktop style&amp;rdquo; instead.
 The nightly builds for windows and macOS are here:
-&amp;nbsp; &amp;nbsp; https://nightlies.sqlitebrowser.org/latest/
+ https://nightlies.sqlitebrowser.org/latest/
 The nightly builds for Ubuntu Linux are here:
-&amp;nbsp; &amp;nbsp; https://sqlitebrowser.org/dl/#nightly-builds-1</description>
+ https://sqlitebrowser.org/dl/#nightly-builds-1</description>
     </item>
     
     <item>
@@ -103,7 +116,7 @@ The nightly builds for Ubuntu Linux are here:
       
       <guid>/blog/macos-installer-rebuilt-for-3-11-1/</guid>
       <description>The macOS installer for 3.11.1 has been updated, so now when the application runs it does so in &amp;ldquo;light theme mode&amp;rdquo; (the Aqua look) on macOS Mojave. 😄
-&amp;nbsp; &amp;nbsp; https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1v2.dmg
+ https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.11.1v2.dmg
 It&amp;rsquo;s a workaround for anyone using Mojave in Dark mode, which Qt doesn&amp;rsquo;t yet properly support. Without this workaround, the colour pallete was unusable in important places. eg white on white when browsing data 😦
 Jesse Jackson, thank you so much for showing us how to fix this problem.</description>
     </item>
@@ -296,8 +309,7 @@ The original code was trimmed and adjusted to be compatible with standard SQLite
       
       <guid>/blog/first-beta-dbhub-io-server-with-db4s-integration-is-online/</guid>
       <description>The first &amp;ldquo;db4s-beta&amp;rdquo; server is now online, which DB4S 3.10.0-beta can store/retrieve databases in.
-Feel free to create an account and try things out (the link in the top right of that page). 😄
-Don&amp;rsquo;t store important data in it yet though, as we don&amp;rsquo;t have backups set up yet.</description>
+Feel free to [create an account](https://db4s-beta.dbhub.io/justinclift/DB4S%20download%20stats.sqlite) and try things out (the link in the top right of that page). 😄 Don&amp;rsquo;t store important data in it yet though, as we don&amp;rsquo;t have backups set up yet.</description>
     </item>
     
     <item>
@@ -407,7 +419,7 @@ Note - The data on this server will probably be wiped/reset every few days.</des
       
       <guid>/blog/version-3-9-0-beta1-released/</guid>
       <description>Version 3.9.0 beta1 released, with SQLCipher for strong encryption.
-Please try it out, and report any new bugs you encounter. 😄</description>
+[Please try it out](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.9.0-beta1), and [report any new bugs](https://github.com/sqlitebrowser/sqlitebrowser/issues) you encounter. 😄</description>
     </item>
     
     <item>
