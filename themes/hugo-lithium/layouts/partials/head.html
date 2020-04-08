@@ -32,10 +32,10 @@
 {{ partial "head_highlightjs" . }}
 <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" media="all">
 
-{{ if ne .URL "/stats/" }}
+{{ if ne .RelPermalink "/stats/" }}
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
 {{ end }}
-{{ if eq .URL "/stats/" }}
+{{ if eq .RelPermalink "/stats/" }}
 <link rel="stylesheet" href="{{ "css/mainstats.css" | relURL }}" media="all">
 {{ end }}
 
