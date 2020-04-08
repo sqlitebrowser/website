@@ -33,14 +33,11 @@ publishDir = "docs"
     name = "Gitter"
     url = "https://gitter.im/sqlitebrowser/sqlitebrowser"
 [[menu.main]]
-    name = "Slack"
-    url = "https://db4s.slack.com"
+    name = "Patreon"
+    url = "https://www.patreon.com/db4s"
 [[menu.main]]
     name = "Stats"
     url = "/stats/"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/sqlitebrowser"
 
 [params]
     description = "The Official home of the DB Browser for SQLite."
