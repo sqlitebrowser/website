@@ -58,3 +58,8 @@ publishDir = "docs"
     width = 50
     height = 50
     alt = "DB Browser for SQLite logo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
