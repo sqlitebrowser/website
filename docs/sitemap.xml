@@ -3,22 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/3.12.x/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/alpha/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/db4s/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/first-alpha-release-for-3-12-0/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/adding-basic-visualisation-capability-to-dbhub-io/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/dbhub.io/</loc>
-    <lastmod>2020-04-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -140,11 +165,6 @@
   <url>
     <loc>/blog/first-beta-release-of-3-11-0/</loc>
     <lastmod>2018-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/alpha/</loc>
-    <lastmod>2018-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -460,10 +480,6 @@
   <url>
     <loc>/blog/version-3-2-0-released/</loc>
     <lastmod>2014-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
   </url>
   
   <url>
