@@ -226,12 +226,12 @@ The first Windows and mac alpha builds for our next major release [are ready](ht
 
 ### SHA256SUMS
 * DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi
-  * 5b2312d7848e513aefd85b0816eb4d69e2cae3c6595c4879ec187dbb92d75d68
+  * 21c9579ac6fb2774499bd5858ce680df866991e44ad5464175e1e1f5f4907e1a
 * DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip
-  * d6186ca3cb0d712584d82c96583eb8a5c25628fd058601a6d6a3eaae7548ccbd
+  * 6d22db2ce9f3c6797c9ac4a26c8a5964f1fe421f79e3fab48ec24049a5fb3a78
 * DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi
-  * 054b60480b488791f2331aa48410ef2c1016ba364b7dd077c76a4a3575b1e31c
+  * b2ce867723fe175cc76c3e4409abddb5b2ed46dee7f541914f4f52a70f28ac0e
 * DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip
-  * 265a78df03ca8c9acb1df1f18f49591a43ed30a5bdcc1a1d05800fd1dc1be421
+  * 5dcdafae21fc4e4d4c57991e3af7ab5c74c01209f3e531e90203d28e1ba7ce3a
 * DB.Browser.for.SQLite-3.12.0-alpha1.dmg
   * d0e27e909996301436c2afd562e9ca2b352e87c8b7a320e9ecf73a2c46963706
