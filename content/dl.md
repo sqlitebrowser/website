@@ -7,6 +7,8 @@ categories: []
 tags: []
 ---
 
+([**Please** consider sponsoring us on Patreon](https://www.patreon.com/db4s) :smile:)
+
 ## Windows
 
 Our latest release (3.11.2) for Windows:
