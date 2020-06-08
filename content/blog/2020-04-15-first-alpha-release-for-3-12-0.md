@@ -16,7 +16,7 @@ The first Windows and mac alpha builds for our next major release [are ready](ht
 * [DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-alpha1/DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi) - Standard installer for 32-bit Windows
 * [DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-alpha1/DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip) - .zip (no installer) for 32-bit Windows
 * [DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-alpha1/DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi) - Standard installer for 64-bit Windows
-* [DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-alpha1/DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip) .zip (no installer) for 32-bit Windows
+* [DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-alpha1/DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip) - .zip (no installer) for 64-bit Windows
 * [DB.Browser.for.SQLite-3.12.0-alpha1.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-alpha1/DB.Browser.for.SQLite-3.12.0-alpha1.dmg) - Standard package for macOS
 
 **Note** - There is no Windows XP support in the 32-bit builds at the moment.  It will probably be added back in the beta releases.

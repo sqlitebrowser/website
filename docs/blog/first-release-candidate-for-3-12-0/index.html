@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<title>First release candidate for 3.12.0 - DB Browser for SQLite</title>
+<meta property="og:title" content="First release candidate for 3.12.0 - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/dl/"><b>Download</b></a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    <li><a href="/stats/">Stats</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
+    <li><a href="https://dbhub.io">DBHub.io</a></li>
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">First release candidate for 3.12.0</h1>
+
+    
+    <span class="article-date">2020-06-08</span>
+    
+
+    <div class="article-content">
+      <p>This is the first (and hopefully final), release candidate for DB Browser for SQLite version 3.12.0.</p>
+<h2 id="downloads">Downloads</h2>
+<ul>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win32.msi">DB.Browser.for.SQLite-3.12.0-rc1-win32.msi</a> - Standard installer for 32-bit Windows</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win32.zip">DB.Browser.for.SQLite-3.12.0-rc1-win32.zip</a> - .zip (no installer) for 32-bit Windows</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win64.msi">DB.Browser.for.SQLite-3.12.0-rc1-win64.msi</a> - Standard installer for 64-bit Windows</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win64.zip">DB.Browser.for.SQLite-3.12.0-rc1-win64.zip</a> - .zip (no installer) for 64-bit Windows</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1.dmg">DB.Browser.for.SQLite-3.12.0-rc1.dmg</a> - Standard package for macOS</li>
+</ul>
+<h2 id="changes">Changes</h2>
+<p>The changes in this from the 3.12.0-alpha1 release:</p>
+<ul>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1968">#1968</a> - Drop close buttons on every Execute SQL tab(x).</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2153">#2153</a> - Show a useful icon in SQL tabs</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2174">#2174</a> - Open SQL tabs for modifying views and triggers</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2180">#2180</a> - Crash when -t option specifies missing table</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2184">#2184</a> - Fix logo issues</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2193">#2193</a> - Update German translation</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2195">#2195</a> - Install the AppStream file to the canonical location</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2207">#2207</a> - Open a set of SQL-Files</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2224">#2224</a> - Consistent naming of DB Browser for SQLite</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2233">#2233</a> - Minor: Change &ldquo;Filter in all columns&rdquo; =&gt; &ldquo;Filter in any column&rdquo;</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2235">#2235</a> - Avoid unchanged translation of keyboard shortcuts to work around problems</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2240">#2240</a> - Rearrange preferences database</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c0cc6968fd8b139436f7f688c02473eab3d2b4e3">c0cc696</a> -  Use port 443 for DBHub.io traffic, to be more enterprise firewall friendly</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2270">#2270</a> - Application icon cleanup</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/2275">#2275</a> - Update to Windows Icon Generation script</li>
+</ul>
+<p>There are a few text strings that still need an updated translation.  We&rsquo;ll get those done over the next few days, and as long as no serious bugs turn up we&rsquo;ll make the final release next weekend or so.</p>
+<h2 id="sha256sums">SHA256SUMS</h2>
+<ul>
+<li>DB.Browser.for.SQLite-3.12.0-rc1-win32.msi
+<ul>
+<li>28bfb79c675d826d04bfca097e3626cb9304a6151a6b3f7558e1840aee183707</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.0-rc1-win32.zip
+<ul>
+<li>04e8aa4c9a862e82a0f6ee018fea4195f00205769cb75278908ef0fb58965297</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.0-rc1-win64.msi
+<ul>
+<li>d0a3a64b1cd7052daf9d06b64738177d66fc5d06035e85f0a713f3c713650288</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.0-rc1-win64.zip
+<ul>
+<li>4210b2e78e4ab3dae11a9260f2a96711584f1186163f52983d0a010489ca4b12</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.0-rc1.dmg
+<ul>
+<li>474906b165f95ff1655a87bc1a6c7366636e31f9b87c5e52023f259e353bd259</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://db4s.slack.com" target="_blank">Slack</a>
+          </li>
+        </ul>
+        <br />
+        <a href="https://digitalocean.com"><img src="/images/DO-powered_by_badge_blue.svg" alt="Powered by Digital Ocean badge" style="width:300px;height:63px;"/></a>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+

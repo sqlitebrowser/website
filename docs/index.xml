@@ -12,13 +12,24 @@
     
     
     <item>
+      <title>First release candidate for 3.12.0</title>
+      <link>/blog/first-release-candidate-for-3-12-0/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-release-candidate-for-3-12-0/</guid>
+      <description>This is the first (and hopefully final), release candidate for DB Browser for SQLite version 3.12.0.
+Downloads  DB.Browser.for.SQLite-3.12.0-rc1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0-rc1.dmg - Standard package for macOS  Changes The changes in this from the 3.12.0-alpha1 release:
+ #1968 - Drop close buttons on every Execute SQL tab(x).</description>
+    </item>
+    
+    <item>
       <title>First alpha release for 3.12.0</title>
       <link>/blog/first-alpha-release-for-3-12-0/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/blog/first-alpha-release-for-3-12-0/</guid>
       <description>The first Windows and mac alpha builds for our next major release are ready. Please try them out, and report any weirdness.
-Downloads  DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1.dmg - Standard package for macOS  Note - There is no Windows XP support in the 32-bit builds at the moment.</description>
+Downloads  DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1.dmg - Standard package for macOS  Note - There is no Windows XP support in the 32-bit builds at the moment.</description>
     </item>
     
     <item>
