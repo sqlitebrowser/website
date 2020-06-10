@@ -18,6 +18,12 @@ This is the first (and hopefully final), release candidate for DB Browser for SQ
 * [DB.Browser.for.SQLite-3.12.0-rc1-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win64.zip) - .zip (no installer) for 64-bit Windows
 * [DB.Browser.for.SQLite-3.12.0-rc1.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1.dmg) - Standard package for macOS
 
+## Support for pre-3.11 project file format
+
+In v3.11, the project file format was changed to support multiple sort columns (#1593), the database read-only state and the saving of configured conditional formats, while the handling of project files itself was improved too.  While v.3.11 could read project files from previous versions, all saving of project files was done using the new project file format.
+
+v3.12 will be the last version to support the pre-3.11 project file format - v3.13 won't be able to read the older format.
+
 ## Changes
 
 The changes in this from the 3.12.0-alpha1 release:

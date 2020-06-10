@@ -82,6 +82,9 @@
 <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1-win64.zip">DB.Browser.for.SQLite-3.12.0-rc1-win64.zip</a> - .zip (no installer) for 64-bit Windows</li>
 <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.0-rc1/DB.Browser.for.SQLite-3.12.0-rc1.dmg">DB.Browser.for.SQLite-3.12.0-rc1.dmg</a> - Standard package for macOS</li>
 </ul>
+<h2 id="support-for-pre-311-project-file-format">Support for pre-3.11 project file format</h2>
+<p>In v3.11, the project file format was changed to support multiple sort columns (#1593), the database read-only state and the saving of configured conditional formats, while the handling of project files itself was improved too.  While v.3.11 could read project files from previous versions, all saving of project files was done using the new project file format.</p>
+<p>v3.12 will be the last version to support the pre-3.11 project file format - v3.13 won&rsquo;t be able to read the older format.</p>
 <h2 id="changes">Changes</h2>
 <p>The changes in this from the 3.12.0-alpha1 release:</p>
 <ul>

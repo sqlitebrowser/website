@@ -96,6 +96,11 @@ The first Windows and mac alpha builds for our next major release [are ready](ht
 
 * But other than that we have made a ton of small adjustments, each improving the performance a tiny bit. These are significant when combined, especially on older systems. This should make your overall experience a lot smoother.
 
+### Support for pre-3.11 project file format 
+In v3.11, the project file format was changed to support multiple sort columns (#1593), the database read-only state and the saving of configured conditional formats, while the handling of project files itself was improved too.  While v.3.11 could read project files from previous versions, all saving of project files was done using the new project file format.
+
+v3.12 will be the last version to support the pre-3.11 project file format - v3.13 won't be able to read the older format.
+
 ## All Enhancements
 
 * Make use of the enhanced ALTER TABLE features in SQLite 3.25.0 (5ec03baef41ea938c9b58736c998e24ffe070265)
