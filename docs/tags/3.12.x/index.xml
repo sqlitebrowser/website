@@ -6,10 +6,19 @@
     <description>Recent content in 3.12.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/3.12.x/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Version 3.12.0 released</title>
+      <link>/blog/version-3-12-0-released/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-12-0-released/</guid>
+      <description>Downloads  DB.Browser.for.SQLite-3.12.0-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0.dmg - Standard package for macOS  Highlights Better table editing   SQLite 3.25.0 added support for renaming columns with the ALTER TABLE command (previously you had to create a new table with the renamed column, copy all data over, delete the old table, then rename the new table - even leaving out some details of the process here&amp;hellip;).</description>
+    </item>
     
     <item>
       <title>First release candidate for 3.12.0</title>

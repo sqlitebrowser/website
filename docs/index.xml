@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Version 3.12.0 released</title>
+      <link>/blog/version-3-12-0-released/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-12-0-released/</guid>
+      <description>Downloads  DB.Browser.for.SQLite-3.12.0-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0.dmg - Standard package for macOS  Highlights Better table editing   SQLite 3.25.0 added support for renaming columns with the ALTER TABLE command (previously you had to create a new table with the renamed column, copy all data over, delete the old table, then rename the new table - even leaving out some details of the process here&amp;hellip;).</description>
+    </item>
+    
+    <item>
       <title>First release candidate for 3.12.0</title>
       <link>/blog/first-release-candidate-for-3-12-0/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
@@ -677,8 +686,8 @@ Hopefully this is the final rename. 😄</description>
       
       <guid>/dl/</guid>
       <description>(Please consider sponsoring us on Patreon 😄)
-Windows Our latest release (3.11.2) for Windows:
- DB Browser for SQLite - Standard installer for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - .zip (no installer) for 32-bit Windows &amp;amp; Windows XP DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows DB Browser for SQLite - PortableApp  Note - If for any reason the standard Windows release does not work (e.</description>
+Windows Our latest release (3.12.0) for Windows:
+ DB Browser for SQLite - Standard installer for 32-bit Windows DB Browser for SQLite - .zip (no installer) for 32-bit Windows DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows  The PortableApp is still for our older release (3.11.2). It will be updated to the new release sometime in the next few weeks:</description>
     </item>
     
   </channel>
