@@ -6,10 +6,20 @@
     <description>Recent content in portableapp on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/portableapp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PortableApp for 3.12.0 release now available</title>
+      <link>/blog/portableapp-for-3-12-0-release-now-available/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-for-3-12-0-release-now-available/</guid>
+      <description>Thanks to Chris Locke and John T. Haller, the PortableApps installer for DB Browser for SQLite 3.12.0 is now available! :)
+ https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe</description>
+    </item>
     
     <item>
       <title>PortableApp for 3.11.2 release now available</title>

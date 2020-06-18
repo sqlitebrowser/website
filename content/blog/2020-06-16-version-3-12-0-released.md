@@ -15,8 +15,8 @@ tags:
 * [DB.Browser.for.SQLite-3.12.0-win32.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0-win32.zip) - .zip (no installer) for 32-bit Windows
 * [DB.Browser.for.SQLite-3.12.0-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0-win64.msi) - Standard installer for 64-bit Windows
 * [DB.Browser.for.SQLite-3.12.0-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0-win64.zip) - .zip (no installer) for 64-bit Windows
+* [SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe](https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe) - PortableApp for Windows
 * [DB.Browser.for.SQLite-3.12.0.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.0.dmg) - Standard package for macOS
-
 
 ## Highlights
 
@@ -257,3 +257,5 @@ v3.12 will be the last version to support the pre-3.11 project file format - v3.
   * fcfba5148efe71d8717118ca56945cdeea2f55a1177553f696cbc085c934f5f3
 * DB.Browser.for.SQLite-3.12.0.dmg
   * 4a7aaac7554c43ecec330d0631f356510dcad11e49bb01986ba683b6dfb59530
+* SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe
+  * 42e3bda299420b29bb01590d1902c7d2fd9ae89e7e446ddd12fad9c9a0446cb8

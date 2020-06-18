@@ -6,7 +6,7 @@
     <description>Recent content in Tags on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>3.12.x</title>
       <link>/tags/3.12.x/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/3.12.x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>portableapp</title>
+      <link>/tags/portableapp/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/portableapp/</guid>
       <description></description>
     </item>
     
@@ -44,15 +53,6 @@
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/3.11.x/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>portableapp</title>
-      <link>/tags/portableapp/</link>
-      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/portableapp/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,20 @@
     <description>Recent content in 3.12.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/3.12.x/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PortableApp for 3.12.0 release now available</title>
+      <link>/blog/portableapp-for-3-12-0-release-now-available/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/portableapp-for-3-12-0-release-now-available/</guid>
+      <description>Thanks to Chris Locke and John T. Haller, the PortableApps installer for DB Browser for SQLite 3.12.0 is now available! :)
+ https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe</description>
+    </item>
     
     <item>
       <title>Version 3.12.0 released</title>
@@ -17,7 +27,7 @@
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>/blog/version-3-12-0-released/</guid>
-      <description>Downloads  DB.Browser.for.SQLite-3.12.0-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0.dmg - Standard package for macOS  Highlights Better table editing   SQLite 3.25.0 added support for renaming columns with the ALTER TABLE command (previously you had to create a new table with the renamed column, copy all data over, delete the old table, then rename the new table - even leaving out some details of the process here&amp;hellip;).</description>
+      <description>Downloads  DB.Browser.for.SQLite-3.12.0-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-win64.zip - .zip (no installer) for 64-bit Windows SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe - PortableApp for Windows DB.Browser.for.SQLite-3.12.0.dmg - Standard package for macOS  Highlights Better table editing   SQLite 3.25.0 added support for renaming columns with the ALTER TABLE command (previously you had to create a new table with the renamed column, copy all data over, delete the old table, then rename the new table - even leaving out some details of the process here&amp;hellip;).</description>
     </item>
     
     <item>

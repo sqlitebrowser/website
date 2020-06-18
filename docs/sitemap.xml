@@ -4,17 +4,27 @@
   
   <url>
     <loc>/tags/3.12.x/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/portableapp/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/portableapp-for-3-12-0-release-now-available/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,11 +69,6 @@
   
   <url>
     <loc>/tags/3.11.x/</loc>
-    <lastmod>2019-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/portableapp/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
   </url>
   
