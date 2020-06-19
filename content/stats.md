@@ -30,7 +30,7 @@ The graph begins in August of 2018, when this "where to query the latest version
 
 The numbers noticably increase in October 2018, with our [first Alpha release for 3.11.0](https://sqlitebrowser.org/blog/first-alpha-release-for-3-11-0/).
 
-With the [3.11.0 release](https://sqlitebrowser.org/blog/version-3-11-0-released/) in Feb 2018, we again see an increase.  That release had a critical bug, so was quickly pulled (as seen in the graph above).
+With the [3.11.0 release](https://sqlitebrowser.org/blog/version-3-11-0-released/) in Feb 2019, we again see an increase.  That release had a critical bug, so was quickly pulled (as seen in the graph above).
 
 The [3.11.1 release](https://sqlitebrowser.org/blog/version-3-11-1-released/) roughly a week and a half later is where we start to see meaningful numbers.
 
