@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>New API for remotely executing SQLite queries</title>
+      <link>/blog/new-api-for-remotely-executing-sqlite-queries/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/new-api-for-remotely-executing-sqlite-queries/</guid>
+      <description>For anyone wanting to run SQL queries against their uploaded databases, there&amp;rsquo;s now an API server: https://api.dbhub.io
+As a starting point, there&amp;rsquo;s just one API call (/v1/query), and it only runs SELECT queries (eg read only database). That should be useful enough for many things though.
+Query parameters Query parameters are passed via POST only, and all results are in a fairly verbose JSON format.
+ apikey - Your API key.</description>
+    </item>
+    
+    <item>
       <title>PortableApp for 3.12.0 release now available</title>
       <link>/blog/portableapp-for-3-12-0-release-now-available/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>

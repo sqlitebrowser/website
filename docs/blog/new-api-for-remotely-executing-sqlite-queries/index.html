@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<title>New API for remotely executing SQLite queries - DB Browser for SQLite</title>
+<meta property="og:title" content="New API for remotely executing SQLite queries - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/dl/"><b>Download</b></a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    <li><a href="/stats/">Stats</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
+    <li><a href="https://dbhub.io">DBHub.io</a></li>
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">New API for remotely executing SQLite queries</h1>
+
+    
+    <span class="article-date">2020-07-19</span>
+    
+
+    <div class="article-content">
+      <p>For anyone wanting to run SQL queries against their uploaded databases, there&rsquo;s now an API server: <a href="https://api.dbhub.io">https://api.dbhub.io</a></p>
+<p>As a starting point, there&rsquo;s just one API call (<code>/v1/query</code>), and it only runs SELECT queries (eg read only database).  That should be useful enough for many things though.</p>
+<h3 id="query-parameters">Query parameters</h3>
+<p>Query parameters are passed via POST only, and all results are in a fairly verbose JSON format.</p>
+<ul>
+<li><code>apikey</code> - Your API key. These can be generated in your <a href="https://dbhub.io/pref">Settings page</a>, when logged in to DBHub.io.</li>
+<li><code>dbowner</code> - The owner of the database to query</li>
+<li><code>dbname</code> - The name of the database</li>
+<li><code>sql</code> - The SQL query, base64 encoded</li>
+</ul>
+<h3 id="example">Example</h3>
+<p>Lets say you want to run this query:</p>
+<pre><code>SELECT table1.Name, table2.value
+FROM table1 JOIN table2
+USING (id)
+ORDER BY table1.id;
+</code></pre><p>On this database: <a href="https://dbhub.io/justinclift/Join%20Testing.sqlite">dbhub.io/justinclift/Join Testing.sqlite</a></p>
+<p>We&rsquo;ll use <a href="https://curl.haxx.se"><code>curl</code></a> for this example, but you can use any tool or programming language which supports POST parameters.  Most do.</p>
+<p>Using curl:</p>
+<pre><code>$ curl -F apikey=&quot;YOUR_API_KEY_HERE&quot; \
+       -F dbowner=&quot;justinclift&quot; \
+       -F dbname=&quot;Join Testing.sqlite&quot; \
+       -F sql=&quot;U0VMRUNUIHRhYmxlMS5OYW1lLCB0YWJsZTIudmFsdWUKRlJPTSB0YWJsZTEgSk9JTiB0YWJsZTIKVVNJTkcgKGlkKQpPUkRFUiBCWSB0YWJsZTEuaWQ7&quot; \
+       https://api.dbhub.io/v1/query
+</code></pre><p>The results will be returned in a fairly verbose JSON format which includes data type information for each field, the field name, and the value for that field:</p>
+<pre><code>[[{&quot;Name&quot;:&quot;Name&quot;,&quot;Type&quot;:3,&quot;Value&quot;:&quot;Foo&quot;} ... (shortened for clarity)
+</code></pre><p>We think that&rsquo;s a good enough starting point, but if you&rsquo;d like to use this and we&rsquo;re missing something, or something isn&rsquo;t working for you, please <a href="https://github.com/sqlitebrowser/dbhub.io/issues">let us know via GitHub Issues</a>. 😄</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://db4s.slack.com" target="_blank">Slack</a>
+          </li>
+        </ul>
+        <br />
+        <a href="https://digitalocean.com"><img src="/images/DO-powered_by_badge_blue.svg" alt="Powered by Digital Ocean badge" style="width:300px;height:63px;"/></a>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+
