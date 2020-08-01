@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<title>New Go library for working with your DBHub.io databases - DB Browser for SQLite</title>
+<meta property="og:title" content="New Go library for working with your DBHub.io databases - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/dl/"><b>Download</b></a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    <li><a href="/stats/">Stats</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
+    <li><a href="https://dbhub.io">DBHub.io</a></li>
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">New Go library for working with your DBHub.io databases</h1>
+
+    
+    <span class="article-date">2020-08-01</span>
+    
+
+    <div class="article-content">
+      <p>For anyone with an interest in Go programming, there&rsquo;s now a library to access and query your databases on <a href="https://dbhub.io">DBHub.io</a>:</p>
+<p><a href="https://github.com/sqlitebrowser/go-dbhub">https://github.com/sqlitebrowser/go-dbhub</a></p>
+<p><a href="https://pkg.go.dev/github.com/sqlitebrowser/go-dbhub">Documentation</a> is in place, code quality <a href="https://goreportcard.com/report/github.com/sqlitebrowser/go-dbhub">is good</a>, and there are <a href="#further-examples">worked examples</a> for each function call.</p>
+<p>It&rsquo;s still in early stages of development, but seems to work well already. 😄</p>
+<h3 id="what-works-now">What works now</h3>
+<ul>
+<li>Run read-only queries (eg SELECT statements) on databases, returning the results as JSON</li>
+<li>List the names of tables, views, and indexes present in a database</li>
+<li>List the columns present in a table or view, along with their details</li>
+</ul>
+<h3 id="still-to-do">Still to do</h3>
+<ul>
+<li>Tests for each function</li>
+<li>Retrieve index details for a database</li>
+<li>Return the list of available databases</li>
+<li>Download a complete database</li>
+<li>Upload a complete database</li>
+<li>Retrieve database commit history details (size, branch, commit list, whatever else is useful)</li>
+<li>Anything else that people suggest and seems like a good idea 😄</li>
+</ul>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li><a href="https://golang.org/dl/">Go</a> version 1.14.x
+<ul>
+<li>Older Go releases should be ok, but only Go 1.14.x has been tested (so far).</li>
+</ul>
+</li>
+<li>A DBHub.io API key
+<ul>
+<li>These can be generated in your <a href="https://dbhub.io/pref">Settings</a> page, when logged in.</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-code">Example code</h3>
+<pre><code>// Create a new DBHub.io API object
+db, err := dbhub.New(&quot;YOUR_API_KEY_HERE&quot;)
+if err != nil {
+    log.Fatal(err)
+}
+
+// Retrieve the list of tables in the remote database
+tables, err := db.Tables(&quot;justinclift&quot;, &quot;Join Testing.sqlite&quot;)
+if err != nil {
+    log.Fatal(err)
+}
+
+// Display the retrieved list of tables
+fmt.Println(&quot;Tables:&quot;)
+for _, j := range tables {
+    fmt.Printf(&quot;  * %s\n&quot;, j)
+}
+
+// Run a SQL query on the remote database
+r, err := db.Query(&quot;justinclift&quot;, &quot;Join Testing.sqlite&quot;, false,
+    `SELECT table1.Name, table2.value
+        FROM table1 JOIN table2
+        USING (id)
+        ORDER BY table1.id`)
+if err != nil {
+    log.Fatal(err)
+}
+fmt.Printf(&quot;Query results (JSON):\n\t%v\n&quot;, r)
+fmt.Println()
+</code></pre><h3 id="output">Output</h3>
+<pre><code>Tables:
+  * table1
+  * table2
+
+Query results (JSON):
+        {[{[Foo 5]} {[Bar 10]} {[Baz 15]} {[Blumph 12.5000]} {[Blargo 8]} {[Batty 3]}]}
+</code></pre><h3 id="further-examples">Further examples</h3>
+<ul>
+<li><a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/sql_query/main.go">SQL Query</a> - Run a SQL query, return the results as JSON</li>
+<li><a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_tables/main.go">List tables</a> - List the tables present in a database</li>
+<li><a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_views/main.go">List views</a> - List the views present in a database</li>
+<li><a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_indexes/main.go">List indexes</a> - List the indexes present in a database</li>
+<li><a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/column_details/main.go">Retrieve column details</a> - Retrieve the details of columns in a table</li>
+</ul>
+<p>Please try it out, <a href="https://github.com/sqlitebrowser/go-dbhub/pulls">submits PRs</a> to extend or fix things, and <a href="https://github.com/sqlitebrowser/go-dbhub/issues">report any weirdness or bugs</a> you encounter. 😄</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://db4s.slack.com" target="_blank">Slack</a>
+          </li>
+        </ul>
+        <br />
+        <a href="https://digitalocean.com"><img src="/images/DO-powered_by_badge_blue.svg" alt="Powered by Digital Ocean badge" style="width:300px;height:63px;"/></a>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+
