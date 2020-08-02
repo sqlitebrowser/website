@@ -21,6 +21,7 @@ It's still in early stages of development, but seems to work well already. :smil
 * Run read-only queries (eg SELECT statements) on databases, returning the results as JSON
 * List the names of tables, views, and indexes present in a database
 * List the columns present in a table or view, along with their details
+* **(Added 2020-08-02)** - Generate a diff between two databases or revisions, to transform one into the other
 
 ### Still to do
 
@@ -38,7 +39,6 @@ It's still in early stages of development, but seems to work well already. :smil
   * Older Go releases should be ok, but only Go 1.14.x has been tested (so far).
 * A DBHub.io API key
   * These can be generated in your [Settings](https://dbhub.io/pref) page, when logged in.
-
 
 ### Example code
 
@@ -92,5 +92,6 @@ Query results (JSON):
 * [List views](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_views/main.go) - List the views present in a database
 * [List indexes](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_indexes/main.go) - List the indexes present in a database
 * [Retrieve column details](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/column_details/main.go) - Retrieve the details of columns in a table
+* **(Added 2020-08-02)** - [Generate diff between two revisions](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/diff_commits/main.go) - Figure out the differences between two databases or two versions of one database
   
 Please try it out, [submits PRs](https://github.com/sqlitebrowser/go-dbhub/pulls) to extend or fix things, and [report any weirdness or bugs](https://github.com/sqlitebrowser/go-dbhub/issues) you encounter. :smile:
