@@ -22,6 +22,8 @@ It's still in early stages of development, but seems to work well already. :smil
 * List the names of tables, views, and indexes present in a database
 * List the columns present in a table or view, along with their details
 * **(Added 2020-08-02)** - Generate a diff between two databases or revisions, to transform one into the other
+* **(Added 2020-08-04)** - List the branches of a database
+* **(Added 2020-08-04)** - Download a complete database
 
 ### Still to do
 
@@ -93,5 +95,7 @@ Query results (JSON):
 * [List indexes](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_indexes/main.go) - List the indexes present in a database
 * [Retrieve column details](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/column_details/main.go) - Retrieve the details of columns in a table
 * **(Added 2020-08-02)** - [Generate diff between two revisions](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/diff_commits/main.go) - Figure out the differences between two databases or two versions of one database
+* **(Added 2020-08-04)** - [List branches](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_branches/main.go) - List all branches of a database
+* **(Added 2020-08-04)** - [Download database](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/download_database/main.go) - Download the complete database file
   
 Please try it out, [submits PRs](https://github.com/sqlitebrowser/go-dbhub/pulls) to extend or fix things, and [report any weirdness or bugs](https://github.com/sqlitebrowser/go-dbhub/issues) you encounter. :smile:
