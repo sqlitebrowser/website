@@ -34,6 +34,7 @@ It's still in early stages of development, but seems to work well already. :smil
 * Download a complete database
 * Upload a complete database
 * Retrieve database commit history details (size, branch, commit list, whatever else is useful)
+* Investigate what would be needed for this to work through the Go SQL API
 * Anything else that people suggest and seems like a good idea :smile:
 
 ### Requirements
