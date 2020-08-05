@@ -25,15 +25,13 @@ It's still in early stages of development, but seems to work well already. :smil
 * **(Added 2020-08-04)** - List the branches of a database
 * **(Added 2020-08-04)** - Download a complete database
 * **(Added 2020-08-05)** - List the databases in your account
+* **(Added 2020-08-05)** - Download the database metadata (branches, releases, tags, commits, etc)
 
 ### Still to do
 
 * Tests for each function
 * Retrieve index details for a database
-* Return the list of available databases
-* Download a complete database
 * Upload a complete database
-* Retrieve database commit history details (size, branch, commit list, whatever else is useful)
 * Investigate what would be needed for this to work through the Go SQL API
 * Anything else that people suggest and seems like a good idea :smile:
 
@@ -99,7 +97,7 @@ Query results (JSON):
 * [Retrieve column details](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/column_details/main.go) - Retrieve the details of columns in a table
 * **(Added 2020-08-04)** - [List branches](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_branches/main.go) - List all branches of a database
 * **(Added 2020-08-02)** - [Generate diff between two revisions](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/diff_commits/main.go) - Figure out the differences between two databases or two versions of one database
-* **(Added 2020-08-04)** - [Download database](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/download_database/main.go) - Download the complete database file
-
+* **(Added 2020-08-04)** - [Download database](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/download_database/main.go) - Download a complete database file
+* **(Added 2020-08-05)** - [Retrieve metadata](https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/metadata/main.go) - Download the database metadata (size, branches, commit list, etc)
 
 Please try it out, [submits PRs](https://github.com/sqlitebrowser/go-dbhub/pulls) to extend or fix things, and [report any weirdness or bugs](https://github.com/sqlitebrowser/go-dbhub/issues) you encounter. :smile:

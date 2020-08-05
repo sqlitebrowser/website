@@ -91,15 +91,13 @@
 <li><strong>(Added 2020-08-04)</strong> - List the branches of a database</li>
 <li><strong>(Added 2020-08-04)</strong> - Download a complete database</li>
 <li><strong>(Added 2020-08-05)</strong> - List the databases in your account</li>
+<li><strong>(Added 2020-08-05)</strong> - Download the database metadata (branches, releases, tags, commits, etc)</li>
 </ul>
 <h3 id="still-to-do">Still to do</h3>
 <ul>
 <li>Tests for each function</li>
 <li>Retrieve index details for a database</li>
-<li>Return the list of available databases</li>
-<li>Download a complete database</li>
 <li>Upload a complete database</li>
-<li>Retrieve database commit history details (size, branch, commit list, whatever else is useful)</li>
 <li>Investigate what would be needed for this to work through the Go SQL API</li>
 <li>Anything else that people suggest and seems like a good idea 😄</li>
 </ul>
@@ -163,7 +161,8 @@ Query results (JSON):
 <li><a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/column_details/main.go">Retrieve column details</a> - Retrieve the details of columns in a table</li>
 <li><strong>(Added 2020-08-04)</strong> - <a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/list_branches/main.go">List branches</a> - List all branches of a database</li>
 <li><strong>(Added 2020-08-02)</strong> - <a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/diff_commits/main.go">Generate diff between two revisions</a> - Figure out the differences between two databases or two versions of one database</li>
-<li><strong>(Added 2020-08-04)</strong> - <a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/download_database/main.go">Download database</a> - Download the complete database file</li>
+<li><strong>(Added 2020-08-04)</strong> - <a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/download_database/main.go">Download database</a> - Download a complete database file</li>
+<li><strong>(Added 2020-08-05)</strong> - <a href="https://github.com/sqlitebrowser/go-dbhub/blob/master/examples/metadata/main.go">Retrieve metadata</a> - Download the database metadata (size, branches, commit list, etc)</li>
 </ul>
 <p>Please try it out, <a href="https://github.com/sqlitebrowser/go-dbhub/pulls">submits PRs</a> to extend or fix things, and <a href="https://github.com/sqlitebrowser/go-dbhub/issues">report any weirdness or bugs</a> you encounter. 😄</p>
 
