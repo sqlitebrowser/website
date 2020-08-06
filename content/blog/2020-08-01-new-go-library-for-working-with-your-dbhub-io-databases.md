@@ -19,8 +19,8 @@ It's still in early stages of development, but seems to work well already. :smil
 ### What works now
 
 * Run read-only queries (eg SELECT statements) on databases, returning the results as JSON
-* List the names of tables, views, and indexes present in a database
-* List the columns present in a table or view, along with their details
+* List the tables, views, and indexes present in a database
+* List the columns in a table, view or index, along with their details
 * **(Added 2020-08-02)** - Generate a diff between two databases or revisions, to transform one into the other
 * **(Added 2020-08-04)** - List the branches of a database
 * **(Added 2020-08-04)** - Download a complete database
@@ -30,7 +30,6 @@ It's still in early stages of development, but seems to work well already. :smil
 ### Still to do
 
 * Tests for each function
-* Retrieve index details for a database
 * Upload a complete database
 * Investigate what would be needed for this to work through the Go SQL API
 * Anything else that people suggest and seems like a good idea :smile:
