@@ -6,10 +6,21 @@
     <description>Recent content in 3.12.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/3.12.x/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First release candidate for 3.12.1</title>
+      <link>/blog/first-release-candidate-for-3-12-1/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-release-candidate-for-3-12-1/</guid>
+      <description>This is the first, and hopefully only 😉, release candidate for DB Browser for SQLite version 3.12.1.
+Downloads  DB.Browser.for.SQLite-3.12.1-rc1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.1-rc1.dmg - Standard package for macOS  The changes in this over the 3.12.0 release include:
+Enhancements  Completely reworked interface for accessing DBHub.</description>
+    </item>
     
     <item>
       <title>PortableApp for 3.12.0 release now available</title>
