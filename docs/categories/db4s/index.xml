@@ -6,10 +6,21 @@
     <description>Recent content in db4s on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/db4s/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Version 3.12.1 released</title>
+      <link>/blog/version-3-12-1-released/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-12-1-released/</guid>
+      <description>This is the first bug fix release for our 3.12.x series.
+There aren&amp;rsquo;t any &amp;ldquo;super critical must upgrade&amp;rdquo; bugs fixed, so updating isn&amp;rsquo;t urgent. 😄
+Downloads  DB.Browser.for.SQLite-3.12.1-win32.msi - Standard (MSI) installer for Win32 and WinXP DB.Browser.for.SQLite-3.12.1-win32.zip - .zip (no installer) for Win32 and WinXP DB.Browser.for.SQLite-3.12.1-win64.msi - Standard (MSI) installer for Win64 DB.Browser.for.SQLite-3.12.1-win64.zip - .zip (no installer) for Win64 DB.Browser.for.SQLite-3.12.1.dmg - For macOS  The changes in this over the 3.</description>
+    </item>
     
     <item>
       <title>First release candidate for 3.12.1</title>
