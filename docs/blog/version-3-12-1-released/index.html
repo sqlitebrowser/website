@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.68.3" />
+
+
+<title>Version 3.12.1 released - DB Browser for SQLite</title>
+<meta property="og:title" content="Version 3.12.1 released - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/dl/"><b>Download</b></a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    <li><a href="/stats/">Stats</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
+    <li><a href="https://dbhub.io">DBHub.io</a></li>
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">3 min read</span>
+    
+
+    <h1 class="article-title">Version 3.12.1 released</h1>
+
+    
+    <span class="article-date">2020-11-09</span>
+    
+
+    <div class="article-content">
+      <p>This is the first bug fix release for our 3.12.x series.</p>
+<p>There aren&rsquo;t any &ldquo;super critical <strong>must upgrade</strong>&rdquo; bugs fixed, so updating isn&rsquo;t urgent. 😄</p>
+<h2 id="downloads">Downloads</h2>
+<ul>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.msi">DB.Browser.for.SQLite-3.12.1-win32.msi</a> - Standard (MSI) installer for Win32 and WinXP</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.zip">DB.Browser.for.SQLite-3.12.1-win32.zip</a> - .zip (no installer) for Win32 and WinXP</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.msi">DB.Browser.for.SQLite-3.12.1-win64.msi</a> - Standard (MSI) installer for Win64</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.zip">DB.Browser.for.SQLite-3.12.1-win64.zip</a> - .zip (no installer) for Win64</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1.dmg">DB.Browser.for.SQLite-3.12.1.dmg</a> - For macOS</li>
+</ul>
+<p>The changes in this over the 3.12.0 release include:</p>
+<h2 id="enhancements">Enhancements</h2>
+<ul>
+<li>Completely reworked interface for accessing DBHub.io</li>
+<li>Add .Net DateTime.Ticks to list of supported display formats (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2378">#2378</a>)</li>
+<li>Add more options for setting font sizes (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2306">#2306</a>)</li>
+<li>New predefined settings for simplified window layout (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2307">#2307</a>)</li>
+</ul>
+<h2 id="bug-fixes">Bug fixes</h2>
+<ul>
+<li>Fix loading of project files with empty filter values (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2288">#2288</a>)</li>
+<li>Fix initial table view when using the -t / &ndash;table command line option (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2113">#2113</a>)</li>
+<li>Add status message when opening a file from the recent file list (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/4dfe4f76db3667e67c112cfdd5e37a2f7f8bc6d1">4dfe4f76db3667e67c112cfdd5e37a2f7f8bc6d1</a>)</li>
+<li>Make sure to not show &ldquo;NULL&rdquo; for empty but non-NULL values in the Edit dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2204">#2204</a>)</li>
+<li>Fix plot being drawn before all data is loaded (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2286">#2286</a>)</li>
+<li>Restore original default for having condition format in filter line (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f28ecc0133a2859e750fac01fccc685e2eea7508">f28ecc0133a2859e750fac01fccc685e2eea7508</a>)</li>
+<li>Fix default font in the format toolbar (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/c4b2ffceb32c9c826268702c14b5f3c67c55c45e">c4b2ffceb32c9c826268702c14b5f3c67c55c45e</a>)</li>
+<li>Improve binary detection for cases starting by chance by a BOM (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2197">#2197</a>)</li>
+<li>Make sure the order of the statements in the SQL log is correct (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/05db9014c2b7541dd21a151aa0512e5f20f47ce1">05db9014c2b7541dd21a151aa0512e5f20f47ce1</a>)</li>
+<li>Fix executing selected SQL text when there are multi-byte characters (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2311">#2311</a>)</li>
+<li>Fix executing SQL queries with compound operators (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2316">#2316</a>)</li>
+<li>Fix SQL import of files with BOM (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2323">#2323</a>)</li>
+<li>Also update schema when clicking the Refresh button in Browse Data tab (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/16c3d8d13ee997d0ce15737110826c484f8c8879">16c3d8d13ee997d0ce15737110826c484f8c8879</a>)</li>
+<li>Select column in table results when column header is pressed (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2343">#2343</a>)</li>
+<li>Tweak the output wording for command line options (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1069">#1069</a>)</li>
+<li>Remove the default property of the cancel button in the &ldquo;Fetching data&hellip;&rdquo; dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2383">#2383</a>)</li>
+<li>Fix not being saved and not applied when modifying database cells in Windows external program (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f2d8f79752f4a20b749c03f3313d9555484a0d71">f2d8f79752f4a20b749c03f3313d9555484a0d71</a>)</li>
+<li>Fix incorrect display of SQL calltips containing non-US-ASCII characters (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9f7851b4d6f31c21a98acf2a01872de654d960af">9f7851b4d6f31c21a98acf2a01872de654d960af</a>)</li>
+<li>Fix to &lsquo;Window Layout&rsquo; options work properly (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2435">#2435</a>)</li>
+</ul>
+<h1 id="building-and-packaging">Building and packaging</h1>
+<ul>
+<li>Fix CMake warning during compilation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/115aa00ac5f79a6d24618daa06e5402ff1a6adbb">115aa00ac5f79a6d24618daa06e5402ff1a6adbb</a>)</li>
+<li>snap: Add environment variables to set Qt theme (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7b5d65220557f73f2ce36ceee80f1e5ba65160c6">7b5d65220557f73f2ce36ceee80f1e5ba65160c6</a>)</li>
+<li>Updated to OpenSSL 1.1.1h for the Windows and macOS builds</li>
+</ul>
+<h1 id="platform-specific">Platform specific</h1>
+<ul>
+<li>No longer force Light theme on macOS when &ldquo;Follow the desktop style&rdquo; is chosen (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/508118ffd072e8f5507e4d6beaa52be8d51d4deb">508118ffd072e8f5507e4d6beaa52be8d51d4deb</a>)</li>
+<li>Keep registry key consistent on Windows (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2328">#2328</a>)</li>
+<li>Allow use of integrated graphics card instead of high performance graphics card in macOS (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2377">#2377</a>)</li>
+<li>Use native path separators in Preferences dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f38b829f5695bb95fbb50cb203376e3013bf2001">f38b829f5695bb95fbb50cb203376e3013bf2001</a>)</li>
+<li>Added message box for informative command line arguments for Windows (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1069">#1069</a>)</li>
+</ul>
+<h1 id="translations">Translations</h1>
+<ul>
+<li>Remove all translations of key shortcuts (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/0070a158617898ba4602ae04c451cec35df640fb">0070a158617898ba4602ae04c451cec35df640fb</a>)</li>
+<li>Update of the Korean translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2329">#2329</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/82accb2720fa06b6e2ba330338fa362c39305a3e">82accb2720fa06b6e2ba330338fa362c39305a3e</a>)</li>
+<li>Update of the Spanish translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/551a420791dcfa78dd14a954f7dbea00dd5eef0e">551a420791dcfa78dd14a954f7dbea00dd5eef0e</a>)</li>
+<li>Update of the Japanese translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2407">#2407</a>)</li>
+<li>Update of the French translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/2803da38b1e36fed59e8e56c13c201f445bda516">2803da38b1e36fed59e8e56c13c201f445bda516</a>)</li>
+<li>Update of the Arabic translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/1dfa70c209453ab3fdce7991377fdba94bafccff">1dfa70c209453ab3fdce7991377fdba94bafccff</a>)</li>
+<li>Fixes in the Spanish translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/4791b99afff1691f2770f31e33f8ac7ca5778898">4791b99afff1691f2770f31e33f8ac7ca5778898</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/5d85ca1a5388228af0ca092b0f51397743b46563">5d85ca1a5388228af0ca092b0f51397743b46563</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/454fd4a50b210c9e434bb57b54b2e4e9bf3ddd3b">454fd4a50b210c9e434bb57b54b2e4e9bf3ddd3b</a>)</li>
+<li>Fixes in the French translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/90d33c6299a447ee455013adce3af79f99b22a68">90d33c6299a447ee455013adce3af79f99b22a68</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/03752066ac7675ca2ca2b350935b0944e0e7247f">03752066ac7675ca2ca2b350935b0944e0e7247f</a>)</li>
+<li>Update of the German translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2415">#2415</a>)</li>
+<li>Update of the Italian translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2419">#2419</a>)</li>
+<li>Update of the Portuguese translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2418">#2418</a>)</li>
+<li>Update of the Chinese translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2421">#2421</a>)</li>
+<li>Add of the Dutch translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2424">#2424</a>)</li>
+</ul>
+<h2 id="sha256sums">SHA256SUMS</h2>
+<ul>
+<li>DB.Browser.for.SQLite-3.12.1-win32.msi
+<ul>
+<li>d8ba7c14e3183a6e4d5df39932c0d0ee37c8e5d84b23099424a91eda11d1b49f</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.1-win32.zip
+<ul>
+<li>c12223a20c4b6e08d086e0d1f54ab0cba9b11b83698ed94f0bdf7728ac67e2f3</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.1-win64.msi
+<ul>
+<li>b88b50cca66d0118b4c41b3e6e0d0e1a1e5bdaf75d5de7ba7255c8a98f03c08d</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.1-win64.zip
+<ul>
+<li>3dd4ccb07f5aabe86b8b12a2544169f9dc15c371f1655ce4072da5a0bd2d2ae3</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.1.dmg
+<ul>
+<li>44e9ed35ac456d265d86da0731c77ee6617e6540f2a82b912002c17cc4927f36</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://db4s.slack.com" target="_blank">Slack</a>
+          </li>
+        </ul>
+        <br />
+        <a href="https://digitalocean.com"><img src="/images/DO-powered_by_badge_blue.svg" alt="Powered by Digital Ocean badge" style="width:300px;height:63px;"/></a>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+

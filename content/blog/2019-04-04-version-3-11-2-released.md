@@ -20,12 +20,12 @@ tags:
 * Attach encrypted database results in Out of Memory Error ([#1799](https://github.com/sqlitebrowser/sqlitebrowser/issues/1799))
 * File is not a database ([#1814](https://github.com/sqlitebrowser/sqlitebrowser/issues/1814))
 * Can't remove password from an encrypted database any more ([#1829](https://github.com/sqlitebrowser/sqlitebrowser/issues/1829))
-* grammar: Fix keywords as table name and keywords as column name ([1a59c8cbda47684dfc0b55283fc6fdb396adc832](https://github.com/sqlitebrowser/sqlitebrowser/commit/xxx))
+* grammar: Fix keywords as table name and keywords as column name ([1a59c8cbda47684dfc0b55283fc6fdb396adc832](https://github.com/sqlitebrowser/sqlitebrowser/commit/1a59c8cbda47684dfc0b55283fc6fdb396adc832))
 * Updated translation strings
   * Korean ([#1600](https://github.com/sqlitebrowser/sqlitebrowser/issues/1600))
   * Brazilian Portuguese ([#1830](https://github.com/sqlitebrowser/sqlitebrowser/issues/1830))
   * Italian ([#1833](https://github.com/sqlitebrowser/sqlitebrowser/issues/1833))
-  * German ([e2ad5459d569801f9a635391f774e81ca1009e85](https://github.com/sqlitebrowser/sqlitebrowser/commit/xxx))
+  * German ([e2ad5459d569801f9a635391f774e81ca1009e85](https://github.com/sqlitebrowser/sqlitebrowser/commit/e2ad5459d569801f9a635391f774e81ca1009e85))
 * Include SQLite 3.27.2 instead of SQLite 3.27.1
 * Include [SQLCipher 4.1.0](https://discuss.zetetic.net/t/sqlcipher-4-1-0-release/3490) instead of 4.0.1
   
