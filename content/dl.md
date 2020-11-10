@@ -13,9 +13,9 @@ tags: []
 
 Our latest release (3.12.1) for Windows:
 
-* [DB Browser for SQLite - Standard installer for 32-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.msi)
+* [DB Browser for SQLite - Standard installer for 32-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32-v2.msi)
 * [DB Browser for SQLite - .zip (no installer) for 32-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.zip)
-* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.msi)
+* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64-v2.msi)
 * [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.zip)
 
 ### Windows PortableApp

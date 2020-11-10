@@ -9,17 +9,19 @@ tags:
   - 3.12.x
 ---
 
+**NOTE** - The macOS .dmg for this release is broken, and is being rebuilt.  :frowning:
+
 This is the first bug fix release for our 3.12.x series.
 
 There aren't any "super critical **must upgrade**" bugs fixed, so updating isn't urgent. :smile:
 
 ## Downloads
 
-* [DB.Browser.for.SQLite-3.12.1-win32.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.msi) - Standard (MSI) installer for Win32 and WinXP
+* [DB.Browser.for.SQLite-3.12.1-win32-v2.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32-v2.msi) - Standard (MSI) installer for Win32 and WinXP
 * [DB.Browser.for.SQLite-3.12.1-win32.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.zip) - .zip (no installer) for Win32 and WinXP
-* [DB.Browser.for.SQLite-3.12.1-win64.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.msi) - Standard (MSI) installer for Win64
+* [DB.Browser.for.SQLite-3.12.1-win64-v2.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64-v2.msi) - Standard (MSI) installer for Win64
 * [DB.Browser.for.SQLite-3.12.1-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.zip) - .zip (no installer) for Win64
-* [DB.Browser.for.SQLite-3.12.1.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1.dmg) - For macOS
+* <strike>[DB.Browser.for.SQLite-3.12.1.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1.dmg) - For macOS</strike>
 
 
 The changes in this over the 3.12.0 release include:
@@ -79,13 +81,13 @@ The changes in this over the 3.12.0 release include:
 * Add of the Dutch translation ([#2424](https://github.com/sqlitebrowser/sqlitebrowser/issues/2424))
 
 ## SHA256SUMS
-* DB.Browser.for.SQLite-3.12.1-win32.msi
-  * d8ba7c14e3183a6e4d5df39932c0d0ee37c8e5d84b23099424a91eda11d1b49f
+* DB.Browser.for.SQLite-3.12.1-win32-v2.msi
+  * 6fb72e41cf867e34d1fffdd5b544dc317fbbd25e3c4e56986d62de0c0e46da06
 * DB.Browser.for.SQLite-3.12.1-win32.zip
   * c12223a20c4b6e08d086e0d1f54ab0cba9b11b83698ed94f0bdf7728ac67e2f3
-* DB.Browser.for.SQLite-3.12.1-win64.msi
-  * b88b50cca66d0118b4c41b3e6e0d0e1a1e5bdaf75d5de7ba7255c8a98f03c08d
+* DB.Browser.for.SQLite-3.12.1-win64-v2.msi
+  * 512f68ff998564b6a297ee0910563bd97808ce292bf09a840f097faea9be577e
 * DB.Browser.for.SQLite-3.12.1-win64.zip
   * 3dd4ccb07f5aabe86b8b12a2544169f9dc15c371f1655ce4072da5a0bd2d2ae3
-* DB.Browser.for.SQLite-3.12.1.dmg
-  * 44e9ed35ac456d265d86da0731c77ee6617e6540f2a82b912002c17cc4927f36
+* <strike>DB.Browser.for.SQLite-3.12.1.dmg</strike>
+  * <strike>44e9ed35ac456d265d86da0731c77ee6617e6540f2a82b912002c17cc4927f36</strike>
