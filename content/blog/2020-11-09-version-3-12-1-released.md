@@ -9,8 +9,6 @@ tags:
   - 3.12.x
 ---
 
-**NOTE** - The macOS .dmg for this release is broken, and is being rebuilt.  :frowning:
-
 This is the first bug fix release for our 3.12.x series.
 
 There aren't any "super critical **must upgrade**" bugs fixed, so updating isn't urgent. :smile:
@@ -21,7 +19,7 @@ There aren't any "super critical **must upgrade**" bugs fixed, so updating isn't
 * [DB.Browser.for.SQLite-3.12.1-win32.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win32.zip) - .zip (no installer) for Win32 and WinXP
 * [DB.Browser.for.SQLite-3.12.1-win64-v2.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64-v2.msi) - Standard (MSI) installer for Win64
 * [DB.Browser.for.SQLite-3.12.1-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-win64.zip) - .zip (no installer) for Win64
-* <strike>[DB.Browser.for.SQLite-3.12.1.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1.dmg) - For macOS</strike>
+* [DB.Browser.for.SQLite-3.12.1-v2.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.1/DB.Browser.for.SQLite-3.12.1-v2.dmg) - For macOS
 
 
 The changes in this over the 3.12.0 release include:
@@ -89,5 +87,5 @@ The changes in this over the 3.12.0 release include:
   * 512f68ff998564b6a297ee0910563bd97808ce292bf09a840f097faea9be577e
 * DB.Browser.for.SQLite-3.12.1-win64.zip
   * 3dd4ccb07f5aabe86b8b12a2544169f9dc15c371f1655ce4072da5a0bd2d2ae3
-* <strike>DB.Browser.for.SQLite-3.12.1.dmg</strike>
-  * <strike>44e9ed35ac456d265d86da0731c77ee6617e6540f2a82b912002c17cc4927f36</strike>
+* DB.Browser.for.SQLite-3.12.1-v2.dmg
+  * 45c8789dc77461299a0aeb9eaae2d089086e76eebae31b45b7a0ee48c1c9e898
