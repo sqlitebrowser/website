@@ -40,7 +40,7 @@ Our latest release (3.12.1) for macOS:
 
 If you prefer using Homebrew for macOS, our latest release can be installed via [Homebrew Cask](https://caskroom.github.io/ "Homebrew Cask"):
 
-    brew cask install db-browser-for-sqlite
+    brew install --cask db-browser-for-sqlite
 
 ## Nightly builds
 
