@@ -12,6 +12,6 @@ Thanks to [our wonderful Patrons](https://www.patreon.com/db4s), we've been able
 
 A special thanks also goes to Nikolay Zlatev of [Astra Paging](http://www.astrapaging.com) too, for organising the purchase and shipping of the monitor around the EU.
 
-This should enable (or at least strongly help) with fixing the remaining HiDPI related bugs that people have reported over the years.
+This should enable - or at least strongly help - with fixing the remaining HiDPI related bugs that people have reported over the years.
 
 Good stuff! :grinning:
