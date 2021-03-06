@@ -6,10 +6,18 @@
     <description>Recent content in patreon on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Jun 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/patreon/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/patreon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thanks to our Patreon supporters, we have a HiDPI monitor!</title>
+      <link>/blog/hidpi-monitor-purchased-thanks-to-patreon-supporters/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/hidpi-monitor-purchased-thanks-to-patreon-supporters/</guid>
+      <description>Thanks to our wonderful Patrons, we&amp;rsquo;ve been able to purchase a HiDPI monitor (Dell P2415Q) for Martin, one of our senior developers.
+A special thanks also goes to Nikolay Zlatev of Astra Paging too, for organising the purchase and shipping of the monitor around the EU.
+This should enable (or at least strongly help) with fixing the remaining HiDPI related bugs that people have reported over the years.
+Good stuff! 😀</description>
+    </item>
     
     <item>
       <title>Patreon account created</title>

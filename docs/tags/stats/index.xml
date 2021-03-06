@@ -6,11 +6,7 @@
     <description>Recent content in stats on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New download and daily users stats page</title>
       <link>/blog/new-download-daily-users-stats-page/</link>
