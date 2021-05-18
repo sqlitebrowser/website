@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.81.0-DEV" />
+
+
+<title>Version 3.12.2 released - DB Browser for SQLite</title>
+<meta property="og:title" content="Version 3.12.2 released - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/dl/"><b>Download</b></a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    <li><a href="/stats/">Stats</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
+    <li><a href="https://dbhub.io">DBHub.io</a></li>
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Version 3.12.2 released</h1>
+
+    
+    <span class="article-date">2021-05-18</span>
+    
+
+    <div class="article-content">
+      <p>This is a minor maintenance release, primarily to update the internal certificates for
+anonymous communication with the DBHub.io servers.</p>
+<p>You <strong>don&rsquo;t</strong> need to upgrade unless you&rsquo;re using DBHub.io anonymously.  If you&rsquo;re using DBHub.io
+with your own client certificate, this upgrade won&rsquo;t really do much either. 😄</p>
+<p>The changes in this over the 3.12.1 release include:</p>
+<ul>
+<li>Fix saving the list of extensions in the Preferences dialog (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/bd0e1feead6bb446f8a703338aa9893bf281e5b4">bd0e1feead6bb446f8a703338aa9893bf281e5b4</a>)</li>
+<li>Corrected a typo in the French translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3bbd4ee271f98301476143749f7bf4abed052efe">3bbd4ee271f98301476143749f7bf4abed052efe</a>)</li>
+<li>Updated the included SQLite and SQLCipher libraries to their latest release (SQLite 3.35.5, SQLCipher 4.4.3)</li>
+<li>Updated the &ldquo;public&rdquo; certificate, used for communicating with DBHub.io anonymously (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/d85953c291b5f0bb467e2c12dfa4438f997d4f28">d85953c291b5f0bb467e2c12dfa4438f997d4f28</a>)</li>
+</ul>
+<h2 id="downloads">Downloads</h2>
+<ul>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win32.msi">DB.Browser.for.SQLite-3.12.2-win32.msi</a> - Standard (MSI) installer for Win32 and WinXP</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win32.zip">DB.Browser.for.SQLite-3.12.2-win32.zip</a> - .zip (no installer) for Win32 and WinXP</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.msi">DB.Browser.for.SQLite-3.12.2-win64.msi</a> - Standard (MSI) installer for Win64</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.zip">DB.Browser.for.SQLite-3.12.2-win64.zip</a> - .zip (no installer) for Win64</li>
+<li><a href="https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2.dmg">DB.Browser.for.SQLite-3.12.2-v2.dmg</a> - For macOS</li>
+</ul>
+<h2 id="sha256sums">SHA256SUMS</h2>
+<ul>
+<li>DB.Browser.for.SQLite-3.12.2-win32.msi
+<ul>
+<li>2b87a0ca1b14f436f2dc2cbfaa380249e754c3c87c81b6648a513f75d3c73368</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.2-win32.zip
+<ul>
+<li>9344bcd50865663674f11c1d8297c0d2b4a4f7ced0a459c9e71e89382549454f</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.2-win64.msi
+<ul>
+<li>723d601f125b0d2402d9ea191e4b310345ec52f76b61e117bf49004a2ff9b8ae</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.2-win64.zip
+<ul>
+<li>559edc274a2823264e886159eaa36332fd5af1f2f4b86ba2a5ef485b6420ab54</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-3.12.2.dmg
+<ul>
+<li>546d57b6c88c2be7517759c016c0bf0313dfcc14adfcb43967f3c5d24657f366</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://db4s.slack.com" target="_blank">Slack</a>
+          </li>
+        </ul>
+        <br />
+        <a href="https://digitalocean.com"><img src="/images/DO-powered_by_badge_blue.svg" alt="Powered by Digital Ocean badge" style="width:300px;height:63px;"/></a>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+  </body>
+</html>
+
