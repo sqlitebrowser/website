@@ -20,9 +20,7 @@ Our latest release (3.12.2) for Windows:
 
 ### Windows PortableApp
 
-There is a PortableApp available, but it's still the previous (3.12.1) release version.  It should be updated to 3.12.2 over the next few days:
-
-* [DB Browser for SQLite - PortableApp](https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.0_English.paf.exe)
+* [DB Browser for SQLite - PortableApp](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe)
 
 
 **Note** - If for any reason the standard Windows release does not work
