@@ -24,11 +24,12 @@ The changes in this over the 3.12.1 release include:
 
 ## Downloads
 
-* [DB.Browser.for.SQLite-3.12.2-win32.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win32.msi) - Standard (MSI) installer for Win32 and WinXP
-* [DB.Browser.for.SQLite-3.12.2-win32.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win32.zip) - .zip (no installer) for Win32 and WinXP
-* [DB.Browser.for.SQLite-3.12.2-win64.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.msi) - Standard (MSI) installer for Win64
-* [DB.Browser.for.SQLite-3.12.2-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.zip) - .zip (no installer) for Win64
-* [DB.Browser.for.SQLite-3.12.2-v2.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2.dmg) - For macOS
+* [DB.Browser.for.SQLite-3.12.2-win32.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.msi) - Standard (MSI) installer for Win32
+* [DB.Browser.for.SQLite-3.12.2-win32.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.zip) - .zip (no installer) for Win32
+* [DB.Browser.for.SQLite-3.12.2-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.msi) - Standard (MSI) installer for Win64
+* [DB.Browser.for.SQLite-3.12.2-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.zip) - .zip (no installer) for Win64
+* [DB.Browser.for.SQLite-3.12.2.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2.dmg) - For macOS
+* [SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe](https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe) - PortableApp for Windows
 
 ## SHA256SUMS
 * DB.Browser.for.SQLite-3.12.2-win32.msi
@@ -41,4 +42,6 @@ The changes in this over the 3.12.1 release include:
   * 559edc274a2823264e886159eaa36332fd5af1f2f4b86ba2a5ef485b6420ab54
 * DB.Browser.for.SQLite-3.12.2.dmg
   * 546d57b6c88c2be7517759c016c0bf0313dfcc14adfcb43967f3c5d24657f366
+* SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe
+  * a597b791949c260e31908d00bde474cbb4b16d55120be92ee6e0d7c08be56809
   

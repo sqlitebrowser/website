@@ -13,14 +13,14 @@ tags: []
 
 Our latest release (3.12.2) for Windows:
 
-* [DB Browser for SQLite - Standard installer for 32-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win32.msi)
-* [DB Browser for SQLite - .zip (no installer) for 32-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win32.zip)
-* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.msi)
-* [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.zip)
+* [DB Browser for SQLite - Standard installer for 32-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.msi)
+* [DB Browser for SQLite - .zip (no installer) for 32-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.zip)
+* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.msi)
+* [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.zip)
 
 ### Windows PortableApp
 
-* [DB Browser for SQLite - PortableApp](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe)
+* [DB Browser for SQLite - PortableApp](https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe)
 
 
 **Note** - If for any reason the standard Windows release does not work
@@ -32,7 +32,7 @@ Nightly builds often fix bugs reported after the last release. :smile:
 
 Our latest release (3.12.2) for macOS:
 
-* [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2.dmg)
+* [DB Browser for SQLite](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2.dmg)
 
 ### Homebrew
 
