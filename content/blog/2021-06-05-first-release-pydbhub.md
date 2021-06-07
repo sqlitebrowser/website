@@ -10,10 +10,12 @@ tags:
 ---
 Thanks to the excellent effort of [@LeMoussel](https://github.com/LeMoussel),
 there is now a Python library for people to use and access their SQLite databases
-on DBHub.io.
+on DBHub.io. :smile:
 
 It's called [pydbhub](https://github.com/LeMoussel), and is available here:
 
 https://github.com/LeMoussel/pydbhub
 
-It should be on PyPi in the reasonably near future as well. :smile:
+And on PyPi:
+
+https://pypi.org/project/pydbhub/
