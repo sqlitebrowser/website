@@ -48,7 +48,27 @@ Download nightly builds for Windows and macOS here:
 
 ## Linux
 
-DB Browser for SQLite works well on Linux.
+Our latest release is available as an AppImage, Snap packages, and distribution specific packages:
+
+### AppImage
+
+* [DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage](https://download.sqlitebrowser.org/DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage)
+
+Remember to change it's permission bits to be executable before you run it. :smile:
+
+### Snap packages
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/sqlitebrowser)
+
+#### Snap Release build
+
+     snap install sqlitebrowser
+
+#### Snap Nightly builds
+
+     snap install sqlitebrowser --devmode
+
+Other distribution specific instructions:
 
 ### Arch Linux
 
@@ -145,15 +165,3 @@ using either this command:
 or this command:
 
     pkg install sqlitebrowser
-
-## Snap packages
-
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/sqlitebrowser)
-
-#### Snap Nightlies
-
-     snap install sqlitebrowser --devmode
-
-#### Snap Stable
-
-     snap install sqlitebrowser
