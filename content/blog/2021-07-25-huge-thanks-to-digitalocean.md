@@ -16,4 +16,5 @@ that time, we've experienced _no_ outages or weirdness whatsoever.  It's been
 fantastic!
 
 If you're looking for a good, reliable Cloud service that doesn't suffer
-from network weirdness or outages, DigitalOcean is a solid choice. :smile:
+from network weirdness or outages, [DigitalOcean](https://www.digitalocean.com)
+is a solid choice. :smile:
