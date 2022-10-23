@@ -32,7 +32,8 @@ Nightly builds often fix bugs reported after the last release. :smile:
 
 Our latest release (3.12.2) for macOS:
 
-* [DB Browser for SQLite](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2.dmg)
+* [DB Browser for SQLite (Intel)](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2.dmg)
+* [DB Browser for SQLite (Apple Silicon)](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-arm64-3.12.2.dmg)
 
 ### Homebrew
 

@@ -6,7 +6,18 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple Silicon (M1/M2/etc) macOS package available</title>
+      <link>/blog/apple-silicon-macos-package-available/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/apple-silicon-macos-package-available/</guid>
+      <description>We are proud to present&amp;hellip; the Apple Silicon (arm64) version of DB Browser for SQLite v3.12.2:
+ https://download.sqlitebrowser.org/DB.Browser.for.SQLite-arm64-3.12.2.dmg  0c2076e4479cb9db5c85123cfe9750641f92566694ff9f6c99906321a2c424e8 (SHA256 checksum)    If you&amp;rsquo;re using one of Apple&amp;rsquo;s M1 or M2 based macOS devices, then this native Apple Silicon version of DB4S should work a bit better than our existing Intel based download.
+Additionally, our nightly builds for macOS now have both Intel and Apple Silicon (arm64) downloads available:</description>
+    </item>
+    
     <item>
       <title>Huge thanks to DigitalOcean for sponsoring us!</title>
       <link>/blog/huge-thanks-to-digitalocean/</link>
