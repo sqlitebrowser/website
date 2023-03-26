@@ -33,8 +33,8 @@ You can see the initial blog post for the Go library here .</description>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/blog/live-databases-are-now-live/</guid>
-      <description>We&amp;rsquo;ve been working hard on the development of DBHub.io and one of the most asked features we&amp;rsquo;ve just added is the ability to perform insert, update and delete commands on a database.
-One excellent benefit of DBHub.io has always been performing queries on an SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users. However, databases were read-only. You couldn&amp;rsquo;t perform any changes on them.</description>
+      <description>We&amp;rsquo;ve been working hard developing DBHub.io. One of the most requested features is the ability to perform insert, update and delete commands on a database. That now has an experimental implementation available via our API, and everyone is encouraged to try it out.
+One excellent benefit of DBHub.io has always been performing queries on an SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users.</description>
     </item>
     
     <item>
