@@ -1,17 +1,18 @@
 ---
-title: "Database sharing has been improved on dbhub.io"
+title: "Database sharing has been improved on DBHub.io"
 author: "Chris Locke"
 date: "2023-03-25"
-slug: "database-sharing-has-been-improved-on-dbhub-io"
-categories: []
+slug: database-sharing-has-been-improved-on-dbhub-io
+categories:
+  - dbhub.io
 tags: dbhub.io
 ---
 
-We have been hard at work making improvements to dbhub.io.  We've not only updated database sharing, but also allowed database updates via the API.  Read more about that in this blog post (... link to follow ...)
+We have been hard at work making improvements to DBHub.io.  We've not only updated database sharing, but also allowed database updates via the API.  Read more about that in [this blog post](/blog/live-databases-are-now-live).
 
 ![](/images/Screenshot_20230326_130647.png)
 
-dbhub.io has always allowed database sharing (databases you upload can be either private or public, with private databases shareable to specific users) but knowing what databases you've shared and to who has been a bit cumbersome.  You'd have to remember what databases you've shared to then go into the settings to see who has access.
+DBHub.io has allowed database sharing (databases you upload can be either private or public, with private databases shareable to specific users) since Aug 2020, but knowing what databases you've shared and to who has been a bit cumbersome.  You'd have to remember what databases you've shared to then go into the settings to see who has access.
 
 ![](/images/Screenshot_20230326_132323.png)
 
@@ -23,7 +24,7 @@ This GUI and process is continually improving and is in strong development, so w
 
 ![](/images/Screenshot_20230326_133235.png)
 
-As a quick reminder, to share a database, go to dbhub.io and click the database you want to share.
+As a quick reminder, to share a database, go to DBHub.io and click the database you want to share.
 Click the 'Settings' link to view the settings for this database.
 
 ![](/images/Screenshot_20230326_133457.png)

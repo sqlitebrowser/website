@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Hugo 0.81.0-DEV" />
+<meta name="generator" content="Hugo 0.111.3">
 
 
 <title>New Go library for working with your DBHub.io databases - DB Browser for SQLite</title>
@@ -114,26 +114,26 @@
 </li>
 </ul>
 <h3 id="example-code">Example code</h3>
-<pre><code>// Create a new DBHub.io API object
-db, err := dbhub.New(&quot;YOUR_API_KEY_HERE&quot;)
+<pre tabindex="0"><code>// Create a new DBHub.io API object
+db, err := dbhub.New(&#34;YOUR_API_KEY_HERE&#34;)
 if err != nil {
     log.Fatal(err)
 }
 
 // Retrieve the list of tables in the remote database
-tables, err := db.Tables(&quot;justinclift&quot;, &quot;Join Testing.sqlite&quot;)
+tables, err := db.Tables(&#34;justinclift&#34;, &#34;Join Testing.sqlite&#34;)
 if err != nil {
     log.Fatal(err)
 }
 
 // Display the retrieved list of tables
-fmt.Println(&quot;Tables:&quot;)
+fmt.Println(&#34;Tables:&#34;)
 for _, j := range tables {
-    fmt.Printf(&quot;  * %s\n&quot;, j)
+    fmt.Printf(&#34;  * %s\n&#34;, j)
 }
 
 // Run a SQL query on the remote database
-r, err := db.Query(&quot;justinclift&quot;, &quot;Join Testing.sqlite&quot;, false,
+r, err := db.Query(&#34;justinclift&#34;, &#34;Join Testing.sqlite&#34;, false,
     `SELECT table1.Name, table2.value
         FROM table1 JOIN table2
         USING (id)
@@ -141,10 +141,10 @@ r, err := db.Query(&quot;justinclift&quot;, &quot;Join Testing.sqlite&quot;, fal
 if err != nil {
     log.Fatal(err)
 }
-fmt.Printf(&quot;Query results (JSON):\n\t%v\n&quot;, r)
+fmt.Printf(&#34;Query results (JSON):\n\t%v\n&#34;, r)
 fmt.Println()
 </code></pre><h3 id="output">Output</h3>
-<pre><code>Tables:
+<pre tabindex="0"><code>Tables:
   * table1
   * table2
 

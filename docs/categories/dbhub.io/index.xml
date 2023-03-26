@@ -6,7 +6,37 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database sharing has been improved on DBHub.io</title>
+      <link>/blog/database-sharing-has-been-improved-on-dbhub-io/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/database-sharing-has-been-improved-on-dbhub-io/</guid>
+      <description>We have been hard at work making improvements to DBHub.io. We&amp;rsquo;ve not only updated database sharing, but also allowed database updates via the API. Read more about that in this blog post.
+DBHub.io has allowed database sharing (databases you upload can be either private or public, with private databases shareable to specific users) since Aug 2020, but knowing what databases you&amp;rsquo;ve shared and to who has been a bit cumbersome. You&amp;rsquo;d have to remember what databases you&amp;rsquo;ve shared to then go into the settings to see who has access.</description>
+    </item>
+    
+    <item>
+      <title>Go Library (go-dbhub) updated to work with Live databases</title>
+      <link>/blog/go-library-updated-to-work-with-live-databases/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/go-library-updated-to-work-with-live-databases/</guid>
+      <description>Following the news that databases can now be updated via the API, we have updated the Go library which accesses and queries your databases on DBHub.io to v0.1.0 to also use these new live features. You can easily send INSERT, UPDATE or DELETE queries without sending base64 encoded SQL queries via the API.
+You can see the initial blog post for the Go library here .</description>
+    </item>
+    
+    <item>
+      <title>Live databases are now .. live</title>
+      <link>/blog/live-databases-are-now-live/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/live-databases-are-now-live/</guid>
+      <description>We&amp;rsquo;ve been working hard on the development of DBHub.io and one of the most asked features we&amp;rsquo;ve just added is the ability to perform insert, update and delete commands on a database.
+One excellent benefit of DBHub.io has always been performing queries on an SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users. However, databases were read-only. You couldn&amp;rsquo;t perform any changes on them.</description>
+    </item>
+    
     <item>
       <title>First release of Python library &#39;pydbhub&#39;</title>
       <link>/blog/first-release-pydbhub/</link>

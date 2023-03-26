@@ -14,9 +14,9 @@
       
       <guid>/blog/new-download-daily-users-stats-page/</guid>
       <description>Today we added a new &amp;ldquo;Stats&amp;rdquo; page, showing the number of daily downloads and daily users:
- https://sqlitebrowser.org/stats/
+https://sqlitebrowser.org/stats/
 The graphs are generated using Redash, and should automatically update every 10 minutes:
- https://redash.io
+https://redash.io
 Being able to mouse over a particular day to get info for that day is useful, as is being able to download the data set (in various formats, but not yet SQLite 😉).
 It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&amp;rsquo;s no proper caching layer yet, so it may be a bit slow to load.</description>
     </item>

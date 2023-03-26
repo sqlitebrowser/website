@@ -14,8 +14,9 @@
       
       <guid>/blog/apple-silicon-macos-package-available/</guid>
       <description>We are proud to present&amp;hellip; the Apple Silicon (arm64) version of DB Browser for SQLite v3.12.2:
- https://download.sqlitebrowser.org/DB.Browser.for.SQLite-arm64-3.12.2.dmg  0c2076e4479cb9db5c85123cfe9750641f92566694ff9f6c99906321a2c424e8 (SHA256 checksum)    If you&amp;rsquo;re using one of Apple&amp;rsquo;s M1 or M2 based macOS devices, then this native Apple Silicon version of DB4S should work a bit better than our existing Intel based download.
-Additionally, our nightly builds for macOS now have both Intel and Apple Silicon (arm64) downloads available:</description>
+https://download.sqlitebrowser.org/DB.Browser.for.SQLite-arm64-3.12.2.dmg 0c2076e4479cb9db5c85123cfe9750641f92566694ff9f6c99906321a2c424e8 (SHA256 checksum) If you&amp;rsquo;re using one of Apple&amp;rsquo;s M1 or M2 based macOS devices, then this native Apple Silicon version of DB4S should work a bit better than our existing Intel based download.
+Additionally, our nightly builds for macOS now have both Intel and Apple Silicon (arm64) downloads available:
+Nightly builds using SQLite (no encryption):</description>
     </item>
     
     <item>
@@ -36,7 +37,7 @@ If you&amp;rsquo;re looking for a good, reliable Cloud service that doesn&amp;rs
       
       <guid>/blog/linux-appimage-available/</guid>
       <description>Thanks to new team member Nikolay Zlatev, an AppImage of our recent 3.12.2 release is available:
- https://download.sqlitebrowser.org/DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage  ea14c7439f7e666f3e9d8cbffe9048134b87db3e2d7bf65f4146b0649536de5c (SHA256 checksum)    That should work on most Linux (x86_64) distributions, and should help people running older software to use our new releases.
+https://download.sqlitebrowser.org/DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage ea14c7439f7e666f3e9d8cbffe9048134b87db3e2d7bf65f4146b0649536de5c (SHA256 checksum) That should work on most Linux (x86_64) distributions, and should help people running older software to use our new releases.
 Good stuff Nikolay! 😀</description>
     </item>
     
@@ -49,7 +50,7 @@ Good stuff Nikolay! 😀</description>
       <description>This is a minor maintenance release, primarily to update the internal certificates for anonymous communication with the DBHub.io servers.
 You don&amp;rsquo;t need to upgrade unless you&amp;rsquo;re using DBHub.io anonymously. If you&amp;rsquo;re using DBHub.io with your own client certificate, this upgrade won&amp;rsquo;t really do much either. 😄
 The changes in this over the 3.12.1 release include:
- Fix saving the list of extensions in the Preferences dialog (bd0e1feead6bb446f8a703338aa9893bf281e5b4) Corrected a typo in the French translation (3bbd4ee271f98301476143749f7bf4abed052efe) Updated the included SQLite and SQLCipher libraries to their latest release (SQLite 3.</description>
+Fix saving the list of extensions in the Preferences dialog (bd0e1feead6bb446f8a703338aa9893bf281e5b4) Corrected a typo in the French translation (3bbd4ee271f98301476143749f7bf4abed052efe) Updated the included SQLite and SQLCipher libraries to their latest release (SQLite 3.</description>
     </item>
     
     <item>
@@ -71,7 +72,7 @@ This should enable - or at least strongly help - with fixing the remaining HiDPI
       <guid>/blog/version-3-12-1-released/</guid>
       <description>This is the first bug fix release for our 3.12.x series.
 There aren&amp;rsquo;t any &amp;ldquo;super critical must upgrade&amp;rdquo; bugs fixed, so updating isn&amp;rsquo;t urgent. 😄
-Downloads  DB.Browser.for.SQLite-3.12.1-win32-v2.msi - Standard (MSI) installer for Win32 and WinXP DB.Browser.for.SQLite-3.12.1-win32.zip - .zip (no installer) for Win32 and WinXP DB.Browser.for.SQLite-3.12.1-win64-v2.msi - Standard (MSI) installer for Win64 DB.Browser.for.SQLite-3.12.1-win64.zip - .zip (no installer) for Win64 DB.Browser.for.SQLite-3.12.1-v2.dmg - For macOS  The changes in this over the 3.</description>
+Downloads DB.Browser.for.SQLite-3.12.1-win32-v2.msi - Standard (MSI) installer for Win32 and WinXP DB.Browser.for.SQLite-3.12.1-win32.zip - .zip (no installer) for Win32 and WinXP DB.Browser.for.SQLite-3.12.1-win64-v2.msi - Standard (MSI) installer for Win64 DB.Browser.for.SQLite-3.12.1-win64.zip - .zip (no installer) for Win64 DB.Browser.for.SQLite-3.12.1-v2.dmg - For macOS The changes in this over the 3.12.0 release include:</description>
     </item>
     
     <item>
@@ -81,8 +82,8 @@ Downloads  DB.Browser.for.SQLite-3.12.1-win32-v2.msi - Standard (MSI) installer 
       
       <guid>/blog/first-release-candidate-for-3-12-1/</guid>
       <description>This is the first, and hopefully only 😉, release candidate for DB Browser for SQLite version 3.12.1.
-Downloads  DB.Browser.for.SQLite-3.12.1-rc1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.1-rc1.dmg - Standard package for macOS  The changes in this over the 3.12.0 release include:
-Enhancements  Completely reworked interface for accessing DBHub.</description>
+Downloads DB.Browser.for.SQLite-3.12.1-rc1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.1-rc1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.1-rc1.dmg - Standard package for macOS The changes in this over the 3.12.0 release include:
+Enhancements Completely reworked interface for accessing DBHub.io Add .</description>
     </item>
     
     <item>
@@ -92,7 +93,7 @@ Enhancements  Completely reworked interface for accessing DBHub.</description>
       
       <guid>/blog/first-release-candidate-for-3-12-0/</guid>
       <description>This is the first (and hopefully final), release candidate for DB Browser for SQLite version 3.12.0.
-Downloads  DB.Browser.for.SQLite-3.12.0-rc1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0-rc1.dmg - Standard package for macOS  Support for pre-3.11 project file format In v3.11, the project file format was changed to support multiple sort columns (#1593), the database read-only state and the saving of configured conditional formats, while the handling of project files itself was improved too.</description>
+Downloads DB.Browser.for.SQLite-3.12.0-rc1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-rc1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0-rc1.dmg - Standard package for macOS Support for pre-3.11 project file format In v3.11, the project file format was changed to support multiple sort columns (#1593), the database read-only state and the saving of configured conditional formats, while the handling of project files itself was improved too.</description>
     </item>
     
     <item>
@@ -102,7 +103,7 @@ Downloads  DB.Browser.for.SQLite-3.12.0-rc1-win32.msi - Standard installer for 3
       
       <guid>/blog/first-alpha-release-for-3-12-0/</guid>
       <description>The first Windows and mac alpha builds for our next major release are ready. Please try them out, and report any weirdness.
-Downloads  DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1.dmg - Standard package for macOS  Note - There is no Windows XP support in the 32-bit builds at the moment.</description>
+Downloads DB.Browser.for.SQLite-3.12.0-alpha1-win32.msi - Standard installer for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win32.zip - .zip (no installer) for 32-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.msi - Standard installer for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1-win64.zip - .zip (no installer) for 64-bit Windows DB.Browser.for.SQLite-3.12.0-alpha1.dmg - Standard package for macOS Note - There is no Windows XP support in the 32-bit builds at the moment.</description>
     </item>
     
   </channel>

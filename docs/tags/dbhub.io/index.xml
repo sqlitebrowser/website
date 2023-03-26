@@ -6,7 +6,37 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Database sharing has been improved on DBHub.io</title>
+      <link>/blog/database-sharing-has-been-improved-on-dbhub-io/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/database-sharing-has-been-improved-on-dbhub-io/</guid>
+      <description>We have been hard at work making improvements to DBHub.io. We&amp;rsquo;ve not only updated database sharing, but also allowed database updates via the API. Read more about that in this blog post.
+DBHub.io has allowed database sharing (databases you upload can be either private or public, with private databases shareable to specific users) since Aug 2020, but knowing what databases you&amp;rsquo;ve shared and to who has been a bit cumbersome. You&amp;rsquo;d have to remember what databases you&amp;rsquo;ve shared to then go into the settings to see who has access.</description>
+    </item>
+    
+    <item>
+      <title>Go Library (go-dbhub) updated to work with Live databases</title>
+      <link>/blog/go-library-updated-to-work-with-live-databases/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/go-library-updated-to-work-with-live-databases/</guid>
+      <description>Following the news that databases can now be updated via the API, we have updated the Go library which accesses and queries your databases on DBHub.io to v0.1.0 to also use these new live features. You can easily send INSERT, UPDATE or DELETE queries without sending base64 encoded SQL queries via the API.
+You can see the initial blog post for the Go library here .</description>
+    </item>
+    
+    <item>
+      <title>Live databases are now .. live</title>
+      <link>/blog/live-databases-are-now-live/</link>
+      <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/live-databases-are-now-live/</guid>
+      <description>We&amp;rsquo;ve been working hard on the development of DBHub.io and one of the most asked features we&amp;rsquo;ve just added is the ability to perform insert, update and delete commands on a database.
+One excellent benefit of DBHub.io has always been performing queries on an SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users. However, databases were read-only. You couldn&amp;rsquo;t perform any changes on them.</description>
+    </item>
+    
     <item>
       <title>First release of Python library &#39;pydbhub&#39;</title>
       <link>/blog/first-release-pydbhub/</link>
@@ -30,7 +60,7 @@ https://pypi.org/project/pydbhub/</description>
 https://github.com/sqlitebrowser/go-dbhub
 Documentation is in place, code quality is good, and there are worked examples for each function call.
 It&amp;rsquo;s still in early stages of development, but seems to work well already. 😄
-What works now  Run read-only queries (eg SELECT statements) on databases, returning the results as JSON List the tables, views, and indexes present in a database List the columns in a table, view or index, along with their details (Added 2020-08-02) - Generate a diff between two databases or revisions, to transform one into the other (Added 2020-08-04) - List the branches of a database (Added 2020-08-04) - Download a complete database (Added 2020-08-05) - List the databases in your account (Added 2020-08-05) - Download the database metadata (branches, releases, tags, commits, etc)  Still to do  Tests for each function Upload a complete database Investigate what would be needed for this to work through the Go SQL API Anything else that people suggest and seems like a good idea 😄  Requirements  Go version 1.</description>
+What works now Run read-only queries (eg SELECT statements) on databases, returning the results as JSON List the tables, views, and indexes present in a database List the columns in a table, view or index, along with their details (Added 2020-08-02) - Generate a diff between two databases or revisions, to transform one into the other (Added 2020-08-04) - List the branches of a database (Added 2020-08-04) - Download a complete database (Added 2020-08-05) - List the databases in your account (Added 2020-08-05) - Download the database metadata (branches, releases, tags, commits, etc) Still to do Tests for each function Upload a complete database Investigate what would be needed for this to work through the Go SQL API Anything else that people suggest and seems like a good idea 😄 Requirements Go version 1.</description>
     </item>
     
     <item>
@@ -42,7 +72,7 @@ What works now  Run read-only queries (eg SELECT statements) on databases, retur
       <description>For anyone wanting to run SQL queries against their uploaded databases, there&amp;rsquo;s now an API server: https://api.dbhub.io
 As a starting point, there&amp;rsquo;s just one API call (/v1/query), and it only runs SELECT queries (eg read only database). That should be useful enough for many things though.
 Query parameters Query parameters are passed via POST only, and all results are in a fairly verbose JSON format.
- apikey - Your API key.</description>
+apikey - Your API key. These can be generated in your Settings page, when logged in to DBHub.</description>
     </item>
     
     <item>
@@ -65,7 +95,7 @@ Advanced users will ideally be able to input their own SQL queries for generatin
       
       <guid>/blog/new-landing-page-for-dbhub-io/</guid>
       <description>Our sister website, DBHub.io - where people can backup their databases, share them with others, and collaboratively develop data - has a proper landing page from today:
- https://dbhub.io
+https://dbhub.io
 It required quite a lot of effort to assemble, even though it&amp;rsquo;s just a simple description, screenshots (click them!), and an overview video. 😉
 Please take a look, create an account (it&amp;rsquo;s free), and try things out.
 The website code is fully Open Source, and is gaining interesting + useful capabilities over time.</description>
