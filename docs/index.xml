@@ -28,12 +28,12 @@ You can see the initial blog post for the Go library here .</description>
     </item>
     
     <item>
-      <title>Live databases are now .. live</title>
+      <title>Live databases are now .. live!</title>
       <link>/blog/live-databases-are-now-live/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/blog/live-databases-are-now-live/</guid>
-      <description>We&amp;rsquo;ve been working hard developing DBHub.io. One of the most requested features is the ability to perform insert, update and delete commands on a database. That now has an experimental implementation available via our API, and everyone is encouraged to try it out.
+      <description>We&amp;rsquo;ve been working hard developing DBHub.io. One of the most requested features is the ability to perform INSERT, UPDATE and DELETE commands on a database. That now has an experimental implementation available via our API, and everyone is encouraged to try it out.
 One excellent benefit of DBHub.io has always been performing queries on an SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users.</description>
     </item>
     
