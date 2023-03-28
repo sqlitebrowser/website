@@ -19,10 +19,10 @@ When you upload a database, click the 'Advanced' link to reveal the advanced opt
 
 ![](/images/Screenshot_20230326_150017.png)
 
-Scroll down and you'll see an 'Experimental' panel where you can toggle between 'Standard' and 'Live' databases.
-Standard is the default option where databases are read-only, but have the advantage of being version controlled.  
-If you switch to Live mode, you can use our API to make database changes - insert new rows, update existing rows or delete rows.  Please note though that in this mode, databases are not version controlled.
+Scroll down and you'll see an 'Experimental' panel where you can toggle between 'Standard' and 'Live' databases.  
+**Standard** is the default option where databases are read-only, but have the advantage of being version controlled.  
+If you switch to **Live** mode, you can use [our API](https://api.dbhub.io/) to make database changes - insert new rows, update existing rows or delete rows.  Please note though that in this mode, databases are **not** version controlled.
 
-In related news, we have also updated our Go library ([go-dbhub](https://github.com/sqlitebrowser/go-dbhub)) to access and control live databases.  You can read more about that here (... insert link to blog post 3 ...)
+In related news, we have also updated our Go library ([go-dbhub](https://github.com/sqlitebrowser/go-dbhub)) to access and control live databases.  You can read more about that [here](/blog/go-library-updated-to-work-with-live-databases/).
 
 To view details about our API, please visit our [API page](https://api.dbhub.io/).
