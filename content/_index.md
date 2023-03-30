@@ -11,9 +11,7 @@ title: DB Browser for SQLite
 ![DB Browser for SQLite Screenshot](/images/screenshot.png "DB Browser for SQLite Screenshot")
 
 [![Wiki][wiki-img]][wiki]
-[![Build Status][travis-img]][travis]
 [![Join the chat at https://gitter.im/sqlitebrowser/sqlitebrowser][gitter-img]][gitter]
-[![Join the chat at https://join.slack.com/t/db4s/shared_invite/enQtMzc3MzY5OTU4NDgzLWRlYjk0ZmE5ZDEzYWVmNDQxYTYxNmJjNWVkMjI3ZmVjZTY2NDBjODY3YzNhNTNmZDVlNWI2ZGFjNTk5MjJkYmU][slack-img]][slack]
 [![Download][download-img]][download]
 [![Qt][qt-img]][qt]
 [![Coverity][coverity-img]][coverity]
@@ -48,14 +46,8 @@ not require familiarity with SQL commands. It is a tool to be used by both
 developers and end users, and must remain as simple to use as possible
 in order to achieve these goals.
 
-[travis-img]: https://travis-ci.org/sqlitebrowser/sqlitebrowser.svg?branch=master
-[travis]: https://travis-ci.org/sqlitebrowser/sqlitebrowser
-
 [gitter-img]: https://badges.gitter.im/sqlitebrowser/sqlitebrowser.svg
 [gitter]: https://gitter.im/sqlitebrowser/sqlitebrowser
-
-[slack-img]: https://img.shields.io/badge/chat-on%20slack-orange.svg
-[slack]: https://join.slack.com/t/db4s/shared_invite/enQtMzc3MzY5OTU4NDgzLWRlYjk0ZmE5ZDEzYWVmNDQxYTYxNmJjNWVkMjI3ZmVjZTY2NDBjODY3YzNhNTNmZDVlNWI2ZGFjNTk5MjJkYmU
 
 [download-img]: https://img.shields.io/github/downloads/sqlitebrowser/sqlitebrowser/total.svg
 [download]: https://github.com/sqlitebrowser/sqlitebrowser/releases
