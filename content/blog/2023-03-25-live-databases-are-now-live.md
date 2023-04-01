@@ -8,7 +8,7 @@ categories:
 tags: dbhub.io
 ---
 
-We've been working hard developing DBHub.io.
+We've been working hard developing [DBHub.io](https://dbhub.io).
 One of the most requested features is the ability to perform INSERT, UPDATE and DELETE commands on a database.  That now has an experimental implementation available via our [API](https://api.dbhub.io/), and everyone is encouraged to try it out. 
 
 One excellent benefit of DBHub.io has always been performing queries on a SQLite database stored in the cloud.  Together with creating snapshots and full version control, it has been a benefit to many users.  However, databases were read-only.  You couldn't perform any changes on them.  Now you can.
