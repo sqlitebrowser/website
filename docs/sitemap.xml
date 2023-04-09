@@ -3,30 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/blog/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blog/database-sharing-has-been-improved-on-dbhub-io/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dbhub.io/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/dbhub.io/</loc>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/more-webui-related-updates/</loc>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/database-sharing-has-been-improved-on-dbhub-io/</loc>
     <lastmod>2023-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/go-library-updated-to-work-with-live-databases/</loc>
     <lastmod>2023-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/live-databases-are-now-live/</loc>
-    <lastmod>2023-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/apple-silicon-macos-package-available/</loc>

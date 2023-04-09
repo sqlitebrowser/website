@@ -6,7 +6,18 @@
     <description>Recent content in Blogs on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More webUI related updates</title>
+      <link>/blog/more-webui-related-updates/</link>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/more-webui-related-updates/</guid>
+      <description>We&amp;rsquo;ve pushed out some more great updates on DBHub.io.
+Can view live database data Can generate charts from them Can write and run SQL statements on them which change the database structure (eg CREATE/DROP TABLE), as well as data manipulation SQL (eg INSERT/UPDATE/DELETE) Can View Live Database Data
+Each table in your database can be viewed, either showing every column, or just specific columns. You can create complex JOINs and view these quickly in tabular form.</description>
+    </item>
+    
     <item>
       <title>Database sharing has been improved on DBHub.io</title>
       <link>/blog/database-sharing-has-been-improved-on-dbhub-io/</link>
