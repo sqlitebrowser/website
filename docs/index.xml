@@ -267,14 +267,13 @@ It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&a
     </item>
     
     <item>
-      <title>Stats</title>
+      <title>Statistics</title>
       <link>/stats/</link>
       <pubDate>Mon, 08 Apr 2019 22:43:15 +1100</pubDate>
       
       <guid>/stats/</guid>
       <description>Note 1 - These data behind these graphs (created using Redash) automatically updates every 10 minutes.
-Note 2 - The graphs are generally slow to display (~20 seconds) at present, as each contains several thousand data points, which your browser needs to process. Optimisation will be done&amp;hellip; at some future time.
-These Daily Download stats begin in August 2018, when we moved our primary download location from GitHub to our own servers.</description>
+Monthly downloads These Monthly Download stats begin in August 2018, when we moved our primary download location from GitHub to our own servers. GitHub does make download stats available through their API, and it would be useful to add the historical (and ongoing) downloads from GitHub to this too. Some day. 😄 The missing chunk of download numbers around the start of 2021, was when the download servers weren&amp;rsquo;t saving the download info in the backend database properly.</description>
     </item>
     
     <item>
