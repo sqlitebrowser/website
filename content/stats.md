@@ -55,14 +55,14 @@ in Feb 2019, we again start to see meaningful numbers.
 This graph shows similar information to the one above, but this time includes
 the version number.
 
+<iframe src="https://redash.sqlitebrowser.org/embed/query/70/visualization/116?api_key=4llzi2AnTVkuuens4fWWacQt8eKlnvv6mepTTpIJ" width="100%" height="580"></iframe>
+
 The total number of "active users" in any given month can be slightly higher
-here than the graph above, as this one includes an entry for each version of
+here than the graph above it, as this one includes an entry for each version of
 DB Browser for SQLite launched.
 
 For example, when someone  launches an older version of DB Browser for SQLite
 it will count them for that version, and then count them again if they upgrade
 to a newer version.
 
-So, some potential for double counting of a user in this one.
-
-<iframe src="https://redash.sqlitebrowser.org/embed/query/70/visualization/116?api_key=4llzi2AnTVkuuens4fWWacQt8eKlnvv6mepTTpIJ" width="100%" height="580"></iframe>
+So, there is some potential for double counting of a user in this one.
