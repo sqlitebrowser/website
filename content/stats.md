@@ -3,7 +3,7 @@ title: Statistics
 date: "2019-04-08T22:43:15+11:00"
 ---
 
-**Note 1** - *These data behind these graphs (created using [Redash](https://redash.io)) automatically updates every 10 minutes.*
+**Note 1** - *The data behind these graphs (created using [Redash](https://redash.io)) automatically updates every 10 minutes.*
 
 # Monthly downloads
 
