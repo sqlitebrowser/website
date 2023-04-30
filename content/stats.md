@@ -40,7 +40,7 @@ SQLite is available.
 <iframe src="https://redash.sqlitebrowser.org/embed/query/72/visualization/120?api_key=93gA7RFSBC2QUO5UDJ4wPy3XyW4mJf6mNfzTd37l" width="100%" height="580"></iframe>
 
 We don't have data prior to our 3.11.0 release, as we used to primarily have
-our downloads on GitHub which doesn't share much information.  As we server our
+our downloads on GitHub which doesn't share much information.  As we serve our
 own downloads now, this information is available.
 
 The numbers mostly start in October 2018, with our [first Alpha release
