@@ -6,7 +6,41 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Execute SQL Tab Overhaul</title>
+      <link>/blog/execute-sql-tab-overhaul/</link>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/execute-sql-tab-overhaul/</guid>
+      <description>The &amp;lsquo;Execute SQL&amp;rsquo; tab has been overhauled.
+While before it was a simple textbox and a &amp;lsquo;Run SQL&amp;rsquo; button, we&amp;rsquo;ve worked hard to improve it.
+&amp;ldquo;Looks like all you&amp;rsquo;ve done is removed the button&amp;rdquo;
+It&amp;rsquo;s a bit more than that. This command window not only shows the data, but also any feedback from SQLite, eg, any errors. It has syntax-highlighting support so field names are more easily identifiable compared to keywords.</description>
+    </item>
+    
+    <item>
+      <title>Comments now enabled on blog posts</title>
+      <link>/blog/comments-now-enabled-on-blog-posts/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/comments-now-enabled-on-blog-posts/</guid>
+      <description>We&amp;rsquo;ve enabled comments on blog posts to further enhance discussion and the community. This is tied into Github, so you&amp;rsquo;ll need a Github account to post a comment or reply to a blog post.
+We look forward to hearing from you!</description>
+    </item>
+    
+    <item>
+      <title>Live databases can be public .. and more updates</title>
+      <link>/blog/live-databases-can-be-public/</link>
+      <pubDate>Sun, 23 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/live-databases-can-be-public/</guid>
+      <description>Another week, and another series of exciting updates to DBHub.io
+Live databases can now be public The public/private setting can now be chosen when uploading a live database, and can also be changed afterwards in the Settings page for any database.
+Previously, live databases were private-only as we hadn&amp;rsquo;t wired up the permissions.
+Now, they can be shared with other users. By default, sharing allows for read-only access, but you can switch this to read-write access on a user-by-user basis.</description>
+    </item>
+    
     <item>
       <title>More webUI related updates</title>
       <link>/blog/more-webui-related-updates/</link>

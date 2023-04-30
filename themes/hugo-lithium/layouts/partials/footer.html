@@ -13,6 +13,10 @@
     {{ partial "footer_highlightjs" . }}
     {{ partial "footer_mathjax" . }}
     {{ partial "footer_fathom" . }}
-    {{ partial "footer_utterances" . }}
+    
+    {{ if and (eq .Section "blog") .IsPage }}
+  {{ partial "footer_utterances" . }}
+    {{ end }}
+    
   </body>
 </html>

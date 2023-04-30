@@ -77,48 +77,42 @@
 <h2 id="live-databases-can-now-be-public">Live databases can now be public</h2>
 <p>The public/private setting can now be chosen when uploading
 a live database, and can also be changed afterwards in the
-Settings page for any database.</p>
+Settings page for any database.<br>
+Previously, live databases were private-only as we hadn&rsquo;t wired up the permissions.</p>
 <p><img src="/images/Screenshot_20230423_093548.png" alt=""></p>
-<p>By default, databases are read-only, but live databases can be shared with other named users on a read-only or read-write basis.</p>
-<ul>
-<li>
-<p>Live database can now have some associated metadata set</p>
-<ul>
-<li>1 line description</li>
-<li>Source URL (eg to reference an external source location)</li>
-<li>Full description (supports markdown)</li>
-</ul>
-</li>
-<li>
-<p>Live databases can now be downloaded through the web interface</p>
-</li>
-<li>
-<p>Live databases now support discussions</p>
-<p>Useful when collaborating with others on a live database, and
-want to discuss some aspect of it.</p>
-</li>
-<li>
+<p>Now, they can be shared with other users.  By default, sharing allows for read-only access, but you can switch this to read-write access on a user-by-user basis.</p>
+<h2 id="live-databases-can-now-have-associated-metadata-set">Live databases can now have associated metadata set</h2>
+<p><img src="/images/Screenshot_20230430_134515.png" alt=""></p>
+<p>As well as a one-line description, you can add a source URL (eg to reference an external source location) plus a Markdown supported full description field.</p>
+<h2 id="live-databases-can-be-downloaded">Live databases can be downloaded</h2>
+<p><img src="/images/Screenshot_20230430_135002.png" alt=""></p>
+<p>Live databases can now be downloaded easily through the web interface.</p>
+<h2 id="live-databases-now-support-discussions">Live databases now support discussions</h2>
+<p><img src="/images/Screenshot_20230430_141802.png" alt=""></p>
+<p>Useful when collaborating with others on a live database, and you
+want to discuss some aspect of it.  Markdown is supported.</p>
+<h2 id="maximum-number-of-rows-to-show-setting-now-operational">&ldquo;Maximum number of rows to show&rdquo; setting now operational</h2>
+<p><img src="/images/Screenshot_20230430_142202.png" alt=""></p>
 <p>The &ldquo;Database View&rdquo; page now honours the user&rsquo;s
-&ldquo;Maximum number of rows to show&rdquo; preference setting.</p>
-<p>When we converted the page to React a week or so ago,
-the new version just defaulted to showing a small number
-of rows, not taking into account the user preference value.</p>
-<p>That&rsquo;s what&rsquo;s been fixed. :)</p>
+&ldquo;Maximum number of rows to show&rdquo; preference setting.<br>
+This is a fix, as this was recently updated, and in that update it defaulted to just showing a small number of rows, not taking into account the preference value.</p>
+<h2 id="other-fixes">Other fixes</h2>
+<ul>
+<li>
+<p>The user &ldquo;Settings&rdquo; page is now &ldquo;Preferences&rdquo;<br>
+There was a link to &lsquo;settings&rsquo; for the database, and &lsquo;settings&rsquo; for the user.  It seemed sensible to differentiate these.</p>
 </li>
 <li>
-<p>(Minor) we renamed the user &ldquo;Settings&rdquo; page to &ldquo;Preferences&rdquo;</p>
-<p>It was just too weird having two &ldquo;Settings&rdquo; links be displayed
-on the database view (and similar) pages, with them both doing
-different things.</p>
-</li>
-<li>
-<p>Raised the number of allowed columns in a table from 100 to 400</p>
-<p>Previously, uploaded databases were limited to 100 columns in
+<p>Raised the number of allowed columns in a table from 100 to 400<br>
+Previously, uploaded databases were limited to 100 columns in
 their tables.  That was causing errors for some people, so we&rsquo;ve
 raised that to 400.  We&rsquo;ll keep an eye on it, and see if it
-needs to be raised further too.</p>
+needs to be raised further.<br>
+If you&rsquo;re using databases which hit this limit, please raise a <a href="https://github.com/sqlitebrowser/dbhub.io/issues/new/choose">support issue</a> so we can increase it further.</p>
 </li>
 </ul>
+<h2 id="a-quick-thanks">A Quick Thanks</h2>
+<p>We&rsquo;ve noticed an increase in users trying DBHub.io.  Thank you for taking the time to have a look and trying us out.  If you encounter any problems, let us know as we work hard to make your use of our software easy and enjoyable.</p>
 
     </div>
   </article>
@@ -160,7 +154,9 @@ fathom('trackPageview');
 </script>
 
 
-    <script src="https://utteranc.es/client.js"
+    
+    
+  <script src="https://utteranc.es/client.js"
         repo="sqlitebrowser/website"
         issue-term="pathname"
         label="utterances"
@@ -168,6 +164,8 @@ fathom('trackPageview');
         crossorigin="anonymous"
         async>
 </script>
+    
+    
   </body>
 </html>
 
