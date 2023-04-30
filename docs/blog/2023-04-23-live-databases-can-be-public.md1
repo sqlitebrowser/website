@@ -1,0 +1,64 @@
+---
+title: Live databases can be public .. and more updates
+author: Chris Locke
+date: '2023-04-23'
+slug: live-databases-can-be-public
+categories:
+  - dbhub.io
+tags: dbhub.io
+---
+
+Another week, and another series of exciting updates to DBHub.io
+
+## Live databases can now be public
+
+The public/private setting can now be chosen when uploading
+a live database, and can also be changed afterwards in the
+Settings page for any database.
+
+![](/images/Screenshot_20230423_093548.png)
+
+By default, databases are read-only, but live databases can be shared with other named users on a read-only or read-write basis.
+
+
+
+
+  * Live database can now have some associated metadata set
+
+    * 1 line description
+    * Source URL (eg to reference an external source location)
+    * Full description (supports markdown)
+
+
+  * Live databases can now be downloaded through the web interface
+
+
+  * Live databases now support discussions
+
+    Useful when collaborating with others on a live database, and
+    want to discuss some aspect of it.
+
+
+  * The "Database View" page now honours the user's
+    "Maximum number of rows to show" preference setting.
+
+    When we converted the page to React a week or so ago,
+    the new version just defaulted to showing a small number
+    of rows, not taking into account the user preference value.
+
+    That's what's been fixed. :)
+
+
+  * (Minor) we renamed the user "Settings" page to "Preferences"
+
+    It was just too weird having two "Settings" links be displayed
+    on the database view (and similar) pages, with them both doing
+    different things.
+
+
+  * Raised the number of allowed columns in a table from 100 to 400
+
+    Previously, uploaded databases were limited to 100 columns in
+    their tables.  That was causing errors for some people, so we've
+    raised that to 400.  We'll keep an eye on it, and see if it
+    needs to be raised further too.

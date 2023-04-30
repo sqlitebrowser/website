@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.111.3">
 
 
-<title>Live databases are now .. live! - DB Browser for SQLite</title>
-<meta property="og:title" content="Live databases are now .. live! - DB Browser for SQLite">
+<title>Live databases can be public .. and more updates - DB Browser for SQLite</title>
+<meta property="og:title" content="Live databases can be public .. and more updates - DB Browser for SQLite">
 
 
   <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -63,27 +63,62 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
-    <h1 class="article-title">Live databases are now .. live!</h1>
+    <h1 class="article-title">Live databases can be public .. and more updates</h1>
 
     
-    <span class="article-date">2023-03-25</span>
+    <span class="article-date">2023-04-23</span>
     
 
     <div class="article-content">
-      <p>We&rsquo;ve been working hard developing <a href="https://dbhub.io">DBHub.io</a>.
-One of the most requested features is the ability to perform INSERT, UPDATE and DELETE commands on a database.  That now has an experimental implementation available via our <a href="https://api.dbhub.io/">API</a>, and everyone is encouraged to try it out.</p>
-<p>One excellent benefit of DBHub.io has always been performing queries on a SQLite database stored in the cloud.  Together with creating snapshots and full version control, it has been a benefit to many users.  However, databases were read-only.  You couldn&rsquo;t perform any changes on them.  Now you can.</p>
-<p><img src="/images/Screenshot_20230326_145203.png" alt=""></p>
-<p>When you upload a database, click the &lsquo;Advanced&rsquo; link to reveal the advanced options panel.</p>
-<p><img src="/images/Screenshot_20230326_150017.png" alt=""></p>
-<p>Scroll down and you&rsquo;ll see an &lsquo;Experimental&rsquo; area where you can toggle between &lsquo;Standard&rsquo; and &lsquo;Live&rsquo; databases.
-<strong>Standard</strong> is the default option where databases are read-only, but have the advantage of being version controlled.<br>
-If you switch to <strong>Live</strong> mode, you can use <a href="https://api.dbhub.io/">our API</a> to make database changes - insert new rows, update existing rows or delete rows.  Please note though that in this mode, databases are <strong>not</strong> version controlled.</p>
-<p>In related news, we have also updated our Go library (<a href="https://github.com/sqlitebrowser/go-dbhub">go-dbhub</a>) to access and control live databases.  You can read more about that <a href="/blog/go-library-updated-to-work-with-live-databases/">here</a>.</p>
-<p>To view details about our API, please visit our <a href="https://api.dbhub.io/">API page</a>.</p>
+      <p>Another week, and another series of exciting updates to DBHub.io</p>
+<h2 id="live-databases-can-now-be-public">Live databases can now be public</h2>
+<p>The public/private setting can now be chosen when uploading
+a live database, and can also be changed afterwards in the
+Settings page for any database.</p>
+<p><img src="/images/Screenshot_20230423_093548.png" alt=""></p>
+<p>By default, databases are read-only, but live databases can be shared with other named users on a read-only or read-write basis.</p>
+<ul>
+<li>
+<p>Live database can now have some associated metadata set</p>
+<ul>
+<li>1 line description</li>
+<li>Source URL (eg to reference an external source location)</li>
+<li>Full description (supports markdown)</li>
+</ul>
+</li>
+<li>
+<p>Live databases can now be downloaded through the web interface</p>
+</li>
+<li>
+<p>Live databases now support discussions</p>
+<p>Useful when collaborating with others on a live database, and
+want to discuss some aspect of it.</p>
+</li>
+<li>
+<p>The &ldquo;Database View&rdquo; page now honours the user&rsquo;s
+&ldquo;Maximum number of rows to show&rdquo; preference setting.</p>
+<p>When we converted the page to React a week or so ago,
+the new version just defaulted to showing a small number
+of rows, not taking into account the user preference value.</p>
+<p>That&rsquo;s what&rsquo;s been fixed. :)</p>
+</li>
+<li>
+<p>(Minor) we renamed the user &ldquo;Settings&rdquo; page to &ldquo;Preferences&rdquo;</p>
+<p>It was just too weird having two &ldquo;Settings&rdquo; links be displayed
+on the database view (and similar) pages, with them both doing
+different things.</p>
+</li>
+<li>
+<p>Raised the number of allowed columns in a table from 100 to 400</p>
+<p>Previously, uploaded databases were limited to 100 columns in
+their tables.  That was causing errors for some people, so we&rsquo;ve
+raised that to 400.  We&rsquo;ll keep an eye on it, and see if it
+needs to be raised further too.</p>
+</li>
+</ul>
 
     </div>
   </article>
