@@ -1,7 +1,7 @@
 ---
 title: Live databases can be public .. and more updates
 author: Chris Locke
-date: '2023-04-23'
+date: '2023-04-27'
 slug: live-databases-can-be-public
 categories:
   - dbhub.io

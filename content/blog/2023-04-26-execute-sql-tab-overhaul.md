@@ -26,3 +26,5 @@ It has syntax-highlighting support so field names are more easily identifiable c
 It also remembers the history of commands, even if you close the browser, so when you next go into that database, it'll show what you entered previously.
 
 You can execute SQL statements by simply pressing Ctrl+Enter but also have the option of executing after just pressing Enter.  This makes running SQL very fluid and comfortable.
+
+Expect more changes in the coming weeks!
