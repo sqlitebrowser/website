@@ -8,16 +8,15 @@ categories:
 tags: dbhub.io
 ---
 
-We have just rolled out support for live databases to be able to use the same SQLite extensions that we have
-in our macOS nightly builds:
+We have just rolled out support for these extensions for all database types:
 
-   * COLUMN_METADATA
-   * FTS3
-   * FTS3_PARENTHESIS
-   * FTS5
-   * GEOPOLY
-   * JSON1
-   * MATH_FUNCTIONS
-   * RTREE
-   * SOUNDEX
-   * STAT4
+   * [FTS3 & FTS3_PARENTHESIS](https://www.sqlite.org/fts3.html)
+   * [FTS5](https://www.sqlite.org/fts5.html)
+   * [GEOPOLY](https://www.sqlite.org/geopoly.html)
+   * [JSON1](https://www.sqlite.org/json1.html)
+   * [MATH_FUNCTIONS](https://www.sqlite.org/lang_mathfunc.html)
+   * [RTREE](https://www.sqlite.org/rtree.html)
+   * [SOUNDEX](https://www.sqlite.org/lang_corefunc.html#soundex)
+
+This means your databases are now able to use all of the functions provided
+by these extensions, which should be very useful for a lot of people.

@@ -13,8 +13,8 @@
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
       
       <guid>/blog/support-for-sqlite-extensions-added/</guid>
-      <description>We have just rolled out support for live databases to be able to use the same SQLite extensions that we have in our macOS nightly builds:
-COLUMN_METADATA FTS3 FTS3_PARENTHESIS FTS5 GEOPOLY JSON1 MATH_FUNCTIONS RTREE SOUNDEX STAT4 </description>
+      <description>We have just rolled out support for these extensions for all database types:
+FTS3 &amp;amp; FTS3_PARENTHESIS FTS5 GEOPOLY JSON1 MATH_FUNCTIONS RTREE SOUNDEX This means your databases are now able to use all of the functions provided by these extensions, which should be very useful for a lot of people.</description>
     </item>
     
     <item>
