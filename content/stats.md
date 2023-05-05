@@ -3,7 +3,7 @@ title: Statistics
 date: "2019-04-08T22:43:15+11:00"
 ---
 
-**Note 1** - *The data behind these graphs (created using [Redash](https://redash.io)) automatically updates every 10 minutes.*
+**Note** - *The data behind these graphs (created using [Redash](https://redash.io)) automatically updates every 10 minutes.*
 
 # Monthly downloads
 
@@ -47,7 +47,7 @@ The numbers mostly start in October 2018, with our [first Alpha release
 for 3.11.0](https://sqlitebrowser.org/blog/first-alpha-release-for-3-11-0/).
 
 With the first release in the [3.11 series](https://sqlitebrowser.org/blog/version-3-11-0-released/)
-in Feb 2019, we again start to see meaningful numbers.
+in Feb 2019, we start to see meaningful numbers.
 
 
 # Monthly active users - version specific count

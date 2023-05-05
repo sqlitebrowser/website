@@ -8,7 +8,7 @@ categories:
 tags: dbhub.io
 ---
 
-Another week, and another series of exciting updates to DBHub.io
+Another week, and another series of exciting updates to [DBHub.io](https://dbhub.io)
 
 ## Live databases can now be public
 
