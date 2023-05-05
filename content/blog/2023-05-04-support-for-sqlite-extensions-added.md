@@ -8,7 +8,8 @@ categories:
 tags: dbhub.io
 ---
 
-We have just rolled out support for these extensions for all database types:
+On [DBHub.io](https://dbhub.io), we've just rolled out support for these
+extensions, for all database types:
 
    * [FTS3 & FTS3_PARENTHESIS](https://www.sqlite.org/fts3.html)
    * [FTS5](https://www.sqlite.org/fts5.html)
