@@ -1,0 +1,23 @@
+---
+title: Support for SQLite extensions added
+author: Chris Locke
+date: '2023-05-04'
+slug: support-for-sqlite-extensions-added
+categories:
+  - dbhub.io
+tags: dbhub.io
+---
+
+We have just rolled out support for live databases to be able to use the same SQLite extensions that we have
+in our macOS nightly builds:
+
+   * COLUMN_METADATA
+   * FTS3
+   * FTS3_PARENTHESIS
+   * FTS5
+   * GEOPOLY
+   * JSON1
+   * MATH_FUNCTIONS
+   * RTREE
+   * SOUNDEX
+   * STAT4

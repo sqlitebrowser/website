@@ -6,7 +6,17 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Support for SQLite extensions added</title>
+      <link>/blog/support-for-sqlite-extensions-added/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/support-for-sqlite-extensions-added/</guid>
+      <description>We have just rolled out support for live databases to be able to use the same SQLite extensions that we have in our macOS nightly builds:
+COLUMN_METADATA FTS3 FTS3_PARENTHESIS FTS5 GEOPOLY JSON1 MATH_FUNCTIONS RTREE SOUNDEX STAT4 </description>
+    </item>
+    
     <item>
       <title>Live databases can be public .. and more updates</title>
       <link>/blog/live-databases-can-be-public/</link>

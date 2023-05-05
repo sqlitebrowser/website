@@ -3,24 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/blog/</loc>
-    <lastmod>2023-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2023-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dbhub.io/</loc>
-    <lastmod>2023-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/dbhub.io/</loc>
-    <lastmod>2023-04-27T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/live-databases-can-be-public/</loc>
-    <lastmod>2023-04-27T00:00:00+00:00</lastmod>
+    <loc>/blog/support-for-sqlite-extensions-added/</loc>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/live-databases-can-be-public/</loc>
     <lastmod>2023-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/execute-sql-tab-overhaul/</loc>
