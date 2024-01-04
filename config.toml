@@ -41,6 +41,7 @@ publishDir = "docs"
 
 [params]
     description = "The Official home of the DB Browser for SQLite."
+    canonicalUrl = "https://sqlitebrowser.org"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
