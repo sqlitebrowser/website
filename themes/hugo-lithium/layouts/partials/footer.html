@@ -1,8 +1,8 @@
       <footer class="footer">
         <ul class="footer-links">
-          <li>
-            <a href="{{ .Site.RSSLink | relURL }}" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
+            <li>
+              <a href="{{.Site.Params.canonicalUrl}}{{ if (.OutputFormats.Get "RSS") }}{{ (.OutputFormats.Get "RSS").RelPermalink }}{{ else }}/index.xml{{ end }}" type="application/rss+xml" target="_blank">RSS feed</a>
+            </li>
           <li>
             <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
           </li>
