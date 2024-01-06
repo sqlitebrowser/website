@@ -6,79 +6,63 @@
     <description>Recent content in 3.9.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.9.x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/3.9.x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WinXP version for 3.9.1</title>
       <link>/blog/winxp-version-for-3-9-1/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/winxp-version-for-3-9-1/</guid>
       <description>Due to popular demand, there is now a Windows XP compatible download.</description>
     </item>
-    
     <item>
       <title>Rebuilt OSX binary for v3.9.1</title>
       <link>/blog/rebuilt-osx-binary-for-v3-9-1/</link>
       <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/rebuilt-osx-binary-for-v3-9-1/</guid>
       <description>The v3.9.1 binary for OSX has been rebuilt using Qt 5.7.1, to fix an important colour display problem on macOS Sierra.</description>
     </item>
-    
     <item>
       <title>PortableApp for 3.9.1</title>
       <link>/blog/portableapp-for-3-9-1/</link>
       <pubDate>Thu, 20 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/portableapp-for-3-9-1/</guid>
-      <description>PortableApp version of DB4S 3.9.1 now available. Thanks John! 😄</description>
+      <description>PortableApp version of DB4S 3.9.1 now available. Thanks John! &amp;#x1f604;</description>
     </item>
-    
     <item>
       <title>New Qt5 based nightly builds online</title>
       <link>/blog/new-qt5-based-nightly-builds-online/</link>
       <pubDate>Mon, 17 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/new-qt5-based-nightly-builds-online/</guid>
       <description>New Qt5 based nightly builds are online.</description>
     </item>
-    
     <item>
       <title>Version 3.9.1 released</title>
       <link>/blog/version-3-9-1-released/</link>
       <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/version-3-9-1-released/</guid>
       <description>Version 3.9.1 released. Mostly bug fixes.</description>
     </item>
-    
     <item>
       <title>PortableApp version of 3.9.0</title>
       <link>/blog/portableapp-version-of-3-9-0/</link>
       <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/portableapp-version-of-3-9-0/</guid>
-      <description>Added PortableApp download for version 3.9.0. Thanks John! 😄</description>
+      <description>Added PortableApp download for version 3.9.0. Thanks John! &amp;#x1f604;</description>
     </item>
-    
     <item>
       <title>Version 3.9.0 released</title>
       <link>/blog/version-3-9-0-released/</link>
       <pubDate>Wed, 24 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/version-3-9-0-released/</guid>
       <description>The next major release, version 3.9.0 is ready for download!</description>
     </item>
-    
     <item>
       <title>Version 3.9.0 beta1 released</title>
       <link>/blog/version-3-9-0-beta1-released/</link>
       <pubDate>Sun, 14 Aug 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/version-3-9-0-beta1-released/</guid>
-      <description>Version 3.9.0 beta1 released, with SQLCipher for strong encryption.
-[Please try it out](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.9.0-beta1), and [report any new bugs](https://github.com/sqlitebrowser/sqlitebrowser/issues) you encounter. 😄</description>
+      <description>Version 3.9.0 beta1 released, with SQLCipher for strong encryption.&#xA;[Please try it out](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.9.0-beta1), and [report any new bugs](https://github.com/sqlitebrowser/sqlitebrowser/issues) you encounter. :smile:</description>
     </item>
-    
   </channel>
 </rss>

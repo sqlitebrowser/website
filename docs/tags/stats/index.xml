@@ -6,31 +6,21 @@
     <description>Recent content in stats on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New download and daily users stats page</title>
       <link>/blog/new-download-daily-users-stats-page/</link>
       <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>/blog/new-download-daily-users-stats-page/</guid>
-      <description>Today we added a new &amp;ldquo;Stats&amp;rdquo; page, showing the number of daily downloads and daily users:
-https://sqlitebrowser.org/stats/
-The graphs are generated using Redash, and should automatically update every 10 minutes:
-https://redash.io
-Being able to mouse over a particular day to get info for that day is useful, as is being able to download the data set (in various formats, but not yet SQLite 😉).
-It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&amp;rsquo;s no proper caching layer yet, so it may be a bit slow to load.</description>
+      <description>Today we added a new &amp;ldquo;Stats&amp;rdquo; page, showing the number of daily downloads and daily users:&#xA;https://sqlitebrowser.org/stats/&#xA;The graphs are generated using Redash, and should automatically update every 10 minutes:&#xA;https://redash.io&#xA;Being able to mouse over a particular day to get info for that day is useful, as is being able to download the data set (in various formats, but not yet SQLite &amp;#x1f609;).&#xA;It&amp;rsquo;s running in a very low end virtual machine (eg cheap), and there&amp;rsquo;s no proper caching layer yet, so it may be a bit slow to load.</description>
     </item>
-    
     <item>
       <title>Added public web stats using Fathom</title>
       <link>/blog/added-public-web-stats-using-fathom/</link>
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/blog/added-public-web-stats-using-fathom/</guid>
-      <description>Added (GDPR compliant) stats generation today for the website, using Fathom. It&amp;rsquo;s an Open Source project, written in Go, that aims to provide aggregated stats simply, without any user tracking.
-The setup was fairly easy, though the ARM64 download for the current release (1.2.1) doesn&amp;rsquo;t seem to work with SQLite due to an accidental setting during their build. Hopefully fixed for the next release.
-PostgreSQL is being the database, and Nginx providing HTTPS termination.</description>
+      <description>Added (GDPR compliant) stats generation today for the website, using Fathom. It&amp;rsquo;s an Open Source project, written in Go, that aims to provide aggregated stats simply, without any user tracking.&#xA;The setup was fairly easy, though the ARM64 download for the current release (1.2.1) doesn&amp;rsquo;t seem to work with SQLite due to an accidental setting during their build. Hopefully fixed for the next release.&#xA;PostgreSQL is being the database, and Nginx providing HTTPS termination.</description>
     </item>
-    
   </channel>
 </rss>

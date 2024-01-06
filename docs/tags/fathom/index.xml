@@ -6,17 +6,14 @@
     <description>Recent content in fathom on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/fathom/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/fathom/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added public web stats using Fathom</title>
       <link>/blog/added-public-web-stats-using-fathom/</link>
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/blog/added-public-web-stats-using-fathom/</guid>
-      <description>Added (GDPR compliant) stats generation today for the website, using Fathom. It&amp;rsquo;s an Open Source project, written in Go, that aims to provide aggregated stats simply, without any user tracking.
-The setup was fairly easy, though the ARM64 download for the current release (1.2.1) doesn&amp;rsquo;t seem to work with SQLite due to an accidental setting during their build. Hopefully fixed for the next release.
-PostgreSQL is being the database, and Nginx providing HTTPS termination.</description>
+      <description>Added (GDPR compliant) stats generation today for the website, using Fathom. It&amp;rsquo;s an Open Source project, written in Go, that aims to provide aggregated stats simply, without any user tracking.&#xA;The setup was fairly easy, though the ARM64 download for the current release (1.2.1) doesn&amp;rsquo;t seem to work with SQLite due to an accidental setting during their build. Hopefully fixed for the next release.&#xA;PostgreSQL is being the database, and Nginx providing HTTPS termination.</description>
     </item>
-    
   </channel>
 </rss>

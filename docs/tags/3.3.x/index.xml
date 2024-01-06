@@ -6,33 +6,28 @@
     <description>Recent content in 3.3.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.3.x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/3.3.x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Released new v3.3.1 .dmg for OSX</title>
       <link>/blog/released-new-v3-3-1-dmg-for-osx/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
-      
       <guid>/blog/released-new-v3-3-1-dmg-for-osx/</guid>
       <description>Released a new version 3.3.1 .dmg for OSX. The previous one had an old SQLite version in it.</description>
     </item>
-    
     <item>
       <title>Version 3.3.1 released</title>
       <link>/blog/version-3-3-1-released/</link>
       <pubDate>Sun, 31 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>/blog/version-3-3-1-released/</guid>
       <description>Version 3.3.1 released, using the new name. No functional changes from 3.3.0.</description>
     </item>
-    
     <item>
       <title>Version 3.3.0 released</title>
       <link>/blog/version-3-3-0-released/</link>
       <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>/blog/version-3-3-0-released/</guid>
       <description>Version 3.3.0 released. Several bug fixes and improvements, a recommended upgrade.</description>
     </item>
-    
   </channel>
 </rss>

@@ -6,17 +6,14 @@
     <description>Recent content in dbhub on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/dbhub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Huge thanks to DigitalOcean for sponsoring us!</title>
       <link>/blog/huge-thanks-to-digitalocean/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>/blog/huge-thanks-to-digitalocean/</guid>
-      <description>A huge shout out and thanks to DigitalOcean for hosting our entire Infrastructure, 100% free! 🕺
-We&amp;rsquo;ve been with them for over a year now, and have a bunch of servers. In that time, we&amp;rsquo;ve experienced no outages or weirdness whatsoever. It&amp;rsquo;s been fantastic!
-If you&amp;rsquo;re looking for a good, reliable Cloud service that doesn&amp;rsquo;t suffer from network weirdness or outages, DigitalOcean is a solid choice. 😄</description>
+      <description>A huge shout out and thanks to DigitalOcean for hosting our entire Infrastructure, 100% free! &amp;#x1f57a;&#xA;We&amp;rsquo;ve been with them for over a year now, and have a bunch of servers. In that time, we&amp;rsquo;ve experienced no outages or weirdness whatsoever. It&amp;rsquo;s been fantastic!&#xA;If you&amp;rsquo;re looking for a good, reliable Cloud service that doesn&amp;rsquo;t suffer from network weirdness or outages, DigitalOcean is a solid choice. &amp;#x1f604;</description>
     </item>
-    
   </channel>
 </rss>

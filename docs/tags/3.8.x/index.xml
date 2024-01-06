@@ -6,43 +6,35 @@
     <description>Recent content in 3.8.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.8.x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/3.8.x/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PortableApp version of 3.8.0</title>
       <link>/blog/portableapp-version-of-3-8-0/</link>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/portableapp-version-of-3-8-0/</guid>
-      <description>Added PortableApp version of 3.8.0. Thanks John. 😄</description>
+      <description>Added PortableApp version of 3.8.0. Thanks John. &amp;#x1f604;</description>
     </item>
-    
     <item>
       <title>New 3.8.0 downloads for MacOS X</title>
       <link>/blog/new-3-8-0-downloads-for-macos-x/</link>
       <pubDate>Wed, 06 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/new-3-8-0-downloads-for-macos-x/</guid>
       <description>New 3.8.0 downloads for MacOS X today, to fix a crashing bug.</description>
     </item>
-    
     <item>
       <title>Fixed the downloads for v3.8.0</title>
       <link>/blog/fixed-the-downloads-for-v3-8-0/</link>
       <pubDate>Sat, 26 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>/blog/fixed-the-downloads-for-v3-8-0/</guid>
       <description>New (fixed) downloads for version 3.8.0 are available!</description>
     </item>
-    
     <item>
       <title>Version 3.8.0 released</title>
       <link>/blog/version-3-8-0-released/</link>
       <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>/blog/version-3-8-0-released/</guid>
-      <description>Version 3.8.0 released!
-Buggy release, removed for now. Keep using 3.7.0.</description>
+      <description>Version 3.8.0 released!&#xA;Buggy release, removed for now. Keep using 3.7.0.</description>
     </item>
-    
   </channel>
 </rss>

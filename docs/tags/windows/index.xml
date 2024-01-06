@@ -6,33 +6,28 @@
     <description>Recent content in windows on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 02 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows MSI installers now available</title>
       <link>/blog/windows-msi-installers-now-available/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>/blog/windows-msi-installers-now-available/</guid>
       <description>Windows MSI installers are now available on our nightly build server!</description>
     </item>
-    
     <item>
       <title>WinXP version for 3.9.1</title>
       <link>/blog/winxp-version-for-3-9-1/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>/blog/winxp-version-for-3-9-1/</guid>
       <description>Due to popular demand, there is now a Windows XP compatible download.</description>
     </item>
-    
     <item>
       <title>Added 64-bit Windows development instructions to the wiki</title>
       <link>/blog/added-64-bit-windows-development-instructions-to-the-wiki/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/added-64-bit-windows-development-instructions-to-the-wiki/</guid>
       <description>Added full 64-bit Windows development instructions to the wiki, with many screenshots.</description>
     </item>
-    
   </channel>
 </rss>

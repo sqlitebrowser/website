@@ -6,104 +6,70 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Support for SQLite extensions added</title>
       <link>/blog/support-for-sqlite-extensions-added/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/support-for-sqlite-extensions-added/</guid>
-      <description>On DBHub.io, we&amp;rsquo;ve just rolled out support for these extensions, for all database types:
-FTS3 &amp;amp; FTS3_PARENTHESIS FTS5 GEOPOLY JSON1 MATH_FUNCTIONS RTREE SOUNDEX This means your databases are now able to use all of the functions provided by these extensions, which should be very useful for a lot of people.</description>
+      <description>On DBHub.io, we&amp;rsquo;ve just rolled out support for these extensions, for all database types:&#xA;FTS3 &amp;amp; FTS3_PARENTHESIS FTS5 GEOPOLY JSON1 MATH_FUNCTIONS RTREE SOUNDEX This means your databases are now able to use all of the functions provided by these extensions, which should be very useful for a lot of people.</description>
     </item>
-    
     <item>
       <title>Live databases can be public .. and more updates</title>
       <link>/blog/live-databases-can-be-public/</link>
       <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/live-databases-can-be-public/</guid>
-      <description>Another week, and another series of exciting updates to DBHub.io
-Live databases can now be public The public/private setting can now be chosen when uploading a live database, and can also be changed afterwards in the Settings page for any database.
-Previously, live databases were private-only as we hadn&amp;rsquo;t wired up the permissions.
-Now, they can be shared with other users. By default, sharing allows for read-only access, but you can switch this to read-write access on a user-by-user basis.</description>
+      <description>Another week, and another series of exciting updates to DBHub.io&#xA;Live databases can now be public The public/private setting can now be chosen when uploading a live database, and can also be changed afterwards in the Settings page for any database.&#xA;Previously, live databases were private-only as we hadn&amp;rsquo;t wired up the permissions.&#xA;Now, they can be shared with other users. By default, sharing allows for read-only access, but you can switch this to read-write access on a user-by-user basis.</description>
     </item>
-    
     <item>
       <title>Execute SQL Tab Overhaul</title>
       <link>/blog/execute-sql-tab-overhaul/</link>
       <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/execute-sql-tab-overhaul/</guid>
-      <description>The &amp;lsquo;Execute SQL&amp;rsquo; tab has been overhauled.
-While before it was a simple textbox and a &amp;lsquo;Run SQL&amp;rsquo; button, we&amp;rsquo;ve worked hard to improve it.
-&amp;ldquo;Looks like all you&amp;rsquo;ve done is removed the button&amp;rdquo;
-It&amp;rsquo;s a bit more than that. This command window not only shows the data, but also any feedback from SQLite, eg, any errors. It has syntax-highlighting support so field names are more easily identifiable compared to keywords.</description>
+      <description>The &amp;lsquo;Execute SQL&amp;rsquo; tab has been overhauled.&#xA;While before it was a simple textbox and a &amp;lsquo;Run SQL&amp;rsquo; button, we&amp;rsquo;ve worked hard to improve it.&#xA;&amp;ldquo;Looks like all you&amp;rsquo;ve done is removed the button&amp;rdquo;&#xA;It&amp;rsquo;s a bit more than that. This command window not only shows the data, but also any feedback from SQLite, eg, any errors. It has syntax-highlighting support so field names are more easily identifiable compared to keywords.</description>
     </item>
-    
     <item>
       <title>Comments now enabled on blog posts</title>
       <link>/blog/comments-now-enabled-on-blog-posts/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/comments-now-enabled-on-blog-posts/</guid>
-      <description>We&amp;rsquo;ve enabled comments on blog posts to further enhance discussion and the community. This is tied into Github, so you&amp;rsquo;ll need a Github account to post a comment or reply to a blog post.
-We look forward to hearing from you!</description>
+      <description>We&amp;rsquo;ve enabled comments on blog posts to further enhance discussion and the community. This is tied into Github, so you&amp;rsquo;ll need a Github account to post a comment or reply to a blog post.&#xA;We look forward to hearing from you!</description>
     </item>
-    
     <item>
       <title>More webUI related updates</title>
       <link>/blog/more-webui-related-updates/</link>
       <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/more-webui-related-updates/</guid>
-      <description>We&amp;rsquo;ve pushed out some more great updates on DBHub.io.
-Can view live database data Can generate charts from them Can write and run SQL statements on them which change the database structure (eg CREATE/DROP TABLE), as well as data manipulation SQL (eg INSERT/UPDATE/DELETE) Can View Live Database Data
-Each table in your database can be viewed, either showing every column, or just specific columns. You can create complex JOINs and view these quickly in tabular form.</description>
+      <description>We&amp;rsquo;ve pushed out some more great updates on DBHub.io.&#xA;Can view live database data Can generate charts from them Can write and run SQL statements on them which change the database structure (eg CREATE/DROP TABLE), as well as data manipulation SQL (eg INSERT/UPDATE/DELETE) Can View Live Database Data&#xA;Each table in your database can be viewed, either showing every column, or just specific columns. You can create complex JOINs and view these quickly in tabular form.</description>
     </item>
-    
     <item>
       <title>Database sharing has been improved on DBHub.io</title>
       <link>/blog/database-sharing-has-been-improved-on-dbhub-io/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/database-sharing-has-been-improved-on-dbhub-io/</guid>
-      <description>We have been hard at work making improvements to DBHub.io. We&amp;rsquo;ve not only updated database sharing, but also allowed database updates via the API. Read more about that in this blog post.
-DBHub.io has allowed database sharing (databases you upload can be either private or public, with private databases shareable to specific users) since Aug 2020, but knowing what databases you&amp;rsquo;ve shared and to who has been a bit cumbersome. You&amp;rsquo;d have to remember what databases you&amp;rsquo;ve shared to then go into the settings to see who has access.</description>
+      <description>We have been hard at work making improvements to DBHub.io. We&amp;rsquo;ve not only updated database sharing, but also allowed database updates via the API. Read more about that in this blog post.&#xA;DBHub.io has allowed database sharing (databases you upload can be either private or public, with private databases shareable to specific users) since Aug 2020, but knowing what databases you&amp;rsquo;ve shared and to who has been a bit cumbersome. You&amp;rsquo;d have to remember what databases you&amp;rsquo;ve shared to then go into the settings to see who has access.</description>
     </item>
-    
     <item>
       <title>Go Library (go-dbhub) updated to work with Live databases</title>
       <link>/blog/go-library-updated-to-work-with-live-databases/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/go-library-updated-to-work-with-live-databases/</guid>
-      <description>Following the news that databases can now be updated via the API, we have updated the Go library which accesses and queries your databases on DBHub.io to v0.1.0 to also use these new live features. You can easily send INSERT, UPDATE or DELETE queries without sending base64 encoded SQL queries via the API.
-You can see the initial blog post for the Go library here .</description>
+      <description>Following the news that databases can now be updated via the API, we have updated the Go library which accesses and queries your databases on DBHub.io to v0.1.0 to also use these new live features. You can easily send INSERT, UPDATE or DELETE queries without sending base64 encoded SQL queries via the API.&#xA;You can see the initial blog post for the Go library here .</description>
     </item>
-    
     <item>
       <title>Live databases are now .. live!</title>
       <link>/blog/live-databases-are-now-live/</link>
       <pubDate>Sat, 25 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>/blog/live-databases-are-now-live/</guid>
-      <description>We&amp;rsquo;ve been working hard developing DBHub.io. One of the most requested features is the ability to perform INSERT, UPDATE and DELETE commands on a database. That now has an experimental implementation available via our API, and everyone is encouraged to try it out.
-One excellent benefit of DBHub.io has always been performing queries on a SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users.</description>
+      <description>We&amp;rsquo;ve been working hard developing DBHub.io. One of the most requested features is the ability to perform INSERT, UPDATE and DELETE commands on a database. That now has an experimental implementation available via our API, and everyone is encouraged to try it out.&#xA;One excellent benefit of DBHub.io has always been performing queries on a SQLite database stored in the cloud. Together with creating snapshots and full version control, it has been a benefit to many users.</description>
     </item>
-    
     <item>
       <title>First release of Python library &#39;pydbhub&#39;</title>
       <link>/blog/first-release-pydbhub/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
       <guid>/blog/first-release-pydbhub/</guid>
-      <description>Thanks to the excellent effort of @LeMoussel, there is now a Python library for people to use and access their SQLite databases on DBHub.io. 😄
-It&amp;rsquo;s called pydbhub, and is available here:
-https://github.com/LeMoussel/pydbhub
-And on PyPi:
-https://pypi.org/project/pydbhub/</description>
+      <description>Thanks to the excellent effort of @LeMoussel, there is now a Python library for people to use and access their SQLite databases on DBHub.io. &amp;#x1f604;&#xA;It&amp;rsquo;s called pydbhub, and is available here:&#xA;https://github.com/LeMoussel/pydbhub&#xA;And on PyPi:&#xA;https://pypi.org/project/pydbhub/</description>
     </item>
-    
   </channel>
 </rss>

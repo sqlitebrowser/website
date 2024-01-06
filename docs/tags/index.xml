@@ -6,222 +6,175 @@
     <description>Recent content in Tags on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dbhub.io</title>
       <link>/tags/dbhub.io/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>/tags/dbhub.io/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.12.x</title>
       <link>/tags/3.12.x/</link>
       <pubDate>Tue, 18 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.12.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>patreon</title>
       <link>/tags/patreon/</link>
       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>/tags/patreon/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>portableapp</title>
       <link>/tags/portableapp/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/portableapp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>alpha</title>
       <link>/tags/alpha/</link>
       <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>/tags/alpha/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.11.x</title>
       <link>/tags/3.11.x/</link>
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.11.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>stats</title>
       <link>/tags/stats/</link>
       <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
-      
       <guid>/tags/stats/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>nightlies</title>
       <link>/tags/nightlies/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>/tags/nightlies/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>fathom</title>
       <link>/tags/fathom/</link>
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>/tags/fathom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>beta</title>
       <link>/tags/beta/</link>
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/beta/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>windows</title>
       <link>/tags/windows/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
-      
       <guid>/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.10.x</title>
       <link>/tags/3.10.x/</link>
       <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.10.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AppImage</title>
       <link>/tags/appimage/</link>
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/appimage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.9.x</title>
       <link>/tags/3.9.x/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.9.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>xp</title>
       <link>/tags/xp/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>/tags/xp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>compiling</title>
       <link>/tags/compiling/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>/tags/compiling/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>msvc</title>
       <link>/tags/msvc/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>/tags/msvc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.8.x</title>
       <link>/tags/3.8.x/</link>
       <pubDate>Sun, 17 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.8.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.7.x</title>
       <link>/tags/3.7.x/</link>
       <pubDate>Tue, 07 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.7.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.6.x</title>
       <link>/tags/3.6.x/</link>
       <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.6.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.5.x</title>
       <link>/tags/3.5.x/</link>
       <pubDate>Tue, 17 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.5.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.4.x</title>
       <link>/tags/3.4.x/</link>
       <pubDate>Thu, 29 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.4.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.3.x</title>
       <link>/tags/3.3.x/</link>
       <pubDate>Tue, 02 Sep 2014 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.3.x/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>3.2.x</title>
       <link>/tags/3.2.x/</link>
       <pubDate>Sun, 06 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>/tags/3.2.x/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

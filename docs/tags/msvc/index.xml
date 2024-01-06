@@ -6,15 +6,14 @@
     <description>Recent content in msvc on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate><atom:link href="/tags/msvc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/msvc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Added 64-bit Windows development instructions to the wiki</title>
       <link>/blog/added-64-bit-windows-development-instructions-to-the-wiki/</link>
       <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
-      
       <guid>/blog/added-64-bit-windows-development-instructions-to-the-wiki/</guid>
       <description>Added full 64-bit Windows development instructions to the wiki, with many screenshots.</description>
     </item>
-    
   </channel>
 </rss>
