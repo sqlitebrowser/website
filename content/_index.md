@@ -64,4 +64,9 @@ in order to achieve these goals.
 [wiki-img]: https://img.shields.io/badge/docs-Wiki-blue.svg
 [wiki]: https://github.com/sqlitebrowser/sqlitebrowser/wiki
 
+# Windows Code-Signing Policy
+
+*Free code signing on Windows binaries provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).*
+
+
 ---

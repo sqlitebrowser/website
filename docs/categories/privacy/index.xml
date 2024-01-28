@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on DB Browser for SQLite</title>
+    <link>/categories/privacy/</link>
+    <description>Recent content in privacy on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2024 14:09:28 +1100</lastBuildDate><atom:link href="/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy-policy/</link>
+      <pubDate>Fri, 26 Jan 2024 14:09:28 +1100</pubDate>
+      
+      <guid>/privacy-policy/</guid>
+      <description>This application does not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.</description>
+    </item>
+    
+  </channel>
+</rss>

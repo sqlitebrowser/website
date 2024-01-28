@@ -6,7 +6,16 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jan 2024 14:09:28 +1100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Privacy Policy</title>
+      <link>/privacy-policy/</link>
+      <pubDate>Fri, 26 Jan 2024 14:09:28 +1100</pubDate>
+      
+      <guid>/privacy-policy/</guid>
+      <description>This application does not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.</description>
+    </item>
+    
     <item>
       <title>Support for SQLite extensions added</title>
       <link>/blog/support-for-sqlite-extensions-added/</link>
@@ -896,7 +905,8 @@ Hopefully this is the final rename. 😄</description>
       <guid>/dl/</guid>
       <description>(Please consider sponsoring us on Patreon 😄)
 Windows Our latest release (3.12.2) for Windows:
-DB Browser for SQLite - Standard installer for 32-bit Windows DB Browser for SQLite - .zip (no installer) for 32-bit Windows DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows Windows PortableApp DB Browser for SQLite - PortableApp Note - If for any reason the standard Windows release does not work (e.</description>
+DB Browser for SQLite - Standard installer for 32-bit Windows DB Browser for SQLite - .zip (no installer) for 32-bit Windows DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows Free code signing provided by SignPath.io, certificate by SignPath Foundation.
+Windows PortableApp DB Browser for SQLite - PortableApp Note - If for any reason the standard Windows release does not work (e.</description>
     </item>
     
   </channel>
