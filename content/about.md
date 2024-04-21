@@ -35,6 +35,12 @@ support issues.
 In September 2014, the project was renamed to "DB Browser for SQLite", to
 avoid confusion with an existing application called "Database Browser".
 
+Ten years later, the primary maintainers of DB Browser for SQLite are
+??? and ??? and ???
+with major contributions from ???, ???, and ???.
+
+
+
 ## Release History
 
 * [Version 3.12.2 released](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.12.2) - 2021-05-18
