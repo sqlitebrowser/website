@@ -12,7 +12,7 @@
 # Build Hugo site with: docker run --rm -v $(pwd):/home/hugo/app hugo-build
 
 # Base image
-FROM alpine:3.16
+FROM alpine:latest
 
 ENV VERSION=0.111.3 \
   ARCH=linux-amd64

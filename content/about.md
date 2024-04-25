@@ -35,9 +35,9 @@ support issues.
 In September 2014, the project was renamed to "DB Browser for SQLite", to
 avoid confusion with an existing application called "Database Browser".
 
-Ten years later, the primary maintainers of DB Browser for SQLite are
-??? and ??? and ???
-with major contributions from ???, ???, and ???.
+Today, the primary maintainers of DB Browser for SQLite are
+@mgrojo, @chrisjlocke, and @lucydodo,
+with major contributions from @scottfurry.
 
 
 

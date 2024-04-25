@@ -6,7 +6,27 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2024 14:09:28 +1100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Signing Windows Builds</title>
+      <link>/blog/signing-windows/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/signing-windows/</guid>
+      <description>The SQLite Browser team is currently working to update the build process to sign Windows executables with the free code signing facility provided by SignPath.io using a certificate provided by the SignPath Foundation.</description>
+    </item>
+    
+    <item>
+      <title>3.13.x-rc1 Available</title>
+      <link>/blog/3-13-rc1-available/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/3-13-rc1-available/</guid>
+      <description>In anticipation of a full release later this year, we note that a release candidate of DB4S 3.13 is now available. We expect this is the final form of the 3.13 release, except for any bug fixes.
+Get the 3.13.x-rc1 version from https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.x-rc1
+The CHANGELOG in the SQLiteBrowser Github repo describes the changes to this version.</description>
+    </item>
+    
     <item>
       <title>Privacy Policy</title>
       <link>/privacy-policy/</link>

@@ -4,12 +4,17 @@ This repo contains the source for the [sqlitebrowser.org](sqlitebrowser.org)
 website. It uses [CommonMark](https://en.wikipedia.org/wiki/Markdown)
 (also known as Markdown) for the content. It uses Hugo (version 0.111.3)
 to format the pages.
-There are Dockfiles for both interactive development and final builds.
+_(Note: Earlier versions of this site started to use
+[blogdown](https://bookdown.org/yihui/blogdown/),
+but never embraced it. Vestiges may remain, but are not used.)_
+
+There are Dockerfiles for both interactive development and final builds.
 
 Feel free to change things around, and submit PR's as desired.
 
-License not yet decided.  It'll probably be CC0, or maybe
-the same as DB4S itself.
+The license for the DB4S website directory is the same as for DB4S itself:
+DB Browser for SQLite is bi-licensed under the Mozilla Public License
+Version 2, as well as the GNU General Public License Version 3 or later.
 
 ## Editing the site
 
@@ -44,10 +49,12 @@ Set the proper date in the full header above.
 Docker encapsulates all the necessary tools for running Hugo
 into a single container
 without affecting any other software on the host operating system.
-This is also important because Hugo versions don't always preservee
-backward compatibility.
-Using Docker ensures that you and all your collaborators are always using
+A Docker container also "locks in" all the versions of the tools
+so you can be sure that they all work together,
+and that all your collaborators are always using
 the same versions of the tool.
+This is also important for this website because Hugo versions don't always preserve
+backward compatibility.
 
 To use Docker, install it on your computer using any of the guides on the Internet.
 
@@ -56,8 +63,8 @@ and one for creating the final build.
 Create them by running these commands. (This is a one-time action.)
 
 ```bash
-docker build -f Dockerfile-serve -t hugo-server .
-docker build -f Dockerfile-build -t hugo-build . 
+docker build -f Dockerfile-server -t hugo-server .
+docker build -f Dockerfile-build  -t hugo-build . 
 ```
 
 ### Interactive editing

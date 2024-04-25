@@ -54,6 +54,10 @@ There are also nightly builds that are not warranted to be reliable
 (or even to work properly). They are available from:
 [https://nightlies.sqlitebrowser.org/latest/](https://nightlies.sqlitebrowser.org/latest/)
 
+## Windows Code-Signing Policy
+
+*Free code signing on Windows binaries provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).*
+
 [gitter-img]: https://badges.gitter.im/sqlitebrowser/sqlitebrowser.svg
 [gitter]: https://gitter.im/sqlitebrowser/sqlitebrowser
 
