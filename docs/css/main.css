@@ -168,8 +168,8 @@ code {
 }
 
 .archive-title {
-  font-size: 32px;
-  margin-top: 60px;
+  font-size: 24px;
+  margin-top: 30px;
 }
 
 .archive-item {
@@ -280,10 +280,10 @@ code {
     text-align: left;
   }
 
-  .archive-title {
+/*  .archive-title {
     font-size: 38px;
   }
-
+*/
   .archive-item-date {
     font-size: 19px;
     text-align: right;
@@ -297,10 +297,10 @@ code {
     overflow: hidden;
   }
 
-  .article-title {
+/*  .article-title {
     font-size: 42px;
   }
-
+*/
   .article-duration {
     font-size: 12px;
   }

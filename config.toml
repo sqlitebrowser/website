@@ -4,7 +4,7 @@ title = "DB Browser for SQLite"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["_files$", "_cache$", "\\.utf8\\.md$"]
 enableEmoji = true
 publishDir = "docs"
 

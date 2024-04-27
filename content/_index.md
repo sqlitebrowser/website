@@ -2,14 +2,6 @@
 title: DB Browser for SQLite
 ---
 
-# DB Browser for SQLite
-
-*The Official home of the DB Browser for SQLite*
-
-## Screenshot
-
-![DB Browser for SQLite Screenshot](/images/screenshot.png "DB Browser for SQLite Screenshot")
-
 [![Wiki][wiki-img]][wiki]
 [![Join the chat at https://gitter.im/sqlitebrowser/sqlitebrowser][gitter-img]][gitter]
 [![Download][download-img]][download]
@@ -17,21 +9,30 @@ title: DB Browser for SQLite
 [![Coverity][coverity-img]][coverity]
 [![Patreon][patreon-img]][patreon]
 
-## What it is
+# DB Browser for SQLite
 
-_DB Browser for SQLite_ (DB4S) is a high quality, visual, open source tool to
-create, design, and edit database files compatible with SQLite.
+_DB Browser for SQLite_ (DB4S) is a high quality, visual,
+[open source](https://github.com/sqlitebrowser/sqlitebrowser) tool
+designed for people who want to create, search, and edit 
+[SQLite](https://www.sqlite.org/) database files.
+DB4S gives a familiar spreadsheet-like interface on the database
+in addition to providing a full SQL query facility.
+It works with [Windows](./dl#windows), 
+[macOS](./dl#macos), 
+and most versions of [Linux](./dl#linux) 
+and [Unix](./dl#freebsd).
+Documentation for the program is on the [wiki.](https://github.com/sqlitebrowser/sqlitebrowser/wiki)
 
-DB4S is for users and developers who want to create, search, and edit
-databases.  DB4S uses a familiar spreadsheet-like interface, and complicated SQL commands do not have to be learned.
+![DB Browser for SQLite Screenshot](/images/screenshot.png "DB Browser for SQLite Screenshot")
 
-Controls and wizards are available for users to:
+DB4S gives access to the full capability of the underlying SQLite database.
+Controls and wizards are available to:
 
 * Create and compact database files
 * Create, define, modify and delete tables
 * Create, define, and delete indexes
 * Browse, edit, add, and delete records
-* Search records
+* Sort and search records
 * Import and export records as text
 * Import and export tables from/to CSV files
 * Import and export databases from/to SQL dump files
@@ -39,12 +40,23 @@ Controls and wizards are available for users to:
 * Examine a log of all SQL commands issued by the application
 * Plot simple graphs based on table or query data
 
-## What it is not
+## Current Status
 
-This program is not a visual shell for the sqlite command line tool, and does
-not require familiarity with SQL commands. It is a tool to be used by both
-developers and end users, and must remain as simple to use as possible
-in order to achieve these goals.
+The current official, released version of DB4S is 3.12.2. Download from:
+[https://sqlitebrowser.org/dl/](https://sqlitebrowser.org/dl/)
+
+There is a 3.13.x-rc1 release candidate available that will
+soon become the official release.
+It is believed to be quite reliable and can be downloaded from:
+[https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.x-rc1](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.x-rc1)
+
+There are also nightly builds that are not warranted to be reliable
+(or even to work properly). They are available from:
+[https://nightlies.sqlitebrowser.org/latest/](https://nightlies.sqlitebrowser.org/latest/)
+
+## Windows Code-Signing Policy
+
+*Free code signing on Windows binaries provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).*
 
 [gitter-img]: https://badges.gitter.im/sqlitebrowser/sqlitebrowser.svg
 [gitter]: https://gitter.im/sqlitebrowser/sqlitebrowser
@@ -63,10 +75,6 @@ in order to achieve these goals.
 
 [wiki-img]: https://img.shields.io/badge/docs-Wiki-blue.svg
 [wiki]: https://github.com/sqlitebrowser/sqlitebrowser/wiki
-
-# Windows Code-Signing Policy
-
-*Free code signing on Windows binaries provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).*
 
 
 ---

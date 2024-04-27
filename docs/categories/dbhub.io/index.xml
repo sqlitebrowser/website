@@ -6,7 +6,16 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Signing Windows Builds</title>
+      <link>/blog/signing-windows/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/signing-windows/</guid>
+      <description>The SQLite Browser team is currently working to update the build process to sign Windows executables with the free code signing facility provided by SignPath.io using a certificate provided by the SignPath Foundation.</description>
+    </item>
+    
     <item>
       <title>Support for SQLite extensions added</title>
       <link>/blog/support-for-sqlite-extensions-added/</link>
