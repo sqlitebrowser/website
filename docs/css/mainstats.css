@@ -1,0 +1,9 @@
+/* 
+CSS for /stats page 
+Override the main.css file to allow the content to fill the entire width 
+*/
+
+.content {
+  max-width: 100%;
+  margin: auto;
+}
