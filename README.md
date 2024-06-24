@@ -1,6 +1,6 @@
 # About this repository
 
-This repo contains the source for the [https://sqlitebrowser.org](sqlitebrowser.org)
+This repo contains the source for the [sqlitebrowser.org](https://sqlitebrowser.org)
 website. It uses [CommonMark](https://en.wikipedia.org/wiki/Markdown)
 (also known as Markdown) for the content. It uses Hugo (version 0.111.3)
 to format the pages.
