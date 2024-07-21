@@ -11,16 +11,18 @@ tags: []
 
 ## Windows
 
-Our latest release (3.12.2) for Windows:
+Our latest release (3.13.0) for Windows:
 
-* [DB Browser for SQLite - Standard installer for 32-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.msi)
-* [DB Browser for SQLite - .zip (no installer) for 32-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win32.zip)
-* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.msi)
-* [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2-win64.zip)
+* [DB Browser for SQLite - Standard installer for 32-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.0-win32.msi)
+* [DB Browser for SQLite - .zip (no installer) for 32-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.0-win32.zip)
+* [DB Browser for SQLite - Standard installer for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.0-win64.msi)
+* [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.0-win64.zip)
 
 *Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).*
 
 ### Windows PortableApp
+
+There is a PortableApp available, but it's still the previous (3.12.2) release version.  It should be updated to 3.13.0 over the next few days:
 
 * [DB Browser for SQLite - PortableApp](https://download.sqlitebrowser.org/SQLiteDatabaseBrowserPortable_3.12.2_English.paf.exe)
 
@@ -32,10 +34,9 @@ Nightly builds often fix bugs reported after the last release. :smile:
 
 ## macOS
 
-Our latest release (3.12.2) for macOS:
+Our latest release (3.13.0) for macOS:
 
-* [DB Browser for SQLite (Intel)](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.12.2.dmg)
-* [DB Browser for SQLite (Apple Silicon)](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-arm64-3.12.2.dmg)
+* [DB Browser for SQLite (Universal)](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.0.dmg)
 
 ### Homebrew
 
@@ -55,7 +56,7 @@ Our latest release is available as an AppImage, Snap packages, and distribution 
 
 ### AppImage
 
-* [DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage](https://download.sqlitebrowser.org/DB_Browser_for_SQLite-v3.12.2-x86_64.AppImage)
+* [DB.Browser.for.SQLite-v3.13.0-x86.64.AppImage](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.0-x86.64.AppImage)
 
 Remember to change its permission bits to be executable before you run it. :smile:
 
