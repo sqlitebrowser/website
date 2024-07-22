@@ -3,7 +3,7 @@ title: Statistics
 date: "2019-04-08T22:43:15+11:00"
 ---
 
-**Note** - *The data behind these graphs (created using [Redash](https://redash.io)) automatically updates every 10 minutes.*
+**Note** - *The data behind these graphs (created using [Redash](https://redash.io)) automatically updates every hour.*
 
 # Monthly downloads
 
@@ -26,7 +26,7 @@ The [3.12 series release](https://sqlitebrowser.org/blog/version-3-12-0-released
 (green for initial release, blue for our current stable release) shows the
 monthly downloads are mostly in the 140k to 180k range.
 
-The next major release (expected in mid 2023) will most likely show a download
+The next major release (expected in mid 2024) will most likely show a download
 spike as people upgrade, then probably return to about the same monthly download
 range.
 
