@@ -6,15 +6,7 @@
     <description>Recent content in db4s on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/db4s/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Version 3.13.0 released</title>
-      <link>/blog/version-3-13-0-released/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/version-3-13-0-released/</guid>
-      <description>DB Browser for SQLite v3.13.0 version released.</description>
-    </item>
+    <lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/db4s/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apple Silicon (M1/M2/etc) macOS package available</title>
       <link>/blog/apple-silicon-macos-package-available/</link>

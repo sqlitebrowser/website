@@ -6,16 +6,7 @@
     <description>Recent content on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Version 3.13.0 released</title>
-      <link>/blog/version-3-13-0-released/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/version-3-13-0-released/</guid>
-      <description>DB Browser for SQLite v3.13.0 version released.</description>
-    </item>
-
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Signing Windows Builds</title>
       <link>/blog/signing-windows/</link>
@@ -935,7 +926,7 @@ Hopefully this is the final rename. 😄</description>
       <description>(Please consider sponsoring us on Patreon 😄)
 Windows Our latest release (3.13.0) for Windows:
 DB Browser for SQLite - Standard installer for 32-bit Windows DB Browser for SQLite - .zip (no installer) for 32-bit Windows DB Browser for SQLite - Standard installer for 64-bit Windows DB Browser for SQLite - .zip (no installer) for 64-bit Windows Free code signing provided by SignPath.io, certificate by SignPath Foundation.
-Windows PortableApp DB Browser for SQLite - PortableApp Note - If for any reason the standard Windows release does not work (e.</description>
+Windows PortableApp There is a PortableApp available, but it&amp;rsquo;s still the previous (3.</description>
     </item>
     
   </channel>

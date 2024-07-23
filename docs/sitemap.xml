@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/blog/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/dbhub.io/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
@@ -22,9 +22,6 @@
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2024-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blog/version-3-13-0-released/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/3-13-rc1-available/</loc>
     <lastmod>2024-02-23T00:00:00+00:00</lastmod>
@@ -63,7 +60,7 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/db4s/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/dbhub/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
