@@ -42,13 +42,8 @@ Controls and wizards are available to:
 
 ## Current Status
 
-The current official, released version of DB4S is 3.12.2. Download from:
+The current official, released version of DB4S is 3.13.0. Download from:
 [https://sqlitebrowser.org/dl/](https://sqlitebrowser.org/dl/)
-
-There is a 3.13.x-rc1 release candidate available that will
-soon become the official release.
-It is believed to be quite reliable and can be downloaded from:
-[https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.x-rc1](https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.x-rc1)
 
 There are also nightly builds that are not warranted to be reliable
 (or even to work properly). They are available from:
