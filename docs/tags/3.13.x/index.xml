@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3.13.x on DB Browser for SQLite</title>
+    <link>/tags/3.13.x/</link>
+    <description>Recent content in 3.13.x on DB Browser for SQLite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.13.x/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version 3.13.0 released</title>
+      <link>/blog/version-3-13-0-released/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-13-0-released/</guid>
+      <description>Caution:
+An issue has been reported where the app fails to launch on macOS Catalina (10.15.x).
+We will be tracking and resolving the issue. For more information, see issue #3691.
+Note that this issue is now fixed in nightly builds, and a new stable release is planned that includes this change.
+We are very excited to release a new stable version after almost three years. 🚀
+It&amp;rsquo;s been a while since we&amp;rsquo;ve released a new stable version, so there are a lot of changes, see the release notes for more details.</description>
+    </item>
+    
+  </channel>
+</rss>
