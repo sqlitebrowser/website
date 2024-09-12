@@ -6,7 +6,17 @@
     <description>Recent content in 3.13.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.13.x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.13.x/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version 3.13.1-rc1 released</title>
+      <link>/blog/version-3-13-1-rc1-released/</link>
+      <pubDate>Thu, 12 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-13-1-rc1-released/</guid>
+      <description>The first candidate version of DB Browser for SQLite v3.13.1 has been released.
+The binary and detailed release notes are available here.</description>
+    </item>
+    
     <item>
       <title>Version 3.13.0 released</title>
       <link>/blog/version-3-13-0-released/</link>
