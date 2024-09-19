@@ -22,13 +22,12 @@ The missing chunk of download numbers (green) around the start of 2021, was
 when the download servers weren't saving the download info in the backend
 database properly. 🤦
 
-The [3.12 series release](https://sqlitebrowser.org/blog/version-3-12-0-released/)
-(green for initial release, blue for our current stable release) shows the
-monthly downloads are mostly in the 140k to 180k range.
+The [3.12 series releases](https://sqlitebrowser.org/blog/version-3-12-0-released/)
+(green) show the monthly downloads are mostly in the 140k to 180k range through
+to early 2024 where they jump to around ~275k per month.
 
-The next major release (expected in mid 2024) will most likely show a download
-spike as people upgrade, then probably return to about the same monthly download
-range.
+The current major release series (3.13, blue) is continuing at about the same
+monthly download range of ~275k per month.
 
 
 # Monthly active users - non version specific count
