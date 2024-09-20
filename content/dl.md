@@ -40,9 +40,9 @@ Our latest release (3.13.0) for macOS:
 
 ### Homebrew
 
-If you prefer using Homebrew for macOS, our latest release can be installed via [Homebrew Cask](https://caskroom.github.io/ "Homebrew Cask"):
+If you prefer using [Homebrew](https://brew.sh/) for macOS, our latest release can be installed via:
 
-    brew install --cask db-browser-for-sqlite
+    brew install db-browser-for-sqlite
 
 ## Nightly builds
 
@@ -79,7 +79,7 @@ Other distribution specific instructions:
 Arch Linux provides an [up to date version](https://www.archlinux.org/packages/community/x86_64/sqlitebrowser/)
 
 Install with the following command:
-    
+
     sudo pacman -S sqlitebrowser
 
 ### Fedora
@@ -87,7 +87,7 @@ Install with the following command:
 Install for Fedora (i386 and x86_64) by issuing the following command:
 
     sudo dnf install sqlitebrowser
-    
+
 ### openSUSE
 
     sudo zypper install sqlitebrowser
