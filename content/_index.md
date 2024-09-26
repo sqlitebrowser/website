@@ -14,7 +14,7 @@ title: DB Browser for SQLite
 _DB Browser for SQLite_ (DB4S) is a high quality, visual,
 [open source](https://github.com/sqlitebrowser/sqlitebrowser) tool
 designed for people who want to create, search, and edit 
-[SQLite](https://www.sqlite.org/) database files.
+[SQLite](https://www.sqlite.org/) or [SQLCipher](https://www.zetetic.net/sqlcipher/) database files.
 DB4S gives a familiar spreadsheet-like interface on the database
 in addition to providing a full SQL query facility.
 It works with [Windows](./dl#windows), 
@@ -39,6 +39,7 @@ Controls and wizards are available to:
 * Issue SQL queries and inspect the results
 * Examine a log of all SQL commands issued by the application
 * Plot simple graphs based on table or query data
+* Add, change, remove SQLCipher encryption from database files
 
 ## Current Status
 
