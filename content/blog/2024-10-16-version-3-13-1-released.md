@@ -11,7 +11,7 @@ tags:
   - 3.13.x
 ---
 
-This is a new release with several improvements to the v3.13.0 release from three months ago. :rocket:
+This is a new release with several improvements over the v3.13.0 release from three months ago. :rocket:
 
 As a special mention, SQLean has a new `time` extension! Check out the following link for more information: https://github.com/nalgeon/sqlean/blob/main/docs/time.md
 
