@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.111.3">
+
+
+<title>Version 3.13.1 released - DB Browser for SQLite</title>
+<meta property="og:title" content="Version 3.13.1 released - DB Browser for SQLite">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+<link href="https://sqlitebrowser.org/index.xml" rel="alternate" type="application/rss+xml" title="DB Browser for SQLite" />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/sqlitebrowser.svg"
+         width="50"
+         height="50"
+         alt="DB Browser for SQLite logo">
+  </a>
+  <ul class="nav-links">
+    <li><a href="/about/">About</a></li>
+    <li><a href="/dl/"><b>Download</b></a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser/wiki">Docs</a></li>
+    <li><a href="https://github.com/sqlitebrowser/sqlitebrowser">GitHub</a></li>
+    <li><a href="https://gitter.im/sqlitebrowser/sqlitebrowser">Gitter</a></li>
+    <li><a href="/stats/">Stats</a></li>
+    <li><a href="https://www.patreon.com/db4s">Patreon</a></li>
+    <li><a href="https://dbhub.io">DBHub.io</a></li>
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Version 3.13.1 released</h1>
+
+    
+    <span class="article-date">2024-10-16</span>
+    
+
+    <div class="article-content">
+      <p>This is a new release with several improvements to the v3.13.0 release from three months ago. 🚀</p>
+<p>As a special mention, SQLean has a new <code>time</code> extension! Check out the following link for more information: <a href="https://github.com/nalgeon/sqlean/blob/main/docs/time.md">https://github.com/nalgeon/sqlean/blob/main/docs/time.md</a></p>
+<p>Thanks to everyone for being part of our Community!</p>
+<p>Related Discussion: <a href="https://github.com/sqlitebrowser/sqlitebrowser/discussions/3775">#3775</a></p>
+<h1 id="downloads">Downloads</h1>
+<ul>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win32.msi">DB.Browser.for.SQLite-v3.13.1-win32.msi</a> - Standard (MSI) installer for Win32</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win32.zip">DB.Browser.for.SQLite-v3.13.1-win32.zip</a> - .zip (no installer) for Win32</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win64.msi">DB.Browser.for.SQLite-v3.13.1-win64.msi</a> - Standard (MSI) installer for Win64</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win64.zip">DB.Browser.for.SQLite-v3.13.1-win64.zip</a> - .zip (no installer) for Win64</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1.dmg">DB.Browser.for.SQLite-v3.13.1.dmg</a> - For macOS Universal (both Apple Silicon and Intel)</li>
+<li><a href="https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage">DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage</a> - AppImage for Linux</li>
+</ul>
+<h1 id="changelog">Changelog</h1>
+<h3 id="added">Added</h3>
+<ul>
+<li>Add links to the wiki as help for many dialogs (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7af12565e77a5d88a0530a019aedd210763027b7">7af1256</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/b5abc868aef3cc5ca908eb0af61e182205aa2291">b5abc86</a>)</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>Change the default to install a shortcut to the Start menu when installing on Windows (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/623bec64ce6e86f5b020b0370eeda86369d10157">623bec6</a>)</li>
+<li>Improve icon image for links in &lsquo;Help&rsquo; menu (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3693">#3693</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/027c6a8be8238102e1c4f483615dbd749251c2b6">027c6a8</a>)</li>
+<li>Pragma names and values can now be translated (<a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/3697">#3697</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/bf62f3afc4ad820c34e1be212baa6a4c24694baf">bf62f3a</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ad00ad43059a28cd1a8dc81ed8c210d77b098b70">ad00ad4</a>)</li>
+<li>Remove trailing characters when copying a single cell (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3735">#3735</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/20f481a1887e92ab335901adbd41fdc70274f493">20f481a</a>)</li>
+<li>Update AppImage binary to use the latest SQLCipher library (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3744">#3744</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/21ba2d0eee164bfcacde884d5119650ba77ca8d7">21ba2d0</a>)</li>
+<li>When editing the DB cells, expanded queries with parameters are included in the SQL Log (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ac3209f9e1e0b1386cebea9ab60c71d84632f5c1">ac3209f</a>)</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>
+<p>ExtendedTableWidget</p>
+</li>
+<li>
+<p>Fix an issue that prevented autocomplete from working in some race conditions (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/2567">#2567</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3706">#3706</a>)</p>
+</li>
+<li>
+<p>Use Tab to close autocomplete popup and move to next item (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/3aff8c925e0761e9f4799150d9c45b76ed0b8b19">3aff8c9</a>)</p>
+</li>
+<li>
+<p>Troubleshoot &lsquo;Copy as SQL&rsquo; action on a cell results in string being copied (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/1952">#1952</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/1ebe7bf2505d91876da6f0bb29d597edc3834015">1ebe7bf</a>)</p>
+</li>
+<li>
+<p>Global</p>
+<ul>
+<li>Fix &ldquo;Argument Missing&rdquo; error in Korean translation (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3635">#3635</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3692">#3692</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/cd518dee13e60d499d4c34b0b7b1ba1ddb52b26a">cd518de</a>)</li>
+<li>Fix an issue that caused apps to crash on some older versions of macOS (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3691">#3691</a>)</li>
+<li>Fix an issue when freezing after stopping a pragma (<a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/3742">#3742</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/15a9620d11d96c62084e3702e867430bf0ec4542">15a9620</a>)</li>
+<li>Fix an issue with outputting the wrong version on macOS</li>
+<li>Troubleshooting poor HiDPI support on Windows (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3684">#3684</a>)</li>
+<li>Troubleshoot SQL queries containing VACUUM that run incorrectly (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3723">#3723</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/51784aa6ce697ffdd9972744ab76cb6d873592ca">51784aa</a>)</li>
+</ul>
+</li>
+<li>
+<p>MainWindow</p>
+<ul>
+<li>Fix an issue when selecting queries containing multi-byte strings (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3731">#3731</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/f89097c25b4984052c83d852dc161628b7f48f2b">f89097c</a>)</li>
+</ul>
+</li>
+<li>
+<p>TableBrowser</p>
+<ul>
+<li>Fix a bug where the first row was not adjusted (<a href="https://github.com/sqlitebrowser/sqlitebrowser/issues/3767">#3767</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ad690e7c2958df5e96ccb1b73f5c1076d6ec4067">ad690e7</a>)</li>
+</ul>
+</li>
+<li>
+<p>Other</p>
+<ul>
+<li>Fix misleading links to Qt license information (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8361aa58298354c5829583206458e8a11090b50e">8361aa5</a>)</li>
+<li>Replace &lsquo;http&rsquo; with &lsquo;https&rsquo; in the &lsquo;AboutDialog&rsquo; and &lsquo;MainWindow&rsquo; (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9832a52d95001397cc75e9780c0864672b6860c7">9832a52</a>)</li>
+<li>Translation
+<ul>
+<li>German (<a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/3749">#3749</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/8e38bf0b740cc560da563400e4d0a9bd1233a33c">8e38bf0</a>)</li>
+<li>Indonesian (<a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/3756">#3756</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/6100595bc7cebfc89993f72277f7bc7bba8d2d87">6100595</a>)</li>
+<li>Japanese (<a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/3755">#3755</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/e0f6aea00c1cf82922b7f3c7835ecfff0e7d91d5">e0f6aea</a>)</li>
+<li>Korean (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/7bbfcf97af7d4e482e47bb18f3181d3ce472acd8">7bbfcf9</a>)</li>
+<li>Simplified Chinese (<a href="https://github.com/sqlitebrowser/sqlitebrowser/pull/3761">#3761</a>, <a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/9eb0a5af1fd0d27fb7d2ec6f2dfa666c4be6bdbf">9eb0a5a</a>)</li>
+<li>Spanish (<a href="https://github.com/sqlitebrowser/sqlitebrowser/commit/ac3391868dad109743fc4115be31283c34fe1852">ac33918</a>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="dependent-library-version-information-for-each-os">Dependent library version information for each OS</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><strong>-</strong></th>
+<th style="text-align:center"><a href="https://www.qt.io/"><strong>Qt</strong></a></th>
+<th style="text-align:center"><a href="https://www.zetetic.net/sqlcipher/"><strong>SQLCipher</strong></a></th>
+<th style="text-align:center"><a href="https://sqlite.org/"><strong>SQLite</strong></a></th>
+<th style="text-align:center"><a href="https://github.com/nalgeon/sqlean"><strong>SQLean</strong></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><strong>AppImage</strong></td>
+<td style="text-align:center"><a href="https://www.qt.io/blog/commercial-lts-qt-5.15.13-released">5.15.13</a></td>
+<td style="text-align:center"><a href="https://www.zetetic.net/blog/2024/01/17/sqlcipher-4.5.6-release/">4.5.6</a></td>
+<td style="text-align:center"><a href="https://www.sqlite.org/releaselog/3_46_1.html">3.46.1</a></td>
+<td style="text-align:center">Not applicable</td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>macOS</strong></td>
+<td style="text-align:center"><a href="https://www.qt.io/blog/commercial-lts-qt-5.15.13-released">5.15.13</a></td>
+<td style="text-align:center"><a href="https://www.zetetic.net/blog/2024/08/20/sqlcipher-4.6.1-release/">4.6.1</a></td>
+<td style="text-align:center">Not applicable</td>
+<td style="text-align:center"><a href="https://github.com/nalgeon/sqlean/releases/tag/0.27.1">0.27.1</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Windows</strong></td>
+<td style="text-align:center"><a href="https://www.qt.io/blog/qt-5.15.2-released">5.15.2</a></td>
+<td style="text-align:center"><a href="https://www.zetetic.net/blog/2024/08/20/sqlcipher-4.6.1-release/">4.6.1</a></td>
+<td style="text-align:center"><a href="https://www.sqlite.org/releaselog/3_46_1.html">3.46.1</a></td>
+<td style="text-align:center"><a href="https://github.com/nalgeon/sqlean/releases/tag/0.27.1">0.27.1</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sha256sums">SHA256SUMS</h2>
+<ul>
+<li>DB.Browser.for.SQLite-v3.13.1-win32.msi
+<ul>
+<li>e0b9f86d3da4d8d800e144295487e43de306c1bd27f14dccfe41e904736f25f7</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-v3.13.1-win32.zip
+<ul>
+<li>917ad2fa8d36e3bfa3fc85b11a34a8c18d189fbc2289f5a0d3bf41de8a288edc</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-v3.13.1-win64.msi
+<ul>
+<li>d023d54b3a5db10c7e896089bb3dbe6e7f4bc4eaa9bbecb34ca414be5970f688</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-v3.13.1-win64.zip
+<ul>
+<li>22375e275ec42d96de1d3b8e9ea4ed86d2a3505c4d0ffcbd1af67aa4003e5e4d</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage
+<ul>
+<li>d6563c5c211a73192da96e3bb11a3bf83a2f3164aa4db83482c0aecf8b751b77</li>
+</ul>
+</li>
+<li>DB.Browser.for.SQLite-v3.13.1.dmg
+<ul>
+<li>a641cfbfcc2ce609f07de44a35134dab53485ecc18e6d9afa297b514d74bd75e</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+            <li>
+              <a href="https://sqlitebrowser.org/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+            </li>
+          <li>
+            <a href="https://twitter.com/sqlitebrowser" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="/privacy-policy">Privacy policy</a>
+          </li>
+        </ul>
+        <br />
+      </footer>
+    </div>
+    
+
+    
+
+    
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'DWUMT');
+fathom('trackPageview');
+</script>
+
+
+    
+    
+  <script src="https://utteranc.es/client.js"
+        repo="sqlitebrowser/website"
+        issue-term="pathname"
+        label="utterances"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+    
+    
+  </body>
+</html>
+
