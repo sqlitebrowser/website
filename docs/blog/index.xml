@@ -6,7 +6,20 @@
     <description>Recent content in Blogs on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version 3.13.1 released</title>
+      <link>/blog/version-3-13-1-released/</link>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/version-3-13-1-released/</guid>
+      <description>This is a new release with several improvements to the v3.13.0 release from three months ago. 🚀
+As a special mention, SQLean has a new time extension! Check out the following link for more information: https://github.com/nalgeon/sqlean/blob/main/docs/time.md
+Thanks to everyone for being part of our Community!
+Related Discussion: [TBD]
+Downloads DB.Browser.for.SQLite-v3.13.1-win32.msi - Standard (MSI) installer for Win32 DB.Browser.for.SQLite-v3.13.1-win32.zip - .zip (no installer) for Win32 DB.Browser.for.SQLite-v3.13.1-win64.msi - Standard (MSI) installer for Win64 DB.</description>
+    </item>
+    
     <item>
       <title>Version 3.13.1-rc2 released</title>
       <link>/blog/version-3-13-1-rc2-released/</link>
