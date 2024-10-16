@@ -17,7 +17,7 @@ As a special mention, SQLean has a new `time` extension! Check out the following
 
 Thanks to everyone for being part of our Community!
 
-Related Discussion: [TBD]
+Related Discussion: [#3775](https://github.com/sqlitebrowser/sqlitebrowser/discussions/3775)
 
 # Downloads
 
