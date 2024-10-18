@@ -26,7 +26,7 @@ Related Discussion: [#3775](https://github.com/sqlitebrowser/sqlitebrowser/discu
 * [DB.Browser.for.SQLite-v3.13.1-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win64.msi) - Standard (MSI) installer for Win64
 * [DB.Browser.for.SQLite-v3.13.1-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win64.zip) - .zip (no installer) for Win64
 * [DB.Browser.for.SQLite-v3.13.1.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1.dmg) - For macOS Universal (both Apple Silicon and Intel)
-* [DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage) - AppImage for Linux
+* [DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage) - AppImage for Linux
 
 # Changelog
 
@@ -89,7 +89,7 @@ Related Discussion: [#3775](https://github.com/sqlitebrowser/sqlitebrowser/discu
   - d023d54b3a5db10c7e896089bb3dbe6e7f4bc4eaa9bbecb34ca414be5970f688
 - DB.Browser.for.SQLite-v3.13.1-win64.zip
   - 22375e275ec42d96de1d3b8e9ea4ed86d2a3505c4d0ffcbd1af67aa4003e5e4d
-- DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage
-  - d6563c5c211a73192da96e3bb11a3bf83a2f3164aa4db83482c0aecf8b751b77
+- DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage
+  - c2fd0c27c84777747527e1b28deccc824bc88eeb47f36a9575bf1ba0a5a38453
 - DB.Browser.for.SQLite-v3.13.1.dmg
   - a641cfbfcc2ce609f07de44a35134dab53485ecc18e6d9afa297b514d74bd75e

@@ -56,7 +56,7 @@ Our latest release is available as an AppImage, Snap packages, and distribution 
 
 ### AppImage
 
-* [DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-x86.64.AppImage)
+* [DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage)
 
 Remember to change its permission bits to be executable before you run it. :smile:
 
