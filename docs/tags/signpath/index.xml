@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/signpath/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Our journey with SignPath</title>
-      <link>/blog/our-journey-with-signpath/</link>
+      <title>Signing Windows executables - Our journey with SignPath</title>
+      <link>/blog/signing-windows-executables-our-journey-with-signpath/</link>
       <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>/blog/our-journey-with-signpath/</guid>
+      <guid>/blog/signing-windows-executables-our-journey-with-signpath/</guid>
       <description>Our Journey with SignPath: Code Signing for Windows Binaries When distributing software, code signing is essential to ensure our users can trust the software they download, especially on an operating system like Windows that displays security warnings for unsigned software.
 So for us, code signing is not just an option, but a necessity to validate software binaries, prevent tampering, and for the convenience of our users.
 A Little Background on This Journey It&amp;rsquo;s not difficult to code sign and notarize software binaries for Apple macOS.</description>

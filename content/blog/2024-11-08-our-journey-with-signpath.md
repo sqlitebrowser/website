@@ -1,8 +1,8 @@
 ---
-title: Our journey with SignPath
+title: Signing Windows executables - Our journey with SignPath
 author: SeongTae Jeong
 date: '2024-11-08'
-slug: our-journey-with-signpath
+slug: signing-windows-executables-our-journey-with-signpath
 categories:
   - db4s
 tags:
