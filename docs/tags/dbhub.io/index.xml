@@ -6,7 +6,19 @@
     <description>Recent content in dbhub.io on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dbhub.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DBHub.io Shutdown</title>
+      <link>/blog/dbhub-shutdown/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/dbhub-shutdown/</guid>
+      <description>DBHub.io will cease operating at the end of February The DBHub.io online platform hasn&amp;rsquo;t really gained any traction, so we&amp;rsquo;re shutting it down at the end of this month.
+At that time all data (including user databases) will be deleted and the servers will be decommissioned.
+Apologies for the short notice Ideally we&amp;rsquo;d provide several months of notice for people to arrange alternative hosting elsewhere.
+However, the ongoing financial cost each month of operating the platform has to date been borne by Justin Clift personally, and his finances can no longer accommodate the expense.</description>
+    </item>
+    
     <item>
       <title>Signing Windows Builds</title>
       <link>/blog/signing-windows/</link>
