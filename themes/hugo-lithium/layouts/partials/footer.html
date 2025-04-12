@@ -15,8 +15,7 @@
     </div>
     {{ partial "footer_highlightjs" . }}
     {{ partial "footer_mathjax" . }}
-    {{ partial "footer_fathom" . }}
-    
+
     {{ if and (eq .Section "blog") .IsPage }}
   {{ partial "footer_utterances" . }}
     {{ end }}
