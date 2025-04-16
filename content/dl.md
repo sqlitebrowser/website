@@ -46,9 +46,9 @@ If you prefer using [Homebrew](https://brew.sh/) for macOS, our latest release c
 
 ## Nightly builds
 
-Download nightly builds for Windows and macOS here:
+Download nightly builds for Windows, macOS, and Linux are here:
 
-* https://nightlies.sqlitebrowser.org/latest
+* https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/nightly
 
 ## Linux
 
