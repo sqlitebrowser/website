@@ -45,7 +45,6 @@ code {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 15px;
-  text-align: right;
 }
 
 .nav-logo {
@@ -66,7 +65,7 @@ code {
 
 .nav-links {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 120px;
   font-size: 14px;
   list-style: none;
 }
