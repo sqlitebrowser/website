@@ -18,9 +18,6 @@ publishDir = "docs"
     name = "Blog"
     url = "/blog/"
 [[menu.main]]
-    name = "DBHub"
-    url = "https://dbhub.io"
-[[menu.main]]
     name = "Docs"
     url = "https://github.com/sqlitebrowser/sqlitebrowser/wiki"
 [[menu.main]]
@@ -35,9 +32,6 @@ publishDir = "docs"
 [[menu.main]]
     name = "Patreon"
     url = "https://www.patreon.com/db4s"
-[[menu.main]]
-    name = "Stats"
-    url = "/stats/"
 
 [params]
     description = "The Official home of the DB Browser for SQLite."
