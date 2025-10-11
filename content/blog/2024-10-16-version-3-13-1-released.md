@@ -21,12 +21,12 @@ Related Discussion: [#3775](https://github.com/sqlitebrowser/sqlitebrowser/discu
 
 # Downloads
 
-* [DB.Browser.for.SQLite-v3.13.1-win32.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win32.msi) - Standard (MSI) installer for Win32
-* [DB.Browser.for.SQLite-v3.13.1-win32.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win32.zip) - .zip (no installer) for Win32
-* [DB.Browser.for.SQLite-v3.13.1-win64.msi](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win64.msi) - Standard (MSI) installer for Win64
-* [DB.Browser.for.SQLite-v3.13.1-win64.zip](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-win64.zip) - .zip (no installer) for Win64
-* [DB.Browser.for.SQLite-v3.13.1.dmg](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1.dmg) - For macOS Universal (both Apple Silicon and Intel)
-* [DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage](https://download.sqlitebrowser.org/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage) - AppImage for Linux
+* [DB.Browser.for.SQLite-v3.13.1-win32.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win32.msi) - Standard (MSI) installer for Win32
+* [DB.Browser.for.SQLite-v3.13.1-win32.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win32.zip) - .zip (no installer) for Win32
+* [DB.Browser.for.SQLite-v3.13.1-win64.msi](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi) - Standard (MSI) installer for Win64
+* [DB.Browser.for.SQLite-v3.13.1-win64.zip](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.zip) - .zip (no installer) for Win64
+* [DB.Browser.for.SQLite-v3.13.1.dmg](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1.dmg) - For macOS Universal (both Apple Silicon and Intel)
+* [DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-x86.64-v2.AppImage) - AppImage for Linux
 
 # Changelog
 
