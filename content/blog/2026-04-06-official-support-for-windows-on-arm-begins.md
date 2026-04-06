@@ -8,10 +8,10 @@ categories:
 tags: 3.13.x
 ---
 
-Hello Community,
+Hello Community,  
 We have some exciting news to share today.
 
-Our project has officially begun supporting Windows on ARM.
+Our project has officially begun supporting Windows on ARM.  
 Those interested in this ARM64 native build can download it following: https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.1
 ```
 - DB.Browser.for.SQLite-v3.13.1-arm64.msi
@@ -19,6 +19,9 @@ Those interested in this ARM64 native build can download it following: https://g
 ```
 
 Please note that since we are using Qt6-rather than Qt5-as the underlying framework to support ARM64 native builds,
-there may be potential issues that have not yet been identified. We therefore ask for your continued feedback. :)
+there may be potential issues <br> that have not yet been identified. We therefore ask for your continued feedback. :)
+
+and this work was successfully completed thanks to the support provided by the **Microsoft App Assure Service team**.  
+We would like to take this opportunity to express our gratitude. :)
 
 Thank you.
