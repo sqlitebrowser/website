@@ -6,7 +6,18 @@
     <description>Recent content in 3.13.x on DB Browser for SQLite</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.13.x/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/3.13.x/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Official Support for Windows on ARM Begins</title>
+      <link>/blog/official-support-for-windows-on-arm-begins/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/official-support-for-windows-on-arm-begins/</guid>
+      <description>Hello Community, We have some exciting news to share today.
+Our project has officially begun supporting Windows on ARM. Those interested in this ARM64 native build can download it following: https://github.com/sqlitebrowser/sqlitebrowser/releases/tag/v3.13.1
+- DB.Browser.for.SQLite-v3.13.1-arm64.msi - DB.Browser.for.SQLite-v3.13.1-arm64.zip Please note that since we are using Qt6-rather than Qt5-as the underlying framework to support ARM64 native builds, there may be potential issues that have not yet been identified. We therefore ask for your continued feedback.</description>
+    </item>
+    
     <item>
       <title>Version 3.13.1 released</title>
       <link>/blog/version-3-13-1-released/</link>
