@@ -17,6 +17,8 @@ Our latest release (3.13.1) for Windows:
 * [DB Browser for SQLite - .zip (no installer) for 32-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win32.zip)
 * [DB Browser for SQLite - Standard installer for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.msi)
 * [DB Browser for SQLite - .zip (no installer) for 64-bit Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.zip)
+* [DB Browser for SQLite - Standard installer for ARM64 Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-arm64.msi)
+* [DB Browser for SQLite - .zip (no installer) for ARM64 Windows](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-arm64.zip)
 
 *Free code signing provided by [SignPath.io](https://signpath.io/), certificate by [SignPath Foundation](https://signpath.org/).*
 
@@ -28,6 +30,8 @@ Our latest release (3.13.1) for Windows:
 
 **Note** - If for any reason the standard Windows release does not work
 (e.g. gives an error), try a nightly build ([below](#nightly-builds)).
+
+**Note** - There is no portable version for ARM64 Windows.
 
 Nightly builds often fix bugs reported after the last release. :smile:
 
